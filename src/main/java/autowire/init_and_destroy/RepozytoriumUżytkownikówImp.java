@@ -1,8 +1,7 @@
-package autowire.init_and_destroy.implementations;
+package autowire.init_and_destroy;
 
 import autowire.init_and_destroy.api.Logger;
 import autowire.init_and_destroy.api.RepozytoriumUżytkowników;
-import autowire.init_and_destroy.model.Użytkownik;
 import org.springframework.stereotype.Repository;
 
 /**

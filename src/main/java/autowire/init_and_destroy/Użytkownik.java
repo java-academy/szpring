@@ -1,9 +1,9 @@
-package autowire.init_and_destroy.model;
+package autowire.init_and_destroy;
 
 /**
  * @author Kacper Staszek
  */
-public class Użytkownik {
+class Użytkownik {
   private final String name;
 
   Użytkownik(String name) {
