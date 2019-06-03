@@ -3,7 +3,7 @@ package autowire.init_and_destroy;
 /**
  * @author Kacper Staszek
  */
-class Użytkownik {
+public class Użytkownik {
   private final String name;
 
   Użytkownik(String name) {
