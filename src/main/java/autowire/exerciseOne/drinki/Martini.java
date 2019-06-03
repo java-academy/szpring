@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * nazwa = Martini
  * przepis = wstrzasniete nie mieszane
  */
-
+@Component("Martini")
 class Martini extends Drink {
 
   public Martini(@Value("Martini") String nazwa,
