@@ -5,10 +5,10 @@ package autowire.exerciseOne.drinki;
  */
 public class Drink {
 
-  String nazwa;
-  String przepis;
+  private String nazwa;
+  private String przepis;
 
-  public Drink(String nazwa, String przepis) {
+  Drink(String nazwa, String przepis) {
     this.nazwa = nazwa;
     this.przepis = przepis;
   }

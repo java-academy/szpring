@@ -4,13 +4,14 @@ package autowire.exerciseOne.złoczyńcy;
  * @author Jakub Czajka
  */
 
+
 public class Złoczyńca {
 
-  String imię;
-  String nazwisko;
-  String pseudonium;
+  private String imię;
+  private String nazwisko;
+  private String pseudonium;
 
-  public Złoczyńca(String imię, String nazwisko, String pseudonium) {
+  Złoczyńca(String imię, String nazwisko, String pseudonium) {
     this.imię = imię;
     this.nazwisko = nazwisko;
     this.pseudonium = pseudonium;

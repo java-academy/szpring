@@ -1,11 +1,9 @@
 package autowire.exerciseOne.złoczyńcy;
 
-import org.springframework.stereotype.Component;
 
 /**
  * @author Jakub Czajka
  */
-@Component(value = "Zło")
 class DrEvil extends Złoczyńca {
 
 
