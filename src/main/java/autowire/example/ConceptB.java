@@ -1,15 +1,17 @@
-package autowire;
+package autowire.example;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
 /**
  * @author Kacper Staszek
  */
-class ConceptBImpl implements ConceptB {
+@Component
+class ConceptB {
 
   private ConceptA konceptA;
 
-  public void functionB() {
+  void functionB() {
     System.out.println("Hello from B!");
   }
 

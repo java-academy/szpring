@@ -1,4 +1,4 @@
-package autowire;
+package autowire.example;
 
 /**
  * @author Kacper Staszek
