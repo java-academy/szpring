@@ -9,6 +9,14 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 
 /**
+ * TODO: Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wyporzyczyć Czarną Wołgę. Uzupełnij aplikacje wymaganymi adnotacjami.
+ *  Aby klient mógł wypożyczyć samochód zaprzęgnięte do pracy muszą zostać Repozytoria odpowiedzialne za persystencję wymaganych danych.
+ *  Dzieje się to poprzez wykorzystanie odpowiednich Serwisów.
+ *  Jedyne co powinieneś dopisać to adnotacje. Pamiętaj, że istnieje kilka sposobów wstrzykiwania zależności.
+ *  Zwróć też uwagę, że odradzane jest wstrzykiwanie zależności przez pola.
+ *  https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-setter-injection
+ *  https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/stereotype/package-summary.html#package.description
+ *
  * @author Marcin Ogorzałek
  */
 @ComponentScan(basePackages = {"autowire.exerciseTwo"})
@@ -18,7 +26,6 @@ class WynajmemSamochodówApp {
     ApplicationContext context =
         new AnnotationConfigApplicationContext(WynajmemSamochodówApp.class);
     WynajęcieService wynajęcieService = context.getBean(WynajęcieService.class);
-    ;
     wynajęcieService.wydajSamochód(context.getBean(Klient.class),
         context.getBean(Samochód.class), context.getBean(Salon.class));
   }
