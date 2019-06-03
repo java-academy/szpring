@@ -2,10 +2,10 @@ package autowire.init_and_destroy;
 
 import autowire.init_and_destroy.api.Logger;
 import autowire.init_and_destroy.api.RepozytoriumUżytkowników;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.support.AbstractApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * @author Kacper Staszek
@@ -21,23 +21,20 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  *  Na potrzeby konfiguracji w XML stwórz plik konfiguracyjny, który osiągnie cel. (nazwij go konfiguracja.xml).
  *
  */
-@ComponentScan(basePackages = "autowire.init_and_destroy")
 class Main {
 
   public static void main(String[] args) {
-    AbstractApplicationContext contextXML = new ClassPathXmlApplicationContext("konfiguracja.xml");
-    contextXML.registerShutdownHook();
+    ApplicationContext contextXML = null;
 
-    Logger loggerXML = contextXML.getBean("logger", Logger.class);
+    Logger loggerXML = null;
 
-    AbstractApplicationContext contextJava = new AnnotationConfigApplicationContext(AppConfiguration.class, Main.class);
-    contextJava.registerShutdownHook();
+    ApplicationContext contextJava = null;
 
-    RepozytoriumUżytkowników repozytorium = contextJava.getBean(RepozytoriumUżytkowników.class);
+    RepozytoriumUżytkowników repozytorium = null;
 
-    Logger nazwanyLogger = contextJava.getBean("getNazwanyLogger", Logger.class);
+    Logger nazwanyLogger = null;
 
-    Logger licznikLogger = contextJava.getBean("getLicznikLogger", Logger.class);
+    Logger licznikLogger = null;
 
     repozytorium.setLogger(loggerXML);
 

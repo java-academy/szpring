@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 /**
  * @author Kacper Staszek
  */
-@Repository
 class RepozytoriumUżytkownikówImp implements RepozytoriumUżytkowników {
 
   private Logger logger;

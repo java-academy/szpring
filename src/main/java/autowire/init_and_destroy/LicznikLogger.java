@@ -15,12 +15,10 @@ public class LicznikLogger implements Logger {
     System.out.println("Log Id wiadomości: "+counter+" treść: "+wiadomość);
   }
 
-  @PostConstruct
   void postConstruct(){
     System.out.println("@PostConstruct licznik logger");
   }
 
-  @PreDestroy
   void preDestroy(){
     System.out.println("@PreDestroy licznik logger");
   }

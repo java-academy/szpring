@@ -7,7 +7,7 @@ import org.springframework.beans.factory.InitializingBean;
 /**
  * @author Kacper Staszek
  */
-public class NazwanyLogger implements Logger, InitializingBean, DisposableBean {
+public class NazwanyLogger implements Logger {
   private final String nazwa;
 
   NazwanyLogger(String nazwa) {
