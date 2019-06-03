@@ -1,0 +1,3 @@
+= Warsztaty Spring wstrzykiwanie zależności, bean lifecycle.
+
+gałąź z rozwiązaniami: git checkout rozwiązania
