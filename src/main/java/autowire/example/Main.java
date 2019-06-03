@@ -6,6 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 
 /**
  * @author Kacper Staszek
+ * Poczytaj o addnotacjach:
+ * @ ComponentScan  @
  */
 @ComponentScan
 class Main {
