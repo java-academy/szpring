@@ -6,7 +6,6 @@ import autowire.exerciseTwo.domain.Samochód;
 import autowire.exerciseTwo.service.WynajęcieService;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 
 /**
  * TODO: Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wyporzyczyć Czarną Wołgę. Uzupełnij
@@ -20,7 +19,7 @@ import org.springframework.context.annotation.ComponentScan;
  *
  * @author Marcin Ogorzałek
  */
-@ComponentScan(basePackages = {"autowire.exerciseTwo"})
+// tu niezbędne może być wykorzystanie parametru basePackages
 class WynajmemSamochodówApp {
 
   public static void main(String[] args) {

@@ -4,13 +4,10 @@ import autowire.exerciseTwo.data.repository.SalonRepository;
 import autowire.exerciseTwo.domain.Pracownik;
 import autowire.exerciseTwo.domain.Salon;
 import autowire.exerciseTwo.domain.Samochód;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
 
 /**
  * @author Marcin Ogorzalek
  */
-@Service
 public class SalonService {
 
   private SamochódService samochódService;
@@ -19,22 +16,18 @@ public class SalonService {
 
   private Pracownik pracownik;
 
-  @Autowired
   public void setSamochódService(SamochódService samochódService) {
     this.samochódService = samochódService;
   }
 
-  @Autowired
   public void setPracownikService(PracownikService pracownikService) {
     this.pracownikService = pracownikService;
   }
 
-  @Autowired
   public void setSalonRepository(SalonRepository salonRepository) {
     this.salonRepository = salonRepository;
   }
 
-  @Autowired
   public void setPracownik(Pracownik pracownik) {
     this.pracownik = pracownik;
   }

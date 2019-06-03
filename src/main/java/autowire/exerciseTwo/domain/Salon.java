@@ -1,12 +1,10 @@
 package autowire.exerciseTwo.domain;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
 
 /**
  * @author Marcin Ogorzalek
  */
-@Component
 public class Salon {
 
   @Value("Czerwone maki 1")

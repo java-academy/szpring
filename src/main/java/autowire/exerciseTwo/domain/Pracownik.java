@@ -1,11 +1,8 @@
 package autowire.exerciseTwo.domain;
 
-import org.springframework.stereotype.Component;
-
 /**
  * @author Marcin Ogorzalek
  */
-@Component
 public class Pracownik {
 
   private String imię;
