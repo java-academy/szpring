@@ -5,7 +5,7 @@ import autowire.init_and_destroy.api.Logger;
 /**
  * @author Kacper Staszek
  */
-public class LoggerXML implements Logger {
+class LoggerXML implements Logger {
 
   public void loguj(String wiadomość) {
     System.out.println("Logger skonfikurowany w XML loguje: "+wiadomość);

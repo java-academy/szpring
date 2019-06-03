@@ -1,13 +1,11 @@
 package autowire.init_and_destroy;
 
 import autowire.init_and_destroy.api.Logger;
-import org.springframework.beans.factory.DisposableBean;
-import org.springframework.beans.factory.InitializingBean;
 
 /**
  * @author Kacper Staszek
  */
-public class NazwanyLogger implements Logger, InitializingBean, DisposableBean {
+class NazwanyLogger implements Logger {
   private final String nazwa;
 
   NazwanyLogger(String nazwa) {
