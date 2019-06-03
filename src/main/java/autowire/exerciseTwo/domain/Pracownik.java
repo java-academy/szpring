@@ -18,6 +18,6 @@ public class Pracownik {
 
   @Override
   public String toString() {
-    return imię + " " + nazwisko;
+    return String.format("%s %s", imię, nazwisko);
   }
 }

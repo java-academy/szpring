@@ -20,7 +20,8 @@ public class KlientService {
   }
 
   void obciążKlienta(Klient klient, Samochód samochód) {
-    System.out.println("Zapisano datę wypożyczenia samochodu: "+samochód+" przez klienta: "+klient);
+    System.out
+        .printf("Zapisano datę wypożyczenia samochodu: %s przez klienta: %s%n", samochód, klient);
     klientRepository.zapis(klient);
   }
 }

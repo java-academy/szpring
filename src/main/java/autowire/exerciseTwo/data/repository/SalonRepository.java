@@ -12,7 +12,14 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class SalonRepository {
+
   public void zapisz(Salon salon, Samochód samochód) {
-    System.out.println(GREEN+"Zapisuję wypożyczenie samochodu z salonu"+RESET);
+    System.out.println(
+        new StringBuilder()
+            .append(GREEN)
+            .append("Zapisuję wypożyczenie samochodu z salonu")
+            .append(RESET)
+            .toString()
+    );
   }
 }

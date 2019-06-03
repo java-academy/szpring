@@ -40,7 +40,7 @@ public class SalonService {
   }
 
   void wynajmijSamochód(Salon salon, Samochód samochód) {
-    System.out.println("Wynajęcie "+samochód+" w salonie: "+salon);
+    System.out.printf("Wynajęcie %s w salonie: %s%n", samochód, salon);
     samochódService.wynajmijSamochód(samochód);
     salonRepository.zapisz(salon, samochód);
     pracownikService.przyznajPremię(pracownik);

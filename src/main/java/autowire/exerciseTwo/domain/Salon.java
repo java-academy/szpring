@@ -17,6 +17,6 @@ public class Salon {
 
   @Override
   public String toString() {
-    return adres+", "+miasto;
+    return String.format("%s, %s", adres, miasto);
   }
 }

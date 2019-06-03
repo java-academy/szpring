@@ -22,7 +22,7 @@ public class SamochódService {
 
   void wynajmijSamochód(Samochód samochód) {
     LocalDate dataWynajęciaSamochodu = LocalDate.now();
-    System.out.println("Wynajęto: "+samochód+", W dniu "+ dataWynajęciaSamochodu);
+    System.out.printf("Wynajęto: %s, W dniu %s%n", samochód, dataWynajęciaSamochodu);
     samochódRepository.zapis(samochód, dataWynajęciaSamochodu);
   }
 }

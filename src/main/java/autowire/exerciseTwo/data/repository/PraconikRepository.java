@@ -11,7 +11,14 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public class PraconikRepository {
+
   public void zapisz(Pracownik pracownik) {
-    System.out.println(GREEN+"Zapisuję informacje o premii dla pracownika"+RESET);
+    System.out.println(
+        new StringBuilder()
+            .append(GREEN)
+            .append("Zapisuję informacje o premii dla pracownika")
+            .append(RESET)
+            .toString()
+    );
   }
 }

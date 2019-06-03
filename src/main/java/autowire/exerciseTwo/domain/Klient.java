@@ -17,6 +17,6 @@ public class Klient {
 
   @Override
   public String toString() {
-    return imię + " " + nazwisko;
+    return String.format("%s %s", imię, nazwisko);
   }
 }

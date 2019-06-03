@@ -4,7 +4,6 @@ import static autowire.exerciseTwo.common.Color.GREEN;
 import static autowire.exerciseTwo.common.Color.RESET;
 
 import autowire.exerciseTwo.domain.Klient;
-import autowire.exerciseTwo.domain.Samochód;
 import org.springframework.stereotype.Repository;
 
 /**
@@ -14,6 +13,11 @@ import org.springframework.stereotype.Repository;
 public class KlientRepository {
 
   public void zapis(Klient klient) {
-    System.out.println(GREEN+"Zapisuję obciążenie klienta"+RESET);
+    System.out.println(
+        new StringBuilder().append(GREEN)
+            .append("Zapisuję obciążenie klienta")
+            .append(RESET)
+            .toString()
+    );
   }
 }

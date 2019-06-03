@@ -19,7 +19,7 @@ public class PracownikService {
   }
 
   void przyznajPremię(Pracownik pracownik) {
-    System.out.println("Przyznano premię pracownikowi: "+pracownik);
+    System.out.printf("Przyznano premię pracownikowi: %s%n", pracownik);
     praconikRepository.zapisz(pracownik);
   }
 }
