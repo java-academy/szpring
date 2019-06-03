@@ -1,4 +1,4 @@
-package autowire.init_and_destroy;
+package autowire.init_and_destroy.api;
 
 /**
  * @author Kacper Staszek

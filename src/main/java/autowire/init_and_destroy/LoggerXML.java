@@ -1,4 +1,4 @@
-package autowire.init_and_destroy.implementations;
+package autowire.init_and_destroy;
 
 import autowire.init_and_destroy.api.Logger;
 
