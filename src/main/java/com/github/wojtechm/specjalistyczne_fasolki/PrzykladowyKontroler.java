@@ -9,15 +9,15 @@ import org.springframework.web.bind.annotation.RestController;
  */
 
 @RestController
-class PrzykładowyKontroler {
+class PrzykladowyKontroler {
 
-    public PrzykładowyKontroler() {
-        System.out.println("`````````````````````````````````````````````````````````````````````````````````````````Wonsz``````````````````````````````````````````````");
+    public PrzykladowyKontroler() {
+        System.out.println(this.getClass().getName() + " - Konstruktor");
     }
 
     @GetMapping(path = "/index")
     private ResponseEntity<?> pobierzDane() {
-        System.out.println("`````````````````````````````````````````````````````````````````````````````````````````HEHEHESZKI``````````````````````````````````````````````");
+        System.out.println(this.getClass().getName() + " - pobierz dane");
         return ResponseEntity.ok("Witaj Świecie");
     }
 }
