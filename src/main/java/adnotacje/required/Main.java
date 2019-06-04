@@ -1,4 +1,4 @@
-package adnotacje;
+package adnotacje.required;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -12,7 +12,7 @@ class Main {
 
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("RequiredBeans.xml");
         Samochód samochód = (Samochód) context.getBean("samochód");
         System.out.println("Rok produkcji: " + samochód.getRokProdukcji());
         System.out.println("Marka: " + samochód.getMarka());
