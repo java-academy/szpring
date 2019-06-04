@@ -3,7 +3,14 @@
 <beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-  <bean id="kontroler" class="com.github.wojtechm.specjalistyczne_fasolki.PrzykladowyKontroler">
+  <bean id="repo" class="com.github.wojtechm.specjalistyczne_fasolki.RandomoweRepozytorium"/>
+
+  <bean id="serwis" class="com.github.wojtechm.specjalistyczne_fasolki.SuperSerwis">
+    <property name="repozytorium" ref="repo"/>
+  </bean>
+
+  <bean id="kontroler" class="com.github.wojtechm.specjalistyczne_fasolki.KreatywnyKontroler">
+    <property name="serwis" ref="serwis"/>
   </bean>
 
 </beans>
