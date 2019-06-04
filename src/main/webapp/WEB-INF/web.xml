@@ -6,26 +6,22 @@
     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>
-            classpath:application-context.xml
+            classpath:spring/application-context.xml
         </param-value>
     </context-param>
 
     <servlet>
-        <servlet-name>PrzykładowyKontroler</servlet-name>
+        <servlet-name>PrzykladowyKontroler</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>classpath:spring/mvc-context.xml</param-value>
         </init-param>
-<!--        <load-on-startup>1</load-on-startup>-->
-<!--        <multipart-config>-->
-<!--            <max-file-size>20848820</max-file-size>-->
-<!--            <max-request-size>418018841</max-request-size>-->
-<!--            <file-size-threshold>1048576</file-size-threshold>-->
-<!--        </multipart-config>-->
+        <load-on-startup>1</load-on-startup>
     </servlet>
+
     <servlet-mapping>
-        <servlet-name>PrzykładowyKontroler</servlet-name>
-        <url-pattern>/</url-pattern>
+        <servlet-name>PrzykladowyKontroler</servlet-name>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 </web-app>
