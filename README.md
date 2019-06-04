@@ -1,6 +1,11 @@
 # README
 KonfiguracjaSpringaAdnotacjami
 
+Część o adnotacjach z pakietu org.springframework.web zakłada użycie silnika serwletów Jetty.
+
+Użyj komendy `mvn jetty:run` aby uruchomić aplikacjię.
+Jeśli domyślny port (8080) jest zajęty, użyj `mvn -Djetty.port=8888 jetty:run` aby uruchomić Jetty na podanym porcie.
+
 #### ( Praca w toku) 
 Repozytorium do testowania konfiguracji springa opartej na adnotacjach. Na bazie poznanych i przetestowanych tutaj rozwiązań powstaną warsztaty podejmujące tematykę:
 
