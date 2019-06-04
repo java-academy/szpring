@@ -15,4 +15,8 @@
     <bean id="dioda" class="adnotacje.autowired.Dioda"/>
     <!-- Zdefiniowanie fasolki nóżka -->
     <bean id="nóżka" class="adnotacje.autowired.Nóżka"/>
+    <!-- Zdefiniowanie fasolki monitor-->
+    <bean id="monitor" class="adnotacje.autowired.Monitor"/>
+    <!-- Zdefiniowanie fasolki komputer -->
+    <bean id="komputer" class="adnotacje.autowired.Komputer"/>
 </beans>

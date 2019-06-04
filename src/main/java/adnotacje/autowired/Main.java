@@ -5,6 +5,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * Klasa rozruchowa aplikacji. Tworzony jest kontekst aplikacji springowej. {@link ApplicationContext}
+ *
  * @author Wiktor Rup
  */
 class Main {
@@ -18,6 +19,10 @@ class Main {
 
         klawiatura.kliknięcie();
         klawiatura.mignięcie();
-        klawiatura.rozłożenieNóżek();
+        klawiatura.przekręcićNóżki();
+
+        Komputer komputer = (Komputer) context.getBean("komputer");
+        komputer.mojeKomponenty();
+
     }
 }

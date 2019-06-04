@@ -57,7 +57,11 @@ class Klawiatura {
         dioda.mig();
     }
 
-    void rozłożenieNóżek(){
-        nóżka.rozkładać();
+    void przekręcićNóżki(){
+        nóżka.przekręcać();
+    }
+
+    void status(){
+        System.out.println("Klawiatura podłączona");
     }
 }

@@ -7,7 +7,7 @@ package adnotacje.autowired;
  */
 class Nóżka {
 
-    void rozkładać(){
+    void przekręcać(){
         System.out.println("Łiiiip!");
     }
 }
