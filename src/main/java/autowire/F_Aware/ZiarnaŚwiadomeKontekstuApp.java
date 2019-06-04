@@ -18,7 +18,7 @@ import org.springframework.context.annotation.ComponentScan;
  * są wymienione w poniższej dokumentacji:
  * https://docs.spring.io/spring/docs/5.1.7.RELEASE/spring-framework-reference/core.html#aware-list
  *
- * Generalnie niezalecane jest używanie Awarnes i podintefaców ponieważ uzależnia
+ * Generalnie niezalecane jest używanie Aware i podinterfejsów ponieważ uzależnia
  * (nie zależnie jak realizowane) to kod os Spring API
  * oraz łąmię zasadę odwrócenia kontroli (Inversion of Control).
  *
