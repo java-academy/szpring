@@ -1,4 +1,4 @@
-package autowire.CircularDependency.implementationOfACtxAndaInitBean;
+package autowire.G_CircularDependency.implementationOfACtxAndaInitBean;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.InitializingBean;

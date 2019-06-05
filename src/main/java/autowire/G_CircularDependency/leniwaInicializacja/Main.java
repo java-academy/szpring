@@ -1,4 +1,4 @@
-package autowire.CircularDependency.setterInjection;
+package autowire.G_CircularDependency.leniwaInicializacja;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -7,10 +7,10 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * @author Jakub Czajka
- *
+ * Przejdź do @{ZiaronoA.class}, po dokonaniu zmian uruchom klasę main i upewnij sie ze wszystko działa
  */
 @Configuration
-@ComponentScan(basePackages = {"autowire.CircularDependency.setterInjection"})
+@ComponentScan(basePackages = {"autowire.G_CircularDependency.leniwaInicializacja"})
 class Main {
 
   public static void main(String[] args) {

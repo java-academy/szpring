@@ -1,4 +1,4 @@
-package autowire.CircularDependency.setterInjection;
+package autowire.G_CircularDependency.setterInjection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -8,23 +8,24 @@ import org.springframework.stereotype.Component;
  * Usuń z konstuktora adnotacje @Autowired i usuń z niego przypisanie do zmiennej zachowując wiadoość, stwórz setter i zdodaj do niego addnotację @Autowired
  */
 @Component
-class ZiarnoB {
-ZiarnoA ziarnoA;
+class ZiarnoA {
 
-  public ZiarnoB() {
-    System.out.println("Tworzę ziarno B");
+  ZiarnoB ziarnoB;
+
+  public ZiarnoA() {
+    System.out.println("Tworzę Ziarono A");
   }
 
   @Autowired
-  public void setZiarnoA(ZiarnoA ziarnoA) {
-    this.ziarnoA = ziarnoA;
+  public void setZiarnoB(ZiarnoB ziarnoB) {
+    this.ziarnoB = ziarnoB;
   }
 
-  public ZiarnoA getZiarnoA() {
-    return ziarnoA;
+  public ZiarnoB getZiarnoB() {
+    return ziarnoB;
   }
 
   public void hello(){
-    System.out.println("Witam jestem B");
+    System.out.println("Witam jestem A");
   }
 }

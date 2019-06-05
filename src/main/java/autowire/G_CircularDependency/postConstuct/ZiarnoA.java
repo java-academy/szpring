@@ -1,4 +1,4 @@
-package autowire.CircularDependency.postConstuct;
+package autowire.G_CircularDependency.postConstuct;
 
 import javax.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;

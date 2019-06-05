@@ -1,9 +1,5 @@
-package autowire.CircularDependency;
+package autowire.G_CircularDependency;
 
-import java.util.List;
-import java.util.Map;
-import java.util.concurrent.Callable;
-import java.util.concurrent.Executors;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
@@ -13,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Jakub Czajka
  */
 @Configuration
-@ComponentScan(basePackages = {"autowire.CircularDependency"})
+@ComponentScan(basePackages = {"autowire.G_CircularDependency"})
 class Main {
 
   public static void main(String[] args) {

@@ -1,6 +1,5 @@
-package autowire.CircularDependency.implementationOfACtxAndaInitBean;
+package autowire.G_CircularDependency.postConstuct;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -10,9 +9,12 @@ import org.springframework.stereotype.Component;
 class ZiarnoB {
 ZiarnoA ziarnoA;
 
-  @Autowired
-  public ZiarnoB(ZiarnoA ziarnoA) {
+
+  public ZiarnoB() {
     System.out.println("Tworzę ziarno B");
+  }
+
+  public void setZiarnoA(ZiarnoA ziarnoA) {
     this.ziarnoA = ziarnoA;
   }
 

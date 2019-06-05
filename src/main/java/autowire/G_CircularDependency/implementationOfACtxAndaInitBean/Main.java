@@ -1,4 +1,4 @@
-package autowire.CircularDependency.postConstuct;
+package autowire.G_CircularDependency.implementationOfACtxAndaInitBean;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * @author Jakub Czajka
  */
 @Configuration
-@ComponentScan(basePackages = {"autowire.CircularDependency.postConstuct"})
+@ComponentScan(basePackages = {"autowire.G_CircularDependency.implementationOfACtxAndaInitBean"})
 class Main {
 
   public static void main(String[] args) {
