@@ -13,12 +13,10 @@ class ZiarnoA {
 
   ZiarnoB ziarnoB;
 
-
-  public ZiarnoA(@Lazy ZiarnoB ziarnoB) {
-    System.out.println("Tworzę ziarno A");
+  @Autowired
+  public ZiarnoA(ZiarnoB ziarnoB) {
     this.ziarnoB = ziarnoB;
   }
-
 
   public void hello(){
     System.out.println("Witam jestem A");

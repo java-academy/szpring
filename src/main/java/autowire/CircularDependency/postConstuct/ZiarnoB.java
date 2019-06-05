@@ -1,5 +1,6 @@
 package autowire.CircularDependency.postConstuct;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -7,14 +8,11 @@ import org.springframework.stereotype.Component;
  */
 @Component
 class ZiarnoB {
-ZiarnoA ziarnoA;
+  ZiarnoA ziarnoA;
 
-
-  public ZiarnoB() {
+  @Autowired
+  public ZiarnoB(ZiarnoA ziarnoA) {
     System.out.println("Tworzę ziarno B");
-  }
-
-  public void setZiarnoA(ZiarnoA ziarnoA) {
     this.ziarnoA = ziarnoA;
   }
 

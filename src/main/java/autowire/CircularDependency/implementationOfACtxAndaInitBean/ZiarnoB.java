@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 class ZiarnoB {
-ZiarnoA ziarnoA;
+  ZiarnoA ziarnoA;
 
   @Autowired
   public ZiarnoB(ZiarnoA ziarnoA) {

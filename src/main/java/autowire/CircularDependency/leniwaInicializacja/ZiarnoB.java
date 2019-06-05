@@ -9,10 +9,10 @@ import org.springframework.stereotype.Component;
  */
 @Component
 class ZiarnoB {
-ZiarnoA ziarnoA;
+  ZiarnoA ziarnoA;
 
-@Autowired
-  public ZiarnoB(@Lazy ZiarnoA ziarnoA) {
+  @Autowired
+  public ZiarnoB(ZiarnoA ziarnoA) {
     System.out.println("Tworzę ziarno B");
     this.ziarnoA = ziarnoA;
   }
