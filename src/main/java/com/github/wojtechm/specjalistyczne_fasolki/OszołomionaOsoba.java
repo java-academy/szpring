@@ -1,6 +1,8 @@
 package com.github.wojtechm.specjalistyczne_fasolki;
 
 /**
+ * Proste POJO. Ot zwykła otoczka na imię.
+ *
  * @author Wojciech Makiela
  */
 class OszołomionaOsoba {

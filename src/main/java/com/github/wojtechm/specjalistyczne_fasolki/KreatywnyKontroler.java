@@ -6,13 +6,20 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.concurrent.Callable;
-
 /**
+ * Kontroler - w aplikacjach webowych bramka wejściowa do aplikacji.
+ * Pobiera dane od użytkownika, oraz zwraca odpowiedni widok - HTML.
+ *
+ * W imię prezentacji HTML jest zaszyty w zmiennej. Na projekcie tak nie róbcie ;(
+ *
+ *
+ * Q: What did the server say to his client who was having a bad day?
+ *
+ * A: Everything's going to be 200
+ *
  * @author Wojciech Makiela
  */
 @Controller
-@ResponseBody
 class KreatywnyKontroler {
 
     private static final String HTML = "<!DOCTYPE html>\n" +
@@ -27,20 +34,18 @@ class KreatywnyKontroler {
             "</body>\n" +
             "</html>\n";
 
-    @Autowired
     private SuperSerwis serwis;
     private int idOsoby = 0;
 
-    public KreatywnyKontroler() {
+    @Autowired
+    public KreatywnyKontroler(SuperSerwis superSerwis) {
         System.out.println(this.getClass().getName() + " - Konstruktor");
+        this.serwis = superSerwis;
     }
 
-    @GetMapping(path = "/index")
+    @GetMapping
     private ResponseEntity<?> pobierzDane() {
         return ResponseEntity.ok(String.format(HTML, serwis.pobierzImieOsoby(idOsoby++)));
     }
 
-    public void setSerwis(SuperSerwis serwis) {
-        this.serwis = serwis;
-    }
 }
