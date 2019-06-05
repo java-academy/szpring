@@ -1,4 +1,4 @@
-package adnotacje.autowired;
+package adnotacje.qualifier;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -11,12 +11,10 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 class Main {
 
     public static void main(String[] args) {
-
-
-        ApplicationContext context = new ClassPathXmlApplicationContext("AutowiredBeans.xml");
-
-        Komputer komputer = (Komputer) context.getBean("komputer");
-        komputer.mojeKomponenty();
-
+        ApplicationContext context = new ClassPathXmlApplicationContext("QualifierBeans.xml");
+        Elektrownia elektrownia = (Elektrownia) context.getBean("elektrownia");
+        elektrownia.rodzajElektrowni();
     }
+
+
 }

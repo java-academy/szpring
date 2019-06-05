@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  * Klasa, która obrazuje działanie adnotacji Autowired {@link org.springframework.beans.factory.annotation.Autowired}
  *
  * @author Wiktor Rup
+ * @see KomponentKlawiatury
  */
 class Klawiatura implements KomponentKomputera {
 

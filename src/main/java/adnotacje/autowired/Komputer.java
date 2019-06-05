@@ -1,7 +1,7 @@
 package adnotacje.autowired;
 
-import adnotacje.autowired.komponentykomputera.KomponentKomputera;
 import adnotacje.autowired.komponentykomputera.IPort;
+import adnotacje.autowired.komponentykomputera.KomponentKomputera;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Set;
@@ -10,6 +10,8 @@ import java.util.Set;
  * Klasa prezentująca działanie wstrzykiwania zależności na różne sposoby. {@link org.springframework.beans.factory.annotation.Autowired}
  *
  * @author Wiktor Rup
+ * @see IPort
+ * @see KomponentKomputera
  */
 class Komputer {
 
