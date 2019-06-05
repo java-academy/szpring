@@ -15,12 +15,6 @@ class Main {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("AutowireBeans.xml");
 
-        Klawiatura klawiatura = (Klawiatura) context.getBean("klawiatura");
-
-        klawiatura.kliknięcie();
-        klawiatura.mignięcie();
-        klawiatura.przekręcićNóżki();
-
         Komputer komputer = (Komputer) context.getBean("komputer");
         komputer.mojeKomponenty();
 

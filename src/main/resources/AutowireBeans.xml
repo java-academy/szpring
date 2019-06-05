@@ -8,15 +8,26 @@
            http://www.springframework.org/schema/context/spring-context.xsd">
     <context:annotation-config/>
     <!-- Zdefiniowanie fasolki klawiatura bezarumentowo -->
-    <bean id="klawiatura" class="adnotacje.autowired.Klawiatura"/>
+    <bean id="klawiatura" class="adnotacje.autowired.komponentykomputera.Klawiatura"/>
     <!-- Zdefiniowanie fasolki przycisk -->
-    <bean id="przycisk" class="adnotacje.autowired.Przycisk"/>
+    <bean id="przycisk" class="adnotacje.autowired.komponentyklawiatury.Przycisk"/>
     <!-- Zdefiniowanie fasolki dioda -->
-    <bean id="dioda" class="adnotacje.autowired.Dioda"/>
+    <bean id="dioda" class="adnotacje.autowired.komponentyklawiatury.Dioda"/>
     <!-- Zdefiniowanie fasolki nóżka -->
-    <bean id="nóżka" class="adnotacje.autowired.Nóżka"/>
+    <bean id="nóżka" class="adnotacje.autowired.komponentyklawiatury.Nóżka"/>
     <!-- Zdefiniowanie fasolki monitor-->
-    <bean id="monitor" class="adnotacje.autowired.Monitor"/>
+    <bean id="monitor" class="adnotacje.autowired.komponentykomputera.Monitor"/>
     <!-- Zdefiniowanie fasolki komputer -->
     <bean id="komputer" class="adnotacje.autowired.Komputer"/>
+    <!-- Zdefiniowanie fasolki port-->
+    <bean id="portHDMI" class="adnotacje.autowired.komponentykomputera.Port">
+        <property name="nazwa" value="HDMI"/>
+    </bean>
+    <bean id="portUSB" class="adnotacje.autowired.komponentykomputera.Port">
+        <property name="nazwa" value="USB"/>
+    </bean>
+    <bean id="portEthernet" class="adnotacje.autowired.komponentykomputera.Port">
+        <property name="nazwa" value="Ethernet"/>
+    </bean>
+
 </beans>
