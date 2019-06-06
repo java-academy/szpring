@@ -21,9 +21,9 @@ import org.springframework.context.annotation.ComponentScan;
  * Generalnie niezalecane jest używanie Aware i podinterfejsów ponieważ uzależnia to kod os Spring API
  * oraz łąmię zasadę odwrócenia kontroli (Inversion of Control).
  *
- * TODO: zapoznaj się z informacjami tu zawartymi.
- *
  * @author Marcin Ogorzalek
+ *
+ * TODO: zapoznaj się z informacjami tu zawartymi.
  */
 @ComponentScan(basePackages = {"autowire.F_Aware"})
 public class ZiarnaŚwiadomeKontekstuApp {
