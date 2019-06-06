@@ -1,4 +1,4 @@
-package autowire.bean_post_processor;
+package autowire.E_bean_post_processor;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -7,6 +7,8 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * Ćwiczenie pokaże Ci jak działa BeanPostProcessor, odświeży kolejność wykonywania operacji
  * przy tworzeniu ziaren, oraz refleksję.
+ *
+ * @author Kacper Staszek
  *
  *  TODO: Uruchom program, zobaczy wydruk na konsoli.
  *
@@ -20,18 +22,14 @@ import org.springframework.context.annotation.ComponentScan;
  *    Zmienione!
  *
  *  TODO:
- *    Żeby to osiągnąć musisz napisać własny BeanPostProcessor, w którym nadpisz odpowiednią
- *    metodę.
- *    BeanPostProcessory mogą przetwożyć każde tworzone ziarno przed ustawieniem wszystkich właściwości
- *    i po nim.
+ *    Żeby to osiągnąć musisz napisać własny BeanPostProcessor, w którym nadpisz odpowiednią metodę.
+ *    BeanPostProcessory mogą przetwożyć każde tworzone ziarno przed ustawieniem wszystkich właściwości i po nim.
  *    W nadpisanej metodzie za pomocą refleksji zmień wartość pola myString na "Zmienione!".
  *
- *    - https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/config/BeanPostProcessor.html
- *    - https://www.tutorialspoint.com/spring/spring_bean_post_processors.htm
- *
- * @author Kacper Staszek
+ * https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/config/BeanPostProcessor.html
+ * https://www.tutorialspoint.com/spring/spring_bean_post_processors.htm
  */
-@ComponentScan(basePackages = "autowire.bean_post_processor")
+@ComponentScan(basePackages = "autowire.E_bean_post_processor")
 class Main {
 
   public static void main(String[] args) {

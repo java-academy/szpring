@@ -1,4 +1,4 @@
-package autowire.bean_post_processor;
+package autowire.E_bean_post_processor;
 
 import java.lang.reflect.Field;
 import org.springframework.beans.BeansException;
@@ -22,8 +22,8 @@ class MójBeanPostProcessor implements BeanPostProcessor {
         Field myString = bean.getClass().getDeclaredField("myString");
         myString.setAccessible(true);
         myString.set(bean,"Zmienione!");
-      } catch (NoSuchFieldException | IllegalAccessException e) {
-        e.printStackTrace();
+      } catch (NoSuchFieldException | IllegalAccessException ignored) {
+        System.err.println(ignored.getMessage());
       }
     }
     return bean;

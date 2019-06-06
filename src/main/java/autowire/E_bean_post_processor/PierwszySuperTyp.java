@@ -1,4 +1,4 @@
-package autowire.bean_post_processor;
+package autowire.E_bean_post_processor;
 
 /**
  * @author Kacper Staszek
