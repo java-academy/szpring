@@ -1,6 +1,6 @@
 package wrup.spring.a_wstrzykiwanie_zależności;
 
-import wrup.spring.b_scope_i_import.silnik.Silnik;
+import wrup.spring.a_wstrzykiwanie_zależności.silnik.Silnik;
 
 /**
  * Ziarno springowe, do którego wstrzykiwany zostaje Silnik. {@link Silnik}

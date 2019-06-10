@@ -3,8 +3,6 @@ package wrup.spring.a_wstrzykiwanie_zależności;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import wrup.spring.c_mvc.Samochód;
-
 
 /**
  * Tworzymy i pobieramy kontekst aplikacji na podstawie plików konfiguracyjnych xml. {@link ApplicationContext}
