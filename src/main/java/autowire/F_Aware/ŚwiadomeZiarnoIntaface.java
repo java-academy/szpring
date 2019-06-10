@@ -6,6 +6,8 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 
 /**
+ * Ziarno świadome kontekstu w którym się znajdujepoprzez wimplementację interfejsu {@code ApplicationContextAware}.
+ *
  * @author Marcin Ogorzalek
  */
 @Component

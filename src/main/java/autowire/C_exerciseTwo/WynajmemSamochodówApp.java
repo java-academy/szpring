@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na A_example (sama góra tego pliku) i wciśnij Ctrl+q</b></p>
+ * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na C_exerciseTwo (sama góra tego pliku) i wciśnij Ctrl+q</b></p>
  *
  * @author Marcin Ogorzałek
  */
