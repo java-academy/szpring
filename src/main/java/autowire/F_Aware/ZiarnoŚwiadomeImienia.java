@@ -4,6 +4,9 @@ import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.stereotype.Component;
 
 /**
+ * Ziarno świadome swojego imienia w fabryce ziaren ({@link org.springframework.beans.factory.BeanFactory})
+ * w której się znajduje poprzez implementację interfejsu {@link org.springframework.beans.factory.BeanNameAware}.
+ *
  * @author Marcin Ogorzalek
  */
 @Component

@@ -9,16 +9,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @author Marcin Ogorzałek
+ * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na C_exerciseTwo (sama góra tego pliku) i wciśnij Ctrl+q</b></p>
  *
- * TODO: Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wypożyczyć Czarną Wołgę. Uzupełnij
- *  aplikacje wymaganymi adnotacjami. Aby klient mógł wypożyczyć samochód zaprzęgnięte do pracy muszą
- *  zostać Repozytoria odpowiedzialne za persystencję wymaganych danych. Dzieje się to poprzez
- *  wykorzystanie odpowiednich Serwisów. Jedyne co powinieneś dopisać to adnotacje. Pamiętaj, że
- *  istnieje kilka sposobów wstrzykiwania zależności. Zwróć też uwagę, że odradzane jest
- *  wstrzykiwanie zależności przez pola.
- *  https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-setter-injection
- *  https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/stereotype/package-summary.html#package.description
+ * @author Marcin Ogorzałek
  */
 // tu niezbędne może być wykorzystanie parametru basePackages
 @ComponentScan(basePackages = {"autowire.C_exerciseTwo"})
