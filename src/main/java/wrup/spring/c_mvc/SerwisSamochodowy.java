@@ -1,6 +1,8 @@
 package wrup.spring.c_mvc;
 
 /**
+ * Serwis, który jest warstwą łączącą dane wyciągane z repozytorium {@link RepozytoriumSamochodów} oraz warstwą prezentacji {@link KomisKontroler}
+ *
  * @author Wiktor Rup
  */
 public class SerwisSamochodowy {
@@ -13,9 +15,5 @@ public class SerwisSamochodowy {
 
     Samochód wynajmijSamochódPoId(Long id) {
         return repozytoriumSamochodów.wynajmijSamochódPoId(id);
-    }
-
-    public Samochód wynajmijSamochódPoNazwie(String name) {
-        return repozytoriumSamochodów.wynajmijSamochódPoNazwie(name);
     }
 }

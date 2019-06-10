@@ -13,12 +13,13 @@
 
     <!-- Wstrzykiwanie fasolki silnika benzynowego -->
 
-    <bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód" scope="prototype">
+    <bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód" scope="singleton">
         <constructor-arg ref="silnikBenzynowy"/>
     </bean>
 
     <!-- Wstrzykiwanie fasolki silnika diesel'owego -->
-    <!--<bean id="samochód" class="wrup.spring.a_wstrzykiwanie_zależności.Samochód">-->
+
+    <!--<bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód">-->
         <!--<constructor-arg ref="silnikDiesela"/>-->
     <!--</bean>-->
 

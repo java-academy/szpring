@@ -7,6 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
+ * Repozytorium samochodów. Ziarno obrazujące warstwę, w której mamy dostęp do lokalnej bazy danych.
+ *
  * @author Wiktor Rup
  */
 public class RepozytoriumSamochodów {
@@ -16,9 +18,6 @@ public class RepozytoriumSamochodów {
 
     public RepozytoriumSamochodów() {
 
-
-        System.out.println(this.getClass().getName() + " - Konstruktor");
-
         samochody = Arrays.asList(new Samochód(1L, "Ford", new OlejNapędowy()),
                 new Samochód(2L, "Alfa Romeo", new Benzyna()),
                 new Samochód(3L, "Mazda", new Benzyna()),
@@ -27,19 +26,11 @@ public class RepozytoriumSamochodów {
         );
     }
 
+
     Samochód wynajmijSamochódPoId(Long id) {
         id = id % samochody.size();
         for (Samochód samochód : samochody) {
             if (samochód.getId() == id) {
-                return samochód;
-            }
-        }
-        return null;
-    }
-
-    Samochód wynajmijSamochódPoNazwie(String name) {
-        for (Samochód samochód : samochody) {
-            if (samochód.getNazwa().equals(name)) {
                 return samochód;
             }
         }

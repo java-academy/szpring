@@ -3,6 +3,8 @@ package wrup.spring.a_wstrzykiwanie_zależności;
 import wrup.spring.b_scope_i_import.silnik.Silnik;
 
 /**
+ * Ziarno springowe, do którego wstrzykiwany zostaje Silnik. {@link Silnik}
+ *
  * @author Wiktor Rup
  */
 public class Samochód {
@@ -19,9 +21,5 @@ public class Samochód {
 
     public Silnik getSilnik() {
         return silnik;
-    }
-
-    public void setSilnik(Silnik silnik) {
-        this.silnik = silnik;
     }
 }

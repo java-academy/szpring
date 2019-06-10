@@ -3,6 +3,8 @@ package wrup.spring.b_scope_i_import;
 import wrup.spring.b_scope_i_import.silnik.Silnik;
 
 /**
+ * Ziarno springowe, do którego wstrzykiwany zostaje Silnik. {@link Silnik}
+ *
  * @author Wiktor Rup
  */
 public class Samochód {
