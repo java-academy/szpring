@@ -1,25 +1,26 @@
 /**
  *
- * Prezentacja konfiguracji XML-owej!
+ * <h1>Prezentacja konfiguracji XML-owej!</h1>
  *
- * Podczas zapoznania się z kodem w tym pakiecie poznasz sposoby definiowania kilku plików konfiguracyjnych.
- * Dowiesz się jaka jest różnica w zasięgach ziaren takich jak:
-    * singleton
-    * prototype
+ * <p>Podczas zapoznania się z kodem w tym pakiecie poznasz sposoby definiowania kilku plików konfiguracyjnych.</p>
+ * <p>Dowiesz się jaka jest różnica w zasięgach ziaren takich jak:</p>
+ * <ul>
+ * <li>singleton</li>
+ * <li>prototype</li>
+ * </ul>
  *
- * 1. Kilka plików konfiguracyjnych
- *      W pakiecie dostępne są klasy z poprzedniego zadania. W katalogu resources w pakiecie b znajdują się pliki konfiguracyjne xml.
- *      Jak można zauważyć każde ziarno posiada swój własny plik konfiguracyjny.
- *      Zastanów się w jaki sposób możemy w takim wypadku wstrzykiwać zależności do klasy {@link wrup.spring.b_scope_i_import.Samochód}?
+ * <h2> 1. Kilka plików konfiguracyjnych</h2>
+ *      <p>W pakiecie dostępne są klasy z poprzedniego zadania. W katalogu resources w pakiecie b znajdują się pliki konfiguracyjne xml.</p>
+ *      <p>Jak można zauważyć każde ziarno posiada swój własny plik konfiguracyjny.</p>
+ *      <p>Zastanów się w jaki sposób możemy w takim wypadku wstrzykiwać zależności do klasy {@link wrup.spring.b_scope_i_import.Samochód}?</p>
  *
- *      Spróbuj odpalić klasę {@link wrup.spring.b_scope_i_import.Main} a następnie napraw występujące problemy.
- *      Podpowiedź: modyfikacja pliku <pre>b_samochod_konfiguracja.xml</pre> i skorzystanie z "import".
+ *      <p>Spróbuj odpalić klasę {@link wrup.spring.b_scope_i_import.Main} a następnie napraw występujące problemy.</p>
+ *      <p><b>Podpowiedź: modyfikacja pliku <pre>b_samochod_konfiguracja.xml</pre> <b>i skorzystanie z "import".</b></p></b>
  *
- * 2. Zasięg ziarna
- *      Program działa, a na ekranie pojawia nam się dziesięć prób odpaleń samochodu.
- *      Zmodyfikuj właściwość "scope" w pliku <pre>b_samochod_konfiguracja.xml</pre> na wartość "prototype" i ponownie odpal program.
- *      Zastanów się nad przyczyną innego wyniku.
- *
+ * <h2> 2. Zasięg ziarna</h2>
+ *     <p>Program działa, a na ekranie pojawia nam się dziesięć prób odpaleń samochodu.</p>
+ *     <p>Zmodyfikuj właściwość "scope" w pliku <pre>b_samochod_konfiguracja.xml</pre> na wartość "prototype" i ponownie odpal program.</p>
+ *     <p><b>Zastanów się nad przyczyną innego wyniku.</p></b>
  *
  * @author Wiktor Rup
  *
