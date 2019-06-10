@@ -5,9 +5,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Kacper Staszek
- *
- * TODO:
- *  1: Odpowiedz na pytanie w którym momencie Spring wywołuje konstruktor do wstrzyknięcia zależności.
  */
 @Component
 class KonceptCImpl implements KonceptC {
