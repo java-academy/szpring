@@ -1,7 +1,7 @@
 package wrup.spring.a_wstrzykiwanie_zależności.silnik;
 
 /**
- * Ziarno springowe wstrzykiwane do klasy Samochód {@link wrup.spring.a_wstrzykiwanie_zależności.Samochód}
+ * Ziarno springowe wstrzykiwane do klasy Samochód {@link wrup.spring.a_wstrzykiwanie_zależności.Samochód Samochód}
  *
  * @author Wiktor Rup
  */

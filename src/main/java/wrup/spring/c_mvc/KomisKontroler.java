@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Kontroler, w którym wyszukany w bazie samochód zostaje przekazany jako atrybut modelu. Model zostaje zwrócony jako widok strony <pre>widok.jsp</pre>
+ * Kontroler, w którym wyszukany w bazie samochód zostaje przekazany jako atrybut modelu. Model zostaje zwrócony jako widok strony {@code widok.jsp}
  *
  * @author Wiktor Rup
  */

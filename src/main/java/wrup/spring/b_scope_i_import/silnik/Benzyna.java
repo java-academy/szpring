@@ -1,7 +1,7 @@
 package wrup.spring.b_scope_i_import.silnik;
 
 /**
- * Ziarno springowe wstrzykiwane do klasy Samochód {@link wrup.spring.b_scope_i_import.Samochód}
+ * Ziarno springowe wstrzykiwane do klasy Samochód {@link wrup.spring.b_scope_i_import.Samochód Samochód}
  *
  * @author Wiktor Rup
  */
