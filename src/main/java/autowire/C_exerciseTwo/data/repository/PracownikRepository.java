@@ -8,7 +8,7 @@ import autowire.C_exerciseTwo.domain.Pracownik;
 /**
  * @author Marcin Ogorzalek
  */
-public class PraconikRepository {
+public class PracownikRepository {
 
   public void zapisz(Pracownik pracownik) {
     System.out.println(

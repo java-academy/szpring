@@ -8,6 +8,8 @@ import autowire.C_exerciseTwo.domain.Salon;
 import autowire.C_exerciseTwo.domain.Samochód;
 
 /**
+ * Główna logika biznesowa aplikacji wywołujący pozostałe serwisy
+ *
  * @author Marcin Ogorzalek
  */
 public class WynajęcieService {

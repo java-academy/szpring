@@ -1,6 +1,6 @@
 package autowire.C_exerciseTwo.service;
 
-import autowire.C_exerciseTwo.data.repository.PraconikRepository;
+import autowire.C_exerciseTwo.data.repository.PracownikRepository;
 import autowire.C_exerciseTwo.domain.Pracownik;
 
 /**
@@ -8,14 +8,14 @@ import autowire.C_exerciseTwo.domain.Pracownik;
  */
 public class PracownikService {
 
-  private PraconikRepository praconikRepository;
+  private PracownikRepository pracownikRepository;
 
-  public void setPraconikRepository(PraconikRepository praconikRepository) {
-    this.praconikRepository = praconikRepository;
+  public void setPracownikRepository(PracownikRepository pracownikRepository) {
+    this.pracownikRepository = pracownikRepository;
   }
 
   void przyznajPremię(Pracownik pracownik) {
     System.out.printf("Przyznano premię pracownikowi: %s%n", pracownik);
-    praconikRepository.zapisz(pracownik);
+    pracownikRepository.zapisz(pracownik);
   }
 }

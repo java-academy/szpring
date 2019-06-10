@@ -1,4 +1,4 @@
-package autowire.C_exerciseTwo.config;
+package autowire.C_exerciseTwo;
 
 import autowire.C_exerciseTwo.domain.Klient;
 import autowire.C_exerciseTwo.domain.Salon;
@@ -8,14 +8,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * TODO: Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wyporzyczyć Czarną Wołgę. Uzupełnij
- *  aplikacje wymaganymi adnotacjami. Aby klient mógł wypożyczyć samochód zaprzęgnięte do pracy muszą
- *  zostać Repozytoria odpowiedzialne za persystencję wymaganych danych. Dzieje się to poprzez
- *  wykorzystanie odpowiednich Serwisów. Jedyne co powinieneś dopisać to adnotacje. Pamiętaj, że
- *  istnieje kilka sposobów wstrzykiwania zależności. Zwróć też uwagę, że odradzane jest
- *  wstrzykiwanie zależności przez pola.
- *  https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-setter-injection
- *  https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/stereotype/package-summary.html#package.description
+ * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na A_example (sama góra tego pliku) i wciśnij Ctrl+q</b></p>
  *
  * @author Marcin Ogorzałek
  */
