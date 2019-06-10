@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Salon {
 
-  @Value("Czerwone maki 1")
+  @Value("Czerwone Maki 1")
   private String adres;
 
   @Value("Kraków")

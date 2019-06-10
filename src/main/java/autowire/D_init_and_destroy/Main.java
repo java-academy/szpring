@@ -19,7 +19,6 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  *  - https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/InitializingBean.html
  *  - https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/DisposableBean.html
  *  Na potrzeby konfiguracji w XML stwórz plik konfiguracyjny, który osiągnie cel. (nazwij go konfiguracja.xml).
- *
  */
 @ComponentScan(basePackages = "autowire.D_init_and_destroy")
 class Main {

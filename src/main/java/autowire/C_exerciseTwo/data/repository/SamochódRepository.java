@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public class SamochódRepository {
 
-  public void zapis(Samochód smaochód, LocalDate dataWypożyczenia) {
+  public void zapis(Samochód samochód, LocalDate dataWypożyczenia) {
     System.out.println(GREEN+"Zapisuję datę wypożyczenia"+RESET);
   }
 

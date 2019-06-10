@@ -1,4 +1,4 @@
-package autowire.C_exerciseTwo.config;
+package autowire.C_exerciseTwo;
 
 import autowire.C_exerciseTwo.domain.Klient;
 import autowire.C_exerciseTwo.domain.Salon;
@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 /**
  * @author Marcin Ogorzałek
  *
- * TODO: Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wyporzyczyć Czarną Wołgę. Uzupełnij
+ * TODO: Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wypożyczyć Czarną Wołgę. Uzupełnij
  *  aplikacje wymaganymi adnotacjami. Aby klient mógł wypożyczyć samochód zaprzęgnięte do pracy muszą
  *  zostać Repozytoria odpowiedzialne za persystencję wymaganych danych. Dzieje się to poprzez
  *  wykorzystanie odpowiednich Serwisów. Jedyne co powinieneś dopisać to adnotacje. Pamiętaj, że

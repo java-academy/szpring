@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
  * @author Marcin Ogorzalek
  */
 @Repository
-public class PraconikRepository {
+public class PracownikRepository {
 
   public void zapisz(Pracownik pracownik) {
     System.out.println(GREEN+"Zapisuję informacje o premii dla pracownika"+RESET);
