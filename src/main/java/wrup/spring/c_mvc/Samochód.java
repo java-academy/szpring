@@ -32,7 +32,6 @@ public class Samochód {
 
     /**
      * Do poprawnego wyświetlenia interesujących nas dancyh w zwracanym modelu <pre>widok.jsp</pre> niezbędne są publiczne metody get.
-     *
      */
 
     public long getId() {

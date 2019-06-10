@@ -43,7 +43,7 @@
  *
  *      <h3>2.3 Fabryka ziaren</h3>
  *          <p>W pakiecie znajduje się klasa {@link wrup.spring.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników FabryczkaZiarenSilników}.</p>
- *          <p>W pliku <pre>a_konfiguracja.xml</pre> odkomentuj linie .. - .. i spróbuj dokończyć implementację wstrzykiwania zależności z wykorzystaniem fabryki ziaren.</p>
+ *          <p>W pliku <pre>a_konfiguracja.xml</pre> odkomentuj linie, które następują po <b><i>3. Wstrzykiwanie fasolki fabryką fasolek</i></b> i spróbuj dokończyć implementację wstrzykiwania zależności z wykorzystaniem fabryki ziaren.</p>
  *
  * @author Wiktor Rup
  */

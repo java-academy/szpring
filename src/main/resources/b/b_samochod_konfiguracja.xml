@@ -6,18 +6,15 @@
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="wrup.spring.c_mvc"/>
-    <import resource="classpath:b/b_benzyna_konfiguracja.xml"/>
-    <import resource="classpath:b/b_olejnapędowy_konfiguracja.xml"/>
+    <!-- Definicja ziaren: -->
 
-    <!-- Definicja fasolek: -->
-
-    <!-- Wstrzykiwanie fasolki silnika benzynowego -->
+    <!-- Wstrzykiwanie ziarna silnika benzynowego -->
 
     <bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód" scope="singleton">
         <constructor-arg ref="silnikBenzynowy"/>
     </bean>
 
-    <!-- Wstrzykiwanie fasolki silnika diesel'owego -->
+    <!-- Wstrzykiwanie ziarna silnika diesel'owego -->
 
     <!--<bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód">-->
         <!--<constructor-arg ref="silnikDiesela"/>-->
