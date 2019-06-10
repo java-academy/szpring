@@ -21,7 +21,7 @@
     <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
-                <prop key="/index.html">HomeController</prop>
+                <prop key="/">HomeController</prop>
             </props>
         </property>
     </bean>

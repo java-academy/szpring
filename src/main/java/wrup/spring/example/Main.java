@@ -12,7 +12,7 @@ import wrup.spring.example.entities.Car;
 class Main {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("web.xml");
+        ApplicationContext context = new ClassPathXmlApplicationContext("app-config.xml");
         Car car = context.getBean(Car.class);
 
         System.out.println(car.getEngine().start());

@@ -8,26 +8,26 @@
 
     <context:component-scan base-package="wrup.spring.example" />
 
-    <!-- bean definitions here -->
+    <!-- Deklaracja fasolek: -->
 
-    <!-- injecting bean using setter method -->
+    <!-- Wstrzykiwanie za pomoca settera -->
 
-    <!--<bean id="engine" class="wrup.spring.example.entities.Diesel"/> -->
+    <!--<bean id="engine" class="wrup.spring.example.entities.engines.Diesel"/> -->
     <!--<bean id="car" class="wrup.spring.example.entities.Car">-->
     <!--<property name="engine" ref="engine"/>-->
     <!--</bean>-->
 
-    <!-- injecting bean using constructor -->
-    <!--<bean id="engine" class="wrup.spring.example.entities.Diesel"/> -->
+    <!-- Wstrzykiwanie za pomoca konstruktora -->
+    <!--<bean id="engine" class="wrup.spring.example.entities.engines.Diesel"/> -->
     <!--<bean id="car" class="wrup.spring.example.entities.Car">-->
     <!--<constructor-arg ref="engine"/>-->
     <!--</bean>-->
 
-    <!-- injecting bean using bean factory -->
-    <bean id="engineBeanFactory" class="wrup.spring.example.entities.EngineBeanFactory" />
+    <!-- Fabryka fasolek -->
+    <bean id="engineBeanFactory" class="wrup.spring.example.entities.engines.EngineBeanFactory" />
 
     <bean id="engine"
-          class="wrup.spring.example.entities.EngineBeanFactory"
+          class="wrup.spring.example.entities.engines.EngineBeanFactory"
           factory-method="getEngine" factory-bean="engineBeanFactory">
         <constructor-arg value="2" />
     </bean>
@@ -35,5 +35,10 @@
     <bean id="car" class="wrup.spring.example.entities.Car">
         <property name="engine" ref="engine" />
     </bean>
+
+
+
+    <!-- Serwis -->
+    <!---->
 
 </beans>

@@ -1,5 +1,7 @@
 package wrup.spring.example.entities;
 
+import wrup.spring.example.entities.engines.Engine;
+
 /**
  * @author Wiktor Rup
  */

@@ -1,4 +1,4 @@
-package wrup.spring.example.entities;
+package wrup.spring.example.entities.engines;
 
 /**
  * @author Wiktor Rup
