@@ -8,17 +8,10 @@ import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * @author Kacper Staszek
+ * WAŻNE: Umieść kursor na D_init_and_destroy (pierwsza linia tego pliku)
+ * i wciśnij Ctrl+q w celu zobaczenia instrukcji.
  *
- * TODO:
- *  1. Stwórz konfigurację do podanego szkieletu klas. Połącz wszytkie trzy typy konfiguracji.
- *  (repozytorium przez annotacje, dwa loggery z konfiguracji java, jeden z XML)
- *  2. Na 3 różne sposoby zaimplementuj metody init i destroy.
- *  - https://www.mkyong.com/spring/spring-init-method-and-destroy-method-example/
- *  - https://www.mkyong.com/spring/spring-postconstruct-and-predestroy-example/
- *  - https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/InitializingBean.html
- *  - https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/DisposableBean.html
- *  Na potrzeby konfiguracji w XML stwórz plik konfiguracyjny, który osiągnie cel. (nazwij go konfiguracja.xml).
+ * @author Kacper Staszek
  */
 @ComponentScan(basePackages = "autowire.D_init_and_destroy")
 class Main {
