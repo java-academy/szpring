@@ -1,0 +1,37 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="wrup.spring.c_mvc"/>
+    <import resource="classpath:web-config.xml"/>
+    <!-- Definicja fasolek: -->
+
+    <!-- 1. Wstrzykiwanie fasolki przez setter -->
+
+    <!--<bean id="silnik" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.OlejNapędowy"/> -->
+    <!--<bean id="samochód" class="wrup.spring.a_wstrzykiwanie_zależności.Samochód">-->
+    <!--<property nazwa="silnik" ref="silnik"/>-->
+    <!--</bean>-->
+
+    <!--2. Wstrzykiwanie fasolki przez konstruktor -->
+    <!--<bean id="silnik" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.OlejNapędowy"/>-->
+    <!--<bean id="samochód" class="wrup.spring.a_wstrzykiwanie_zależności.Samochód">-->
+        <!--<constructor-arg ref="silnik"/>-->
+    <!--</bean>-->
+
+    <!-- 3. Wstrzykiwanie fasolki fabryką fasolek -->
+    <bean id="fabryczkaFasolekSilników" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.FabryczkaFasolekSilników"/>
+
+    <bean id="silnik" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.FabryczkaFasolekSilników"
+        factory-method="wybierzSilnik" factory-bean="fabryczkaFasolekSilników">
+        <constructor-arg value="2"/>
+    </bean>
+
+    <bean id="samochód" class="wrup.spring.a_wstrzykiwanie_zależności.Samochód">
+        <property nazwa="silnik" ref="silnik"/>
+    </bean>
+
+</beans>

@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans.xsd
+                           http://www.springframework.org/schema/context
+                           http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:component-scan base-package="wrup.spring.c_mvc"/>
+    <import resource="classpath:b/b_benzyna_konfiguracja.xml"/>
+    <import resource="classpath:b/b_olejnapędowy_konfiguracja.xml"/>
+
+    <!-- Definicja fasolek: -->
+
+    <!-- Wstrzykiwanie fasolki silnika benzynowego -->
+
+    <bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód" scope="prototype">
+        <constructor-arg ref="silnikBenzynowy"/>
+    </bean>
+
+    <!-- Wstrzykiwanie fasolki silnika diesel'owego -->
+    <!--<bean id="samochód" class="wrup.spring.a_wstrzykiwanie_zależności.Samochód">-->
+        <!--<constructor-arg ref="silnikDiesela"/>-->
+    <!--</bean>-->
+
+</beans>

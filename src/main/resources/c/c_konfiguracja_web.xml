@@ -10,7 +10,8 @@
                            http://www.springframework.org/schema/context/spring-context.xsd ">
 
     <mvc:annotation-driven />
-    <context:component-scan base-package="wrup.spring.example" />
+    <context:component-scan base-package="wrup.spring.c_mvc"/>
+    <import resource="classpath:c/c_konfiguracja_aplikacji.xml"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
@@ -21,11 +22,9 @@
     <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
         <property name="mappings">
             <props>
-                <prop key="/">HomeController</prop>
+                <prop key="/">komisKontroler</prop>
             </props>
         </property>
     </bean>
-
-    <bean id="HomeController" class="wrup.spring.example.controllers.HomeController"/>
 
 </beans>
