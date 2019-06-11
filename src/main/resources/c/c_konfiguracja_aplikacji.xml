@@ -7,7 +7,7 @@
                            http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="wrup.spring.c_mvc"/>
 
-    <!-- Definiowanie fasolek: -->
+    <!-- Definiowanie ziaren: -->
     <bean id="silnik" class="wrup.spring.c_mvc.silnik.OlejNapędowy"/>
     <bean id="samochód" class="wrup.spring.c_mvc.Samochód">
     <constructor-arg ref="silnik"/>

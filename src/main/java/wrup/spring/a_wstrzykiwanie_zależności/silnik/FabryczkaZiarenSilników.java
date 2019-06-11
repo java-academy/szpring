@@ -1,7 +1,7 @@
 package wrup.spring.a_wstrzykiwanie_zależności.silnik;
 
 /**
- * Fabryka ziaren. Pozwala na wstrzyknięcie konkretnego ziarna do interesującej nas klasy Samochód. {@link wrup.spring.a_wstrzykiwanie_zależności.Samochód}
+ * Fabryka ziaren. Pozwala na wstrzyknięcie konkretnego ziarna do interesującej nas klasy Samochód. {@link wrup.spring.a_wstrzykiwanie_zależności.Samochód Samochód}
  *
  * @author Wiktor Rup
  */

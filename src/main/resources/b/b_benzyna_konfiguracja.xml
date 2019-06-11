@@ -7,7 +7,7 @@
                            http://www.springframework.org/schema/context/spring-context.xsd">
     <context:component-scan base-package="wrup.spring.b_scope_i_import"/>
 
-    <!-- Definicja fasolek: -->
+    <!-- Definicja ziaren: -->
     <bean id="silnikBenzynowy" class="wrup.spring.b_scope_i_import.silnik.Benzyna"/>
 
 </beans>
