@@ -10,4 +10,4 @@
  * </p>
  * @author Jakub Czajka
  */
-package autowire.G_CircularDependency;
+package autowire.G_CircularDependency.start;

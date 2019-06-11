@@ -1,4 +1,4 @@
-package autowire.G_CircularDependency;
+package autowire.G_CircularDependency.start;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
