@@ -9,7 +9,7 @@
     <context:annotation-config/>
 
     <!-- Zdefiniowanie ziarna samochód wraz z wymaganymi argumentami -->
-    <bean id="reaktorjądrowy" class = "a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni.ReaktorJądrowy"/>
-    <bean id="reaktorchemiczny" class="a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni.ReaktorChemiczny"/>
+    <bean id="reaktorjądrowy" class = "a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorJądrowy"/>
+    <bean id="reaktorchemiczny" class="a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorChemiczny"/>
     <bean id="elektrownia" class="a_adnotacje_wstrzykiwania.qualifier.Elektrownia"/>
 </beans>

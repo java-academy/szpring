@@ -1,4 +1,4 @@
-package a_adnotacje_wstrzykiwania.autowired.komponentykomputera;
+package a_adnotacje_wstrzykiwania.autowired.komponenty_komputera;
 
 import org.springframework.beans.factory.annotation.Required;
 

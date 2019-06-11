@@ -1,4 +1,4 @@
-package a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury;
+package a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury;
 
 /**
  * Interfejs, który reprezentuje komponent (składnik) klawiatury.

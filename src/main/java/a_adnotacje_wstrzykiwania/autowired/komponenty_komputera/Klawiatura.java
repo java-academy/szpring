@@ -1,6 +1,6 @@
-package a_adnotacje_wstrzykiwania.autowired.komponentykomputera;
+package a_adnotacje_wstrzykiwania.autowired.komponenty_komputera;
 
-import a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury.KomponentKlawiatury;
+import a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.KomponentKlawiatury;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**

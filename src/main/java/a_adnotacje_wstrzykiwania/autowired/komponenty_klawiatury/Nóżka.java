@@ -1,4 +1,4 @@
-package a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury;
+package a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury;
 
 /**
  * Reprezentacja Nóżki od klawiatury, czyli zależność, która zostaje wstrzyknięta do klasy Klawiatura przez konstruktor.

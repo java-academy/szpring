@@ -8,25 +8,25 @@
            http://www.springframework.org/schema/context/spring-context.xsd">
     <context:annotation-config/>
     <!-- Zdefiniowanie ziarna klawiatura bezarumentowo -->
-    <bean id="klawiatura" class="a_adnotacje_wstrzykiwania.autowired.komponentykomputera.Klawiatura"/>
+    <bean id="klawiatura" class="a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Klawiatura"/>
     <!-- Zdefiniowanie ziarna przycisk -->
-    <bean id="przycisk" class="a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury.Przycisk"/>
+    <bean id="przycisk" class="a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.Przycisk"/>
     <!-- Zdefiniowanie ziarna dioda -->
-    <bean id="dioda" class="a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury.Dioda"/>
+    <bean id="dioda" class="a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.Dioda"/>
     <!-- Zdefiniowanie ziarna nóżka -->
-    <bean id="nóżka" class="a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury.Nóżka"/>
+    <bean id="nóżka" class="a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.Nóżka"/>
     <!-- Zdefiniowanie ziarna monitor-->
-    <bean id="monitor" class="a_adnotacje_wstrzykiwania.autowired.komponentykomputera.Monitor"/>
+    <bean id="monitor" class="a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Monitor"/>
     <!-- Zdefiniowanie ziarna komputer -->
     <bean id="komputer" class="a_adnotacje_wstrzykiwania.autowired.Komputer"/>
     <!-- Zdefiniowanie ziarna port-->
-    <bean id="portHDMI" class="a_adnotacje_wstrzykiwania.autowired.komponentykomputera.Port">
+    <bean id="portHDMI" class="a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Port">
         <property name="nazwa" value="HDMI"/>
     </bean>
-    <bean id="portUSB" class="a_adnotacje_wstrzykiwania.autowired.komponentykomputera.Port">
+    <bean id="portUSB" class="a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Port">
         <property name="nazwa" value="USB"/>
     </bean>
-    <bean id="portEthernet" class="a_adnotacje_wstrzykiwania.autowired.komponentykomputera.Port">
+    <bean id="portEthernet" class="a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Port">
         <property name="nazwa" value="Ethernet"/>
     </bean>
 

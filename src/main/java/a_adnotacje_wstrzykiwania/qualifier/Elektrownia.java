@@ -1,6 +1,6 @@
 package a_adnotacje_wstrzykiwania.qualifier;
 
-import a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni.Reaktor;
+import a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.Reaktor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 

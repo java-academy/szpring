@@ -6,8 +6,8 @@
  *  <p>Do tego wykorzystana jest adnotacja {@link org.springframework.beans.factory.annotation.Qualifier Qualifier}</p>
  *  <p>Dowiesz się jak skonfigurować wstrzykiwanie zależności następującymi sposobami:</p>
  *
- *  <p>Zacznij od analizy klas {@link a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni.ReaktorChemiczny ReaktorChemiczny}
- *  oraz {@link a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni.ReaktorJądrowy ReaktorJądrowy} w pakiecie <font color="yellow">{@code komponentyelektrowni}</font>.</p>
+ *  <p>Zacznij od analizy klas {@link a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorChemiczny ReaktorChemiczny}
+ *  oraz {@link a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorJądrowy ReaktorJądrowy} w pakiecie <font color="yellow">{@code komponenty_elektrowni}</font>.</p>
  *
  *  <p>Następnie uruchoma aplikację za pomocą klasy {@link a_adnotacje_wstrzykiwania.qualifier.Main Main} i zauważ potrzebę użycia adnotacji w klasie {@link a_adnotacje_wstrzykiwania.qualifier.Elektrownia Elektorwnia}</p>
  *

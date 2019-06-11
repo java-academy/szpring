@@ -1,7 +1,7 @@
 package a_adnotacje_wstrzykiwania.autowired;
 
-import a_adnotacje_wstrzykiwania.autowired.komponentykomputera.IPort;
-import a_adnotacje_wstrzykiwania.autowired.komponentykomputera.KomponentKomputera;
+import a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.IPort;
+import a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.KomponentKomputera;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Set;
