@@ -1,4 +1,4 @@
-package autowire.A_przykład;
+package autowire.A_example;
 
 /**
  * Imituje funkcjonalność

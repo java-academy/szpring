@@ -6,9 +6,12 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Jakub Czajka
+ * imie = James
+ * nazwisko = Bond
  * złoczyńca = DrNo
  * drink = Martini
+ *
+ * @author Jakub Czajka
  */
 @Component
 public class JamesBond extends Szpieg {

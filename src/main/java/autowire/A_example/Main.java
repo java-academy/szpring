@@ -1,14 +1,14 @@
-package autowire.A_przykład;
+package autowire.A_example;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * WAŻNE: Umieść kursor na A_przykład na górze tego pliku i wciśnij ctrl+q w celu zobaczenia instukcji.
+ * WAŻNE: Umieść kursor na A_example na górze tego pliku i wciśnij ctrl+q w celu zobaczenia instukcji.
  * @author Kacper Staszek
  */
-@ComponentScan(basePackages = "autowire.A_przykład")
+@ComponentScan(basePackages = "autowire.A_example")
 class Main {
 
   public static void main(String[] args) throws InterruptedException {

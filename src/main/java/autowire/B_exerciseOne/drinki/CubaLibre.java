@@ -4,9 +4,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Jakub Czajka
  * nazwa = Cuba Libre
  * przepis = "rum z lodem i colą
+ *
+ * @author Jakub Czajka
  */
 @Component(value = "CubaLibre")
 class CubaLibre extends Drink {

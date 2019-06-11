@@ -4,9 +4,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Jakub Czajka
  * nazwa = Martini
- * przepis = wstrząśnięte nie zmieszane
+ * przepis = wstrzasniete nie mieszane
+ *
+ * @author Jakub Czajka
  */
 @Component("Martini")
 class Martini extends Drink {

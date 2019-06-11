@@ -8,11 +8,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * @author Jakub Czajka
+ * WAŻNE: Aby uzyskać instrukcję umieść kursor na B_exerciseOne (sama góra tego pliku) i wciśnij Ctrl+q
  *
- * TODO Zapoznaj sie z adnotacjami:
- *  @Component @ComponentScan @Value @Qualifier  @Autowired i ich metodami, następnie wstaw adnotację w wybrane klasy tak aby kod zaczął działać
- *  Możesz używać tylko i wyłącznie adnotacji, nie możesz zmieniać kodu, w dokumentacji znajdują się brakujace wartości
+ * @author Jakub Czajka
  */
 @ComponentScan(basePackages = {"autowire.B_exerciseOne"})
 class Main {

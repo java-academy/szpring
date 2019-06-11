@@ -7,11 +7,12 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Jakub Czajka
  * imie = Austin
  * nazwisko = Powers
  * złoczyńca = DrEvil
  * drink = CubaLibre
+ *
+ * @author Jakub Czajka
  */
 @Component
 public class AustinPowers extends Szpieg {
