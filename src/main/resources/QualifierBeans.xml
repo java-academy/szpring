@@ -8,8 +8,8 @@
          http://www.springframework.org/schema/context/spring-context-3.0.xsd">
     <context:annotation-config/>
 
-    <!-- Zdefiniowanie fasolki samochód wraz z wymaganymi argumentami -->
-    <bean id="reaktorjądrowy" class = "adnotacje.qualifier.komponentyelektrowni.ReaktorJądrowy"/>
-    <bean id="reaktorchemiczny" class="adnotacje.qualifier.komponentyelektrowni.ReaktorChemiczny"/>
-    <bean id="elektrownia" class="adnotacje.qualifier.Elektrownia"/>
+    <!-- Zdefiniowanie ziarna samochód wraz z wymaganymi argumentami -->
+    <bean id="reaktorjądrowy" class = "a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni.ReaktorJądrowy"/>
+    <bean id="reaktorchemiczny" class="a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni.ReaktorChemiczny"/>
+    <bean id="elektrownia" class="a_adnotacje_wstrzykiwania.qualifier.Elektrownia"/>
 </beans>

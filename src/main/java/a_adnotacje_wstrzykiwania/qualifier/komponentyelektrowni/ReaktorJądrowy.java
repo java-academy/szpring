@@ -1,4 +1,4 @@
-package adnotacje.qualifier.komponentyelektrowni;
+package a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni;
 
 /**
  * Klasa, która reprezentuje reaktor jądrowy, czyli zależność, która zostaje wstrzyknięta do klasy Elektrownia za pomocą settera.

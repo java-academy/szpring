@@ -1,10 +1,10 @@
-package adnotacje.autowired.komponentykomputera;
+package a_adnotacje_wstrzykiwania.autowired.komponentykomputera;
 
-import adnotacje.autowired.komponentyklawiatury.KomponentKlawiatury;
+import a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury.KomponentKlawiatury;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
- * Klasa, która obrazuje działanie adnotacji Autowired {@link org.springframework.beans.factory.annotation.Autowired}
+ * Prezentacja działania adnotacji Autowired {@link org.springframework.beans.factory.annotation.Autowired}
  *
  * @author Wiktor Rup
  * @see KomponentKlawiatury

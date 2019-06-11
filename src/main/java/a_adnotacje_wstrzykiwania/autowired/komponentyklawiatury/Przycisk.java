@@ -1,7 +1,7 @@
-package adnotacje.autowired.komponentyklawiatury;
+package a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury;
 
 /**
- * Klasa, która reprezentuje Przycisk, czyli zależność, która zostaje wstrzyknięta do klasy Klawiatura przez pole.
+ * Reprezentacja Przycisku, czyli zależność, która zostaje wstrzyknięta do klasy Klawiatura przez pole.
  *
  * @author Wiktor Rup
  * @see KomponentKlawiatury

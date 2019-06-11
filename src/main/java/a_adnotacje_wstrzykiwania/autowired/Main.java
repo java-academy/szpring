@@ -1,10 +1,10 @@
-package adnotacje.autowired;
+package a_adnotacje_wstrzykiwania.autowired;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
- * Klasa rozruchowa aplikacji. Tworzony jest kontekst aplikacji springowej. {@link ApplicationContext}
+ * Tworzenie kontekstu aplikacji springowej. {@link ApplicationContext}
  *
  * @author Wiktor Rup
  */

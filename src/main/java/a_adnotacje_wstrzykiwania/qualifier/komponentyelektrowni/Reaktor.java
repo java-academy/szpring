@@ -1,4 +1,4 @@
-package adnotacje.qualifier.komponentyelektrowni;
+package a_adnotacje_wstrzykiwania.qualifier.komponentyelektrowni;
 
 /**
  * Interfejs który jest reprezentacją reaktora stosowanego w elektrowanii.

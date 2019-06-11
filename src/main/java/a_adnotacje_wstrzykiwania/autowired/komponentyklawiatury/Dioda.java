@@ -1,7 +1,7 @@
-package adnotacje.autowired.komponentyklawiatury;
+package a_adnotacje_wstrzykiwania.autowired.komponentyklawiatury;
 
 /**
- * Klasa, która reprezentuje Diodę, czyli zależność, która zostaje wstrzyknięta do klasy Klawiatura za pomocą settera.
+ * Reprezentacja Diody, czyli zależność, która zostaje wstrzyknięta do klasy Klawiatura za pomocą settera.
  *
  * @author Wiktor Rup
  * @see KomponentKlawiatury

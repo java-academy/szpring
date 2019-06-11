@@ -1,13 +1,13 @@
-package adnotacje.autowired;
+package a_adnotacje_wstrzykiwania.autowired;
 
-import adnotacje.autowired.komponentykomputera.IPort;
-import adnotacje.autowired.komponentykomputera.KomponentKomputera;
+import a_adnotacje_wstrzykiwania.autowired.komponentykomputera.IPort;
+import a_adnotacje_wstrzykiwania.autowired.komponentykomputera.KomponentKomputera;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.Set;
 
 /**
- * Klasa prezentująca działanie wstrzykiwania zależności na różne sposoby. {@link org.springframework.beans.factory.annotation.Autowired}
+ * Reprezetnacja wstrzykiwania zależności na różne sposoby. {@link org.springframework.beans.factory.annotation.Autowired}
  *
  * @author Wiktor Rup
  * @see IPort

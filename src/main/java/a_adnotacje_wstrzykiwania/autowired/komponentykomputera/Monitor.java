@@ -1,8 +1,8 @@
-package adnotacje.autowired.komponentykomputera;
+package a_adnotacje_wstrzykiwania.autowired.komponentykomputera;
 
 
 /**
- * Klasa, która reprezentuje Monitor, czyli zależność, która zostaje wstrzyknięta do klasy Komputer za pomocą metody z parametrami.
+ * Reprezetnacja Monitora, czyli zależność, która zostaje wstrzyknięta do klasy Komputer za pomocą metody z parametrami.
  *
  * @author Wiktor Rup
  * @see KomponentKomputera

@@ -1,9 +1,9 @@
-package adnotacje.autowired.komponentykomputera;
+package a_adnotacje_wstrzykiwania.autowired.komponentykomputera;
 
 import org.springframework.beans.factory.annotation.Required;
 
 /**
- * Klasa, która reprezentuje port, czyli zależność, która zostaje wstrzyknięta do klasy Komputer za pomocą pola (kolekcja).
+ * Reprezetnacja Portu, czyli zależność, która zostaje wstrzyknięta do klasy Komputer za pomocą pola (kolekcja).
  *
  * @author Wiktor Rup
  * @see IPort

@@ -1,4 +1,4 @@
-package adnotacje.required;
+package a_adnotacje_wstrzykiwania.required;
 
 
 import org.springframework.beans.factory.annotation.Required;
