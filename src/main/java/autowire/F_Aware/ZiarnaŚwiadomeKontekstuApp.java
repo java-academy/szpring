@@ -5,25 +5,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * W Springu możliwe jest zadeklarowanie ziarna świadomego kontekstu aplikacji w którym  istnieje
- * https://docs.spring.io/spring/docs/5.1.7.RELEASE/spring-framework-reference/core.html#beans-factory-aware.
- * Dzięki temu możliwe jest programowe odwołanie się do metod z ApplicationContext,
- * np. otrzymanie innych ziaren zadeklarowanych w danym kontekście.
- *
- * Jesteśmy w stanie zeralizować to na dwa sposoby.
- * Możemy zaimplementować interface ApplicationContextAware
- * albo poprzez adnotację @Autowired.
- *
- * ApplicationContextAware jest jedym z podinterfejsów Aware. Inne iterfejsy z niego dziedziczace
- * są wymienione w poniższej dokumentacji:
- * https://docs.spring.io/spring/docs/5.1.7.RELEASE/spring-framework-reference/core.html#aware-list
- *
- * Generalnie niezalecane jest używanie Aware i podinterfejsów ponieważ uzależnia to kod os Spring API
- * oraz łąmię zasadę odwrócenia kontroli (Inversion of Control).
+ * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na F_Aware (sama góra tego pliku) i wciśnij Ctrl+q</b></p>
  *
  * @author Marcin Ogorzalek
- *
- * TODO: zapoznaj się z informacjami tu zawartymi.
  */
 @ComponentScan(basePackages = {"autowire.F_Aware"})
 public class ZiarnaŚwiadomeKontekstuApp {
@@ -32,7 +16,7 @@ public class ZiarnaŚwiadomeKontekstuApp {
     ApplicationContext context = new AnnotationConfigApplicationContext(ZiarnaŚwiadomeKontekstuApp.class);
     context.getBean(ŚwiadomeZiarnoAdnotacja.class).użycieZiarna();
     context.getBean(ŚwiadomeZiarnoIntaface.class).użycieZiarna();
-// odkomentowanie poniższego wywołania spowoduje NPM.
+// FIXME: odkomentowanie poniższego wywołania spowoduje NullPointerException.
 //    context.getBean(NieświadomeZiarno.class).applicationContextAdnotacja.getBean(Ziarno.class).metodaZiarenka();
 // możliwe jest uzyskanie dowolnego ziarna obecnego w danym kontekście;
     context

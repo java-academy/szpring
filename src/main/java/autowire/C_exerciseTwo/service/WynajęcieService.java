@@ -10,6 +10,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
+ * Główna logika biznesowa aplikacji wywołująca pozostałe serwisy
+ *
  * @author Marcin Ogorzalek
  */
 @Service
