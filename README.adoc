@@ -1,0 +1,46 @@
+:author: Wiktor Rup
+
+
+= SpringXMLConfig
+
+== Co to jest?
+W tym repozytorium znajdziesz przykładowe zadania oraz prezentacje przedstawiającą konfigurację aplikacji springowej przez pliki XML. +
+Zagadnienia:
+
+ * Podstawy konfiguracji xmlowej - setter, konstruktor, fabryka ziaren
+
+ * Łączenie kilku konfiguracji
+
+ * Zasięg ziaren
+
+ * Tworzenie prostej aplikacji z wykorzystaniem kontrolera, serwisu i repozytorium
+
+ * Dobre praktyki
+
+
+=== Instrukcja:
+Aby wykonać wszystkie ćwiczenia zacznij kolejno od pliku
+
+
+[source, java]
+----
+package-info.java
+----
+
+w pakiecie [yellow]#_a_wstrzykiwanie_zależności_# i podążaj za opisaną tam instrukcją.
+    
+Kiedy skończysz opisane tam zadania, przejdź do pakietu [yellow]#_b_scope_i_import_# i również zacznij podążąć za instrukcją w:
+[source, java]
+----
+package-info.java
+----
+  
+Ostatnim zadaniem jest zadanie opisane w pliku:
+[source, java]
+----
+package-info.java
+----
+z pakietu [yellow]#_c_mvc_#.
+
+W razie problemów skorzystaj z zamieszczonej w repozytorium prezentacji.  
+*Miłej pracy!*
