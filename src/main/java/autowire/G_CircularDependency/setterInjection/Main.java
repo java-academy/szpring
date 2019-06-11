@@ -6,9 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Incializacja za pomocą setterów.
- * Spring najpier inicializuje wszystkie ziarna za pomocą konstruktorów a dopiero później wstrzykuje zalezności za pomocą setterów
- * co pozwoli nam unikąć tego problemu
+ * Instrukcje w package-info.
  *
  * @author Jakub Czajka
  */

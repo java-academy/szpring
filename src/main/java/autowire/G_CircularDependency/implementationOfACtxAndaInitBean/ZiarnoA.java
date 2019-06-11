@@ -8,8 +8,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Jakub Czajka
- * Dodaj do implemntacji ApplicationContextAware i InitializingBean. metoda setApplicationContext powinna umozliwic ci wyciagnięcie do zmiennej kontextu,
- * w metodzie afterPropertiesSet z pomocą kotextu zapisz ziarnoB w zmiennej;
  */
 @Component
 class ZiarnoA implements ApplicationContextAware, InitializingBean {

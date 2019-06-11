@@ -4,8 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
+ * Instrukcje w package-info.
+ *
  * @author Jakub Czajka
- * Usuń z konstuktora adnotacje @Autowired i usuń z niego przypisanie do zmiennej zachowując wiadoość, stwórz setter i zdodaj do niego addnotację @Autowired
+ *
  */
 @Component
 class ZiarnoB {

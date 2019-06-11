@@ -1,3 +1,4 @@
+
 /**
  * Praca z tym pakietem pokaże Ci jak działa BeanPostProcessor, odświeży kolejność wykonywania operacji
  * przy tworzeniu ziaren, oraz refleksję.
@@ -6,7 +7,7 @@
  *
  * Postępuj zgodnie z poniższymi instrukcjami:
  * <ol>
- *  <li>{@link autowire.E_bean_post_processor.Main}
+ *  <li>{@link autowire.E_bean_post_processor.Main Main}
  *  <ul>
  *    <li>
  *      Uruchom program, zobaczy wydruk na konsoli.<br><br>

@@ -5,7 +5,6 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Jakub Czajka
- * W konstruktorze dopisz adnotacje @Lazy
  */
 @Component
 class ZiarnoA {

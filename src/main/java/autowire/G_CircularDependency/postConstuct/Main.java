@@ -6,9 +6,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * Kolejną aletrnarnatywą jest wykozystanie addnotacji @PostConstruct, którą można zaadnotować jedną metodę która wykona się po konstrukcji obiektu
- * Przeczytaj  i odpowiedz jaka musi byc taka metoda :
- * https://docs.oracle.com/javaee/7/api/javax/annotation/PostConstruct.html
+ * Instrukcja w package-info.
  *
  * @author Jakub Czajka
  */

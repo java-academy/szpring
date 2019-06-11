@@ -5,7 +5,7 @@ import org.springframework.stereotype.Component;
 
 /**
  * @author Jakub Czajka
- * Usuń z konstuktora adnotacje @Autowired i usuń z niego przypisanie do zmiennej zachowując wiadoość, stwórz setter i zdodaj do niego addnotację @Autowired
+ *
  */
 @Component
 class ZiarnoA {
