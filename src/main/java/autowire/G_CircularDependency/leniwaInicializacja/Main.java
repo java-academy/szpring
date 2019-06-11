@@ -6,8 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * Instrukcje w package-info
+ *
  * @author Jakub Czajka
- * Przejdź do @{ZiaronoA.class}, po dokonaniu zmian uruchom klasę main i upewnij sie ze wszystko działa
  */
 @Configuration
 @ComponentScan(basePackages = {"autowire.G_CircularDependency.leniwaInicializacja"})

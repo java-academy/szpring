@@ -6,8 +6,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author Jakub Czajka
+ * Instrukcje w package-info.
  *
+ * @author Jakub Czajka
  */
 @Configuration
 @ComponentScan(basePackages = {"autowire.G_CircularDependency.setterInjection"})

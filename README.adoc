@@ -1,24 +1,23 @@
 = Warsztaty Spring - wstrzykiwanie zależności, cykl życia ziaren.
 
-*(Praca w toku)*
-
 Repozytorium zawierające przykłady oraz zadania na temat wstrzykiwania zależności oraz cyklu życia ziaren w Springu.
 Spring na potrzeby warsztatów został skonfigurowany poprzez adnotacje.
 Zadania znajdują się na gałęzi: 
-[source,perl]
+[source]
 master 
 
-ich rozwiązania zostały umieszczone na gałęzi: 
-[source,perl]
+Ich rozwiązania zostały umieszczone na gałęzi:
+[source]
 rozwiązania
 
 .Podjęta w warsztatach tematyka to:
-* wstrzykiwanie zależności poprzez:
-  - kontruktory,
-  - settery,
-  - pola,
-* określenie wstrzykiwanej zależności poprzez adnotację @Qualifier,
-* użycie metody afterPropertiesSet() i destroy() oraz adnotacji @PostConstruct i @PreDestroy,
-* BeanPostProcessor,
-* problem zależności cyklicznych w tworzeniu ziaren,
-* tworzenie ziaren świadomych kontekstu poprzez interface Aware.
+* Wstrzykiwanie zależności poprzez:
+  - kontruktory
+  - settery
+  - pola
+* Określenie wstrzykiwanej zależności poprzez adnotację @Qualifier.
+* Użycie metody afterPropertiesSet() i destroy() oraz adnotacji @PostConstruct i @PreDestroy.
+* InitializingBean, DisposableBean.
+* BeanPostProcessor.
+* Problem zależności cyklicznych w tworzeniu ziaren.
+* Tworzenie ziaren świadomych kontekstu poprzez wykorzystanie interfejsu Aware.

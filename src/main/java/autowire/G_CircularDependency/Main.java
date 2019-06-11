@@ -6,6 +6,8 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
+ * Instrukcje w package-info.
+ *
  * @author Jakub Czajka
  */
 @Configuration
