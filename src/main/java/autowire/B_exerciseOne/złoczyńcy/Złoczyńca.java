@@ -3,8 +3,6 @@ package autowire.B_exerciseOne.złoczyńcy;
 /**
  * @author Jakub Czajka
  */
-
-
 public class Złoczyńca {
 
   private String imię;

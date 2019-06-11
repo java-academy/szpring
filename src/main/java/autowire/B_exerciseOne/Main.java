@@ -7,11 +7,9 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * @author Jakub Czajka <<<<<<< HEAD ======= Zapoznaj sie z adnotacjami:
- * @ Component @ComponentScan @Value @Qualifier  @Autowierd i ich metodami, następnie wstaw
- * adnotację w wybrane klasy tak aby kod zaczął działać Możesz używać tylko i wyłącznie adnotacji,
- * nie możesz zmieniać kodu, w dokumentacji znajdują się brakujace wartości >>>>>>>
- * exerciseOneRozwiazanie
+ * WAŻNE: Aby uzyskać instrukcję umieść kursor na B_exerciseOne (sama góra tego pliku) i wciśnij Ctrl+q
+ *
+ * @author Jakub Czajka
  */
 
 class Main {

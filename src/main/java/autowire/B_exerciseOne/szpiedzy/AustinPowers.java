@@ -5,7 +5,12 @@ import autowire.B_exerciseOne.złoczyńcy.Złoczyńca;
 import org.springframework.stereotype.Component;
 
 /**
- * @author Jakub Czajka imie = Austin nazwisko = Powers złoczyńca = DrEvil drink = CubaLibre
+ * imie = Austin
+ * nazwisko = Powers
+ * złoczyńca = DrEvil
+ * drink = CubaLibre
+ *
+ * @author Jakub Czajka
  */
 @Component
 public class AustinPowers extends Szpieg {

@@ -6,7 +6,7 @@
  *
  * Postępuj zgodnie z poniższymi instrukcjami:
  * <ol>
- *  <li>{@link autowire.D_init_and_destroy.Main}
+ *  <li>{@link autowire.D_init_and_destroy.Main Main}
  *  <ul>
  *    <li>
  *      Stwórz konfigurację do podanego szkieletu klas. Połącz wszytkie trzy typy konfiguracji.

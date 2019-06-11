@@ -6,7 +6,6 @@ package autowire.B_exerciseOne.złoczyńcy;
  */
 class DrEvil extends Złoczyńca {
 
-
   public DrEvil() {
     super("Douglas", "Powers", "Dr Zło");
   }
