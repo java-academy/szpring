@@ -18,11 +18,11 @@ public class RepozytoriumSamochodów {
 
     public RepozytoriumSamochodów() {
 
-        samochody = Arrays.asList(new Samochód(1L, "Ford", new OlejNapędowy()),
-                new Samochód(2L, "Alfa Romeo", new Benzyna()),
-                new Samochód(3L, "Mazda", new Benzyna()),
-                new Samochód(4L, "Ferrari", new OlejNapędowy()),
-                new Samochód(5L, "Fiat", new OlejNapędowy())
+        samochody = Arrays.asList(new Samochód(1, "Ford", new OlejNapędowy()),
+                new Samochód(2, "Alfa Romeo", new Benzyna()),
+                new Samochód(3, "Mazda", new Benzyna()),
+                new Samochód(4, "Ferrari", new OlejNapędowy()),
+                new Samochód(5, "Fiat", new OlejNapędowy())
         );
     }
 

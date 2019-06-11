@@ -9,14 +9,14 @@ import wrup.spring.c_mvc.silnik.Silnik;
  */
 public class Samochód {
 
-    private Long id;
+    private long id;
     private String nazwa;
     private Silnik silnik;
 
     public Samochód() {
     }
 
-    public Samochód(Long id, String nazwa, Silnik silnik) {
+    public Samochód(long id, String nazwa, Silnik silnik) {
         this.id = id;
         this.nazwa = nazwa;
         this.silnik = silnik;
