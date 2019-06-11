@@ -1,5 +1,4 @@
-# README
-## SpringJavaConfig
+= SpringJavaConfig
 
 Podczas pracy z tym repozytorium poruszysz tematy:
 
@@ -9,7 +8,7 @@ Podczas pracy z tym repozytorium poruszysz tematy:
 - Tworzenie specjalistycznych ziaren - Controller, Service i Repository
 
 ### Jak pracować z tym repozytorium?
-Pod tym [linkiem](https://docs.google.com/presentation/d/1XFZjPlRKM1XAdgGmSqTAGE1CQC8bTR1K5hMeG-JM9aA/edit#slide=id.p) znajdziesz
+Pod tym https://docs.google.com/presentation/d/1XFZjPlRKM1XAdgGmSqTAGE1CQC8bTR1K5hMeG-JM9aA/edit#slide=id.p[linkiem] znajdziesz
 prezentację wprowadzającą do tematyki konfiguracji adnotacjami. Zapoznaj się z nią w pierwszej kolejności.
 
 Następnie przejdź do pakietu 'przykład_konfiguracji_adnotacjami'. Znajdziesz tam gotową implementację aplikacji
