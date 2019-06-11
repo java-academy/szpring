@@ -3,7 +3,7 @@
  * Pamiętajcie, że tej techniki można użyć w połączeniu z dowolną metodą która modyfikuje wartość pola w danej klasie.
  * Nie wymagane jest by jej nazwa rozpoczynała się od {@code set}.</p>
  * <br>
- * <p>Rozpocznij w klasie: {@link autowire.C_exerciseTwo.WynajmemSamochodówApp}</p>
+ * <p>Rozpocznij w klasie: {@link autowire.C_exerciseTwo.WynajmemSamochodówApp WynajmemSamochodówApp}</p>
  * <p>Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wypożyczyć Czarną Wołgę. Uzupełnij
  * aplikacje wymaganymi adnotacjami. Aby klient mógł wypożyczyć samochód zaprzęgnięte do pracy muszą
  * zostać Repozytoria odpowiedzialne za persystencję wymaganych danych. Dzieje się to poprzez
