@@ -6,7 +6,6 @@ import autowire.B_exerciseOne.złoczyńcy.Złoczyńca;
 /**
  * @author Jakub Czajka
  */
-
 public class Szpieg {
 
   private String imię;

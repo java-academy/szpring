@@ -1,10 +1,11 @@
 package autowire.B_exerciseOne.drinki;
 
 /**
- * @author Jakub Czajka nazwa = Martini przepis = wstrzasniete nie mieszane
+ * nazwa = Martini
+ * przepis = wstrzasniete nie mieszane
+ *
+ * @author Jakub Czajka
  */
-
-
 class Martini extends Drink {
 
   public Martini(String nazwa, String przepis) {
