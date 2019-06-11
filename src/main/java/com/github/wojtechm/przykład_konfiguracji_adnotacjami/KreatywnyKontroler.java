@@ -1,4 +1,4 @@
-package com.github.wojtechm.c_specjalistyczne_ziarna;
+package com.github.wojtechm.przykład_konfiguracji_adnotacjami;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

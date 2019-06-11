@@ -13,9 +13,9 @@
  *     <li>Przegląd kodu<br/>
  *          Polecam przypomnieć sobie czym są repozytoria, serwisy oraz kontrolery (w tej kolejności)
  *          <ol>
- *              <li>{@link com.github.wojtechm.c_specjalistyczne_ziarna.RozsądneRepozytorium}</li>
- *              <li>{@link com.github.wojtechm.c_specjalistyczne_ziarna.SuperSerwis}</li>
- *              <li>{@link com.github.wojtechm.c_specjalistyczne_ziarna.KreatywnyKontroler}</li>
+ *              <li>{@link com.github.wojtechm.przykład_konfiguracji_adnotacjami.RozsądneRepozytorium}</li>
+ *              <li>{@link com.github.wojtechm.przykład_konfiguracji_adnotacjami.SuperSerwis}</li>
+ *              <li>{@link com.github.wojtechm.przykład_konfiguracji_adnotacjami.KreatywnyKontroler}</li>
  *          </ol>
  *          W dokumentacji tych klas znajdziesz skrótowe przypomnienie czym są wspomniane stereotypy.
  *     </li><br/>
@@ -24,9 +24,14 @@
  *         <br/>
  *         Zwróć uwagę na fakt, że nigdzie nie pojawia się adnotacja {@link org.springframework.beans.factory.annotation.Autowired @Autowired}.
  *         Jeśli jakiś {@link org.springframework.stereotype.Component komponent} posiada tylko 1 konstruktor, to jest on używany do wstrzykiwania automatycznie.
- *         Dopisz teraz do jednego z komponentów dodatkowy (bezparametrowy) konstruktor - uruchom aplikację.
- *         Dodaj teraz do tego konstruktora jakiś parametr (np. String, int, Object) - uruchom aplikację.
- *         <br/>
+ *         <ol>
+ *              <li>
+ *                  Dopisz teraz do jednego z komponentów dodatkowy (bezparametrowy) konstruktor - uruchom aplikację.
+ *              </li>
+ *              <li>
+ *                  Dodaj teraz do tego konstruktora jakiś parametr (np. String, int, Object) - uruchom aplikację. *Dodatkowy parametr nie musi być użyty*
+ *              </li>
+ *         </ol>
  *         Wyjaśnienia co i dlaczego się stało poszukaj w dokumentacji {@link org.springframework.beans.factory.annotation.Autowired @Autowired}
  *         (podpowiedź - przeczytaj ze zrozumieniem pierwsze 2 akapity dokumentacji).
  *
@@ -39,4 +44,4 @@
  * <br/>
  * @author Wojciech Makiela
  */
-package com.github.wojtechm.c_specjalistyczne_ziarna;
+package com.github.wojtechm.przykład_konfiguracji_adnotacjami;

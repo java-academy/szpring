@@ -1,6 +1,5 @@
-package com.github.wojtechm.c_specjalistyczne_ziarna;
+package com.github.wojtechm.przykład_konfiguracji_adnotacjami;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
