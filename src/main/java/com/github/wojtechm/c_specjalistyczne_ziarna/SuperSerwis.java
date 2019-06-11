@@ -1,4 +1,4 @@
-package com.github.wojtechm.specjalistyczne_fasolki;
+package com.github.wojtechm.c_specjalistyczne_ziarna;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -18,15 +18,14 @@ import org.springframework.stereotype.Service;
 @Service
 class SuperSerwis {
 
-    private RandomoweRepozytorium repozytorium;
+    private RozsądneRepozytorium repozytorium;
 
-    @Autowired
-    SuperSerwis(RandomoweRepozytorium repozytorium) {
+    SuperSerwis(RozsądneRepozytorium repozytorium) {
         System.out.println(this.getClass().getName() + " - Konstruktor");
         this.repozytorium = repozytorium;
     }
 
-    public void setRepozytorium(RandomoweRepozytorium repozytorium) {
+    public void setRepozytorium(RozsądneRepozytorium repozytorium) {
         this.repozytorium = repozytorium;
     }
 

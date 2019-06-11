@@ -1,4 +1,4 @@
-package com.github.wojtechm.specjalistyczne_fasolki;
+package com.github.wojtechm.c_specjalistyczne_ziarna;
 
 import org.springframework.stereotype.Repository;
 
@@ -27,11 +27,11 @@ import java.util.List;
  * @author Wojciech Makiela
  */
 @Repository
-class RandomoweRepozytorium {
+class RozsądneRepozytorium {
 
     private List<OszołomionaOsoba> ludki;
 
-    public RandomoweRepozytorium() {
+    public RozsądneRepozytorium() {
         System.out.println(this.getClass().getName() + " - Konstruktor");
 
         ludki = Arrays.asList(new OszołomionaOsoba("Wojciech"),

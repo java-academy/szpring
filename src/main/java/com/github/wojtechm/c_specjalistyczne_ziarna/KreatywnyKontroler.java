@@ -1,10 +1,8 @@
-package com.github.wojtechm.specjalistyczne_fasolki;
+package com.github.wojtechm.c_specjalistyczne_ziarna;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 /**
  * Kontroler - w aplikacjach webowych bramka wejściowa do aplikacji.
@@ -37,7 +35,6 @@ class KreatywnyKontroler {
     private SuperSerwis serwis;
     private int idOsoby = 0;
 
-    @Autowired
     public KreatywnyKontroler(SuperSerwis superSerwis) {
         System.out.println(this.getClass().getName() + " - Konstruktor");
         this.serwis = superSerwis;
