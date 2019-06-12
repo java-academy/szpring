@@ -21,7 +21,7 @@ class Klawiatura implements KomponentKomputera {
      * - Łatwo złamać zasadę pojedynczej odpowiedzialności klasy, ponieważ wiele pól w klasie z adnotacją Autowired wcale nie wygląda tak źle, a pod spodem dzieją się rzeczy i powstaje słoneczko.
      * - Nasza klasa staje się ściśle powiązana (jeżeli nie mamy setterów i getterów, a to główny cel stosowania wstrzykiwania przez pole) i jest wiązana przez springowy wstrzykiwacz klas,
      * co w rezultacie czyni klasę bezużyteczną poza springowym pojemnikiem.
-     * - Korzystając ze wzorca wstrzykiwania zależności powinny one być wyraźnie widoczne przez stosowanie interferjsu lub setterów. W przypadku wstrzykiwania przez pole zależności te są ukrywane.
+     * - Korzystając ze wzorca wstrzykiwania zależności, powinny one być wyraźnie widoczne przez stosowanie interferjsu lub setterów. W przypadku wstrzykiwania przez pole zależności te są ukrywane.
      */
     @Autowired
     private KomponentKlawiatury dioda;

@@ -13,9 +13,9 @@ class Main {
     public static void main(String[] args) {
 
 
-        ApplicationContext context = new ClassPathXmlApplicationContext("AutowiredBeans.xml");
+        ApplicationContext kontekst = new ClassPathXmlApplicationContext("AutowiredBeans.xml");
 
-        Komputer komputer = (Komputer) context.getBean("komputer");
+        Komputer komputer = (Komputer) kontekst.getBean("komputer");
         komputer.mojeKomponenty();
 
     }
