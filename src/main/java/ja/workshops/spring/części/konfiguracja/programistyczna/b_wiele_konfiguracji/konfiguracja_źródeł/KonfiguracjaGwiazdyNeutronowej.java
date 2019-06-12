@@ -1,6 +1,6 @@
-package com.github.wojtechm.b_wiele_konfiguracji.konfiguracja_źródeł;
+package ja.workshops.spring.części.konfiguracja.programistyczna.b_wiele_konfiguracji.konfiguracja_źródeł;
 
-import com.github.wojtechm.b_wiele_konfiguracji.ziarno.GwiazdaNeutronowa;
+import ja.workshops.spring.części.konfiguracja.programistyczna.b_wiele_konfiguracji.ziarno.GwiazdaNeutronowa;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -11,12 +11,12 @@
  *
  * <ol>
  * <li>Witaj świecie<br/>
- *      W pakiecie dostępna jest klasa {@link com.github.wojtechm.a_witaj_swiecie.WitajŚwiecieZLicznikiem WitajŚwiecieZLicznikiem}.
+ *      W pakiecie dostępna jest klasa {@link ja.workshops.spring.części.konfiguracja.programistyczna.a_witaj_swiecie.WitajŚwiecieZLicznikiem WitajŚwiecieZLicznikiem}.
  *      To jej instancjami będziemy zarządzać w trakcie pracy z tym pakietem.
  *      Zapoznaj się proszę z jej kodem.
  * </li><br/>
  * <li>Konfiguracja programistyczna<br/>
- *      {@link com.github.wojtechm.a_witaj_swiecie.KonfiguracjaWitajŚwiecie KonfiguracjaWitajŚwiecie} jest równie prostą, co ważną klasą.
+ *      {@link ja.workshops.spring.części.konfiguracja.programistyczna.a_witaj_swiecie.KonfiguracjaWitajŚwiecie KonfiguracjaWitajŚwiecie} jest równie prostą, co ważną klasą.
  *      Jest ona źródłem naszej konfiguracji [przy odniesieniu do adnotacji lub innego kodu zastanów się nad {@code} jak w poprawionym kawałku] ({@code @Configuration}) udostępniającym dostęp do ziaren/instancji klasy
  *      WitajŚwiecieZLicznikiem (@Bean), zgodnie z ich zakresem (@Scope).
  *
@@ -52,7 +52,7 @@
  *      </ol>
  * </li><br/>
  * <li>Kontekst aplikacji<br/>
- *      W klasie {@link com.github.wojtechm.a_witaj_swiecie.Main Main} masz okazję zobaczyć w jaki sposób tworzony jest
+ *      W klasie {@link ja.workshops.spring.części.konfiguracja.programistyczna.a_witaj_swiecie.Main Main} masz okazję zobaczyć w jaki sposób tworzony jest
  *      {@link org.springframework.context.annotation.AnnotationConfigApplicationContext kontekst aplikacji}. Czegoś więcej
  *      dowiesz się o nim z przyszłych prezentacji. Teraz musisz jedynie wiedzieć że jest on głównym źródłem
  *      konfiguracji Springowych aplikacji (bonus dla chętnych - <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html">link do dokumentacji</a>).
@@ -67,4 +67,4 @@
  *
  * @author Wojciech Makiela
  */
-package com.github.wojtechm.a_witaj_swiecie;
+package ja.workshops.spring.części.konfiguracja.programistyczna.a_witaj_swiecie;

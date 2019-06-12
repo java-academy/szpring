@@ -1,9 +1,9 @@
-package com.github.wojtechm.b_wiele_konfiguracji;
+package ja.workshops.spring.części.konfiguracja.programistyczna.b_wiele_konfiguracji;
 
-import com.github.wojtechm.b_wiele_konfiguracji.ziarno.Wybuchable;
-import com.github.wojtechm.b_wiele_konfiguracji.konfiguracja_źródeł.KonfiguracjaPetardy;
-import com.github.wojtechm.b_wiele_konfiguracji.konfiguracja_źródeł.KonfiguracjaGwiazdyNeutronowej;
-import com.github.wojtechm.b_wiele_konfiguracji.konfiguracja_źródeł.KonfiguracjaZbiorcza;
+import ja.workshops.spring.części.konfiguracja.programistyczna.b_wiele_konfiguracji.ziarno.Wybuchable;
+import ja.workshops.spring.części.konfiguracja.programistyczna.b_wiele_konfiguracji.konfiguracja_źródeł.KonfiguracjaPetardy;
+import ja.workshops.spring.części.konfiguracja.programistyczna.b_wiele_konfiguracji.konfiguracja_źródeł.KonfiguracjaGwiazdyNeutronowej;
+import ja.workshops.spring.części.konfiguracja.programistyczna.b_wiele_konfiguracji.konfiguracja_źródeł.KonfiguracjaZbiorcza;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**

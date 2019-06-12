@@ -1,4 +1,4 @@
-package com.github.wojtechm.a_witaj_swiecie;
+package ja.workshops.spring.części.konfiguracja.programistyczna.a_witaj_swiecie;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

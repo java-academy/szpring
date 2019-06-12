@@ -1,4 +1,4 @@
-package com.github.wojtechm.c_specjalistyczne_ziarna;
+package ja.workshops.spring.części.konfiguracja.programistyczna.c_specjalistyczne_ziarna;
 
 import org.springframework.stereotype.Repository;
 
