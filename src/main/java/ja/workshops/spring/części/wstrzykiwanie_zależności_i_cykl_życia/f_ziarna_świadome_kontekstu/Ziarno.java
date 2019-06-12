@@ -1,0 +1,14 @@
+package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.f_ziarna_świadome_kontekstu;
+
+import org.springframework.stereotype.Component;
+
+/**
+ * @author Marcin Ogorzalek
+ */
+@Component
+public class Ziarno {
+
+  void metodaZiarenka() {
+    System.out.println("Ziarno");
+  }
+}
