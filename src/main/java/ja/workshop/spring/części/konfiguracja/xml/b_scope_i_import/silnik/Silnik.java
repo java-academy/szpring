@@ -1,4 +1,4 @@
-package wrup.spring.b_scope_i_import.silnik;
+package ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.silnik;
 
 /**
  * Interfejs na ziarna.

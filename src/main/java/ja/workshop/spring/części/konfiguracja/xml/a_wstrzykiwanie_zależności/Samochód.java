@@ -1,9 +1,9 @@
-package wrup.spring.a_wstrzykiwanie_zależności;
+package ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności;
 
-import wrup.spring.a_wstrzykiwanie_zależności.silnik.Silnik;
+import ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.Silnik;
 
 /**
- * Ziarno springowe, do którego wstrzykiwany zostaje Silnik. {@link Silnik}
+ * Ziarno springowe, do którego wstrzykiwany zostaje {@link Silnik}.
  *
  * @author Wiktor Rup
  */

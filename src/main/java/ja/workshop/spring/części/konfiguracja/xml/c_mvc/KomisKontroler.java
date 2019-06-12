@@ -1,4 +1,4 @@
-package wrup.spring.c_mvc;
+package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.AbstractController;
@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Kontroler, w którym wyszukany w bazie samochód zostaje przekazany jako atrybut modelu. Model zostaje zwrócony jako widok strony <pre>widok.jsp</pre>
+ * Kontroler, w którym wyszukany w bazie samochód zostaje przekazany jako atrybut modelu. Model zostaje zwrócony jako widok strony <pre>widok.jsp</pre>.
  *
  * @author Wiktor Rup
  */

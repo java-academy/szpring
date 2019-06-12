@@ -1,7 +1,7 @@
-package wrup.spring.c_mvc;
+package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
 
 /**
- * Serwis, który jest warstwą łączącą dane wyciągane z repozytorium {@link RepozytoriumSamochodów} oraz warstwą prezentacji {@link KomisKontroler}
+ * Serwis, który jest warstwą łączącą dane wyciągane z repozytorium {@link RepozytoriumSamochodów} oraz warstwą prezentacji {@link KomisKontroler}.
  *
  * @author Wiktor Rup
  */

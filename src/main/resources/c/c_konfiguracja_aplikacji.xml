@@ -5,24 +5,24 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="wrup.spring.c_mvc"/>
+    <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.c_mvc"/>
 
     <!-- Definiowanie ziaren: -->
-    <bean id="silnik" class="wrup.spring.c_mvc.silnik.OlejNapędowy"/>
-    <bean id="samochód" class="wrup.spring.c_mvc.Samochód">
+    <bean id="silnik" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.OlejNapędowy"/>
+    <bean id="samochód" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.Samochód">
     <constructor-arg ref="silnik"/>
     </bean>
 
     <!-- Repozytorium -->
-    <bean id="repozytoriumSamochodów" class="wrup.spring.c_mvc.RepozytoriumSamochodów"/>
+    <bean id="repozytoriumSamochodów" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.RepozytoriumSamochodów"/>
 
     <!-- Serwis -->
-    <bean id="serwisSamochodowy" class="wrup.spring.c_mvc.SerwisSamochodowy">
+    <bean id="serwisSamochodowy" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.SerwisSamochodowy">
         <constructor-arg ref="repozytoriumSamochodów"/>
     </bean>
 
     <!-- Kontroler -->
-    <bean id="komisKontroler" class="wrup.spring.c_mvc.KomisKontroler">
+    <bean id="komisKontroler" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.KomisKontroler">
         <constructor-arg ref="serwisSamochodowy"/>
     </bean>
 

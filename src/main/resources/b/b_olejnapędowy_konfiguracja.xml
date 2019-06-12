@@ -5,9 +5,9 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="wrup.spring.b_scope_i_import"/>
+    <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import"/>
 
     <!-- Definicja ziaren: -->
-    <bean id="silnikDiesela" class="wrup.spring.b_scope_i_import.silnik.OlejNapędowy"/>
+    <bean id="silnikDiesela" class="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.silnik.OlejNapędowy"/>
 
 </beans>

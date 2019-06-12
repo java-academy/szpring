@@ -1,9 +1,9 @@
-package wrup.spring.c_mvc;
+package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
 
-import wrup.spring.c_mvc.silnik.Silnik;
+import ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.Silnik;
 
 /**
- * Encja samochód, której reprezentacje trzymane są w lokalnej bazie danych {@link RepozytoriumSamochodów}
+ * Encja samochód, której reprezentacje trzymane są w lokalnej bazie danych {@link RepozytoriumSamochodów}.
  *
  * @author Wiktor Rup
  */
