@@ -1,7 +1,7 @@
-package wrup.spring.c_mvc.silnik;
+package ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik;
 
 /**
- * Ziarno spingowe wstrzykiwane do klasy Samochód {@link wrup.spring.c_mvc.Samochód Samochód}
+ * Ziarno spingowe wstrzykiwane do klasy {@link ja.workshop.spring.części.konfiguracja.xml.c_mvc.Samochód Samochód}.
  *
  * @author Wiktor Rup
  */

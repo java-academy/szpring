@@ -10,7 +10,7 @@
                            http://www.springframework.org/schema/context/spring-context.xsd ">
 
     <mvc:annotation-driven />
-    <context:component-scan base-package="wrup.spring.c_mvc"/>
+    <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.c_mvc"/>
     <import resource="classpath:c/c_konfiguracja_aplikacji.xml"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">

@@ -5,14 +5,14 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="wrup.spring.a_wstrzykiwanie_zależności"/>
+    <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności"/>
     <!-- Definicja ziaren: -->
 
 
     <!-- 3. Wstrzykiwanie ziarna fabryką ziaren -->
-    <!--<bean id="fabryczkaFasolekSilników" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"/>-->
+    <!--<bean id="fabryczkaFasolekSilników" class="ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"/>-->
 
-    <!--<bean id="silnik" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"-->
+    <!--<bean id="silnik" class="ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"-->
         <!--factory-method="wybierzSilnik" factory-bean="fabryczkaFasolekSilników">-->
         <!-- ... -->
     <!--</bean>-->

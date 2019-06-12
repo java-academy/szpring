@@ -5,18 +5,18 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
-    <context:component-scan base-package="wrup.spring.c_mvc"/>
+    <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.c_mvc"/>
     <!-- Definicja ziaren: -->
 
     <!-- Wstrzykiwanie ziarna silnika benzynowego -->
 
-    <bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód" scope="singleton">
+    <bean id="samochód" class="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.Samochód" scope="singleton">
         <constructor-arg ref="silnikBenzynowy"/>
     </bean>
 
     <!-- Wstrzykiwanie ziarna silnika diesel'owego -->
 
-    <!--<bean id="samochód" class="wrup.spring.b_scope_i_import.Samochód">-->
+    <!--<bean id="samochód" class="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.Samochód">-->
         <!--<constructor-arg ref="silnikDiesela"/>-->
     <!--</bean>-->
 

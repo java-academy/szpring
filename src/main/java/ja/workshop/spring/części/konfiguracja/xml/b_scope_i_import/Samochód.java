@@ -1,9 +1,9 @@
-package wrup.spring.b_scope_i_import;
+package ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import;
 
-import wrup.spring.b_scope_i_import.silnik.Silnik;
+import ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.silnik.Silnik;
 
 /**
- * Ziarno springowe, do którego wstrzykiwany zostaje Silnik. {@link Silnik}
+ * Ziarno springowe, do którego wstrzykiwany zostaje {@link Silnik}.
  *
  * @author Wiktor Rup
  */

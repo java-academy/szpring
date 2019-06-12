@@ -1,7 +1,7 @@
-package wrup.spring.c_mvc;
+package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
 
-import wrup.spring.c_mvc.silnik.Benzyna;
-import wrup.spring.c_mvc.silnik.OlejNapędowy;
+import ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.Benzyna;
+import ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.OlejNapędowy;
 
 import java.util.Arrays;
 import java.util.List;
