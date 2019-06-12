@@ -1,4 +1,4 @@
-package com.github.wojtechm.przykład_konfiguracji_adnotacjami;
+package b_przykład_konfiguracji_adnotacjami;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

@@ -13,9 +13,9 @@
  *     <li>Przegląd kodu<br/>
  *          Polecam przypomnieć sobie czym są repozytoria, serwisy oraz kontrolery (w tej kolejności)
  *          <ol>
- *              <li>{@link com.github.wojtechm.przykład_konfiguracji_adnotacjami.RozsądneRepozytorium}</li>
- *              <li>{@link com.github.wojtechm.przykład_konfiguracji_adnotacjami.SuperSerwis}</li>
- *              <li>{@link com.github.wojtechm.przykład_konfiguracji_adnotacjami.KreatywnyKontroler}</li>
+ *              <li>{@link b_przykład_konfiguracji_adnotacjami.RozsądneRepozytorium}</li>
+ *              <li>{@link b_przykład_konfiguracji_adnotacjami.SuperSerwis}</li>
+ *              <li>{@link b_przykład_konfiguracji_adnotacjami.KreatywnyKontroler}</li>
  *          </ol>
  *          W dokumentacji tych klas znajdziesz skrótowe przypomnienie czym są wspomniane stereotypy.
  *     </li><br/>
@@ -44,4 +44,4 @@
  * <br/>
  * @author Wojciech Makiela
  */
-package com.github.wojtechm.przykład_konfiguracji_adnotacjami;
+package b_przykład_konfiguracji_adnotacjami;

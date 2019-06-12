@@ -1,4 +1,4 @@
-package com.github.wojtechm.przykład_konfiguracji_adnotacjami;
+package b_przykład_konfiguracji_adnotacjami;
 
 /**
  * Proste POJO. Ot zwykła otoczka na imię.
