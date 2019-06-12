@@ -7,7 +7,7 @@
            http://www.springframework.org/schema/context
            http://www.springframework.org/schema/context/spring-context.xsd">
     <context:annotation-config/>
-    <!-- Zdefiniowanie ziarna klawiatura bezarumentowo -->
+    <!-- Zdefiniowanie ziarna klawiatura bezargumentowo -->
     <bean id="klawiatura" class="a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Klawiatura"/>
     <!-- Zdefiniowanie ziarna przycisk -->
     <bean id="przycisk" class="a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.Przycisk"/>
