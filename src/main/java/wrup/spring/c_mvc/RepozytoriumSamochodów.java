@@ -26,7 +26,7 @@ public class RepozytoriumSamochodów {
         );
     }
 
-
+    //Brzydkie rozwiązanie, tylko w ramach prezentacji prostego mvc
     Samochód wynajmijSamochódPoId(Long id) {
         id = id % samochody.size();
         for (Samochód samochód : samochody) {
