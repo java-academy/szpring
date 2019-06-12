@@ -31,8 +31,8 @@
  * <br/>
  * Aby uruchomić Tomcata użyj komendy:
  * <p>{@code mvn tomcat7:run}</p>
- * jeśli chcesz uruchomić go na innym porcie niż domyślny (8080), to udaj się proszę do pom.xml
- * <p>{@code mvn -Djetty.port=8888 jetty:run}</p>
+ * jeśli chcesz uruchomić go na innym porcie niż domyślny (8080), użyj polecenia
+ * <p>{@code mvn tomcat7:run -Dmaven.tomcat.port=8888}</p>
  * <br/>
  * @author Wojciech Makiela
  */
