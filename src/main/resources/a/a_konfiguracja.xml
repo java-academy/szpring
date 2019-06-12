@@ -9,7 +9,7 @@
     <!-- Definicja ziaren: -->
 
 
-    <!-- 3. Wstrzykiwanie ziarna fabryką fasolek -->
+    <!-- 3. Wstrzykiwanie ziarna fabryką ziaren -->
     <!--<bean id="fabryczkaFasolekSilników" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"/>-->
 
     <!--<bean id="silnik" class="wrup.spring.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"-->

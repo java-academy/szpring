@@ -27,6 +27,7 @@ public class RepozytoriumSamochodów {
     }
 
 
+    //Zwracanie nullka w tym przypadku jest złe, tym bardziej gdy jest to repozytorium. Nie róbcie tak.
     Samochód wynajmijSamochódPoId(Long id) {
         id = id % samochody.size();
         for (Samochód samochód : samochody) {

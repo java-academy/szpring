@@ -14,10 +14,11 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 class Main {
 
     public static void main(String[] args) {
-        ApplicationContext context = new ClassPathXmlApplicationContext("a/a_konfiguracja.xml");
-        Samochód samochód = context.getBean(Samochód.class);
+        ApplicationContext kontekst = new ClassPathXmlApplicationContext("a/a_konfiguracja.xml");
+        Samochód samochód = kontekst.getBean(Samochód.class);
 
 
+        // FIXME: 12.06.19 - do odkomentowania w ramach zadania opisanego w pliku package-info.java
         //System.out.println(samochód.getSilnik().start());
 
 
