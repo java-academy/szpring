@@ -1,7 +1,7 @@
 package a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni;
 
 /**
- * Klasa, która reprezentuje reaktor chemiczny, czyli zależność, która zostaje wstrzyknięta do klasy Elektrownia za pomocą settera.
+ * Klasa, która reprezentuje reaktor chemiczny, czyli zależność, która zostaje wstrzyknięta do klasy {@link a_adnotacje_wstrzykiwania.qualifier.Elektrownia Elektrownia} za pomocą settera.
  *
  * @author Wiktor Rup
  * @see Reaktor

@@ -3,7 +3,7 @@ package a_adnotacje_wstrzykiwania.autowired.komponenty_komputera;
 import org.springframework.beans.factory.annotation.Required;
 
 /**
- * Reprezetnacja Portu, czyli zależność, która zostaje wstrzyknięta do klasy Komputer za pomocą pola (kolekcja).
+ * Reprezetnacja Portu, czyli zależność, która zostaje wstrzyknięta do klasy {@link a_adnotacje_wstrzykiwania.autowired.Komputer Komputer} za pomocą pola (kolekcja).
  *
  * @author Wiktor Rup
  * @see IPort

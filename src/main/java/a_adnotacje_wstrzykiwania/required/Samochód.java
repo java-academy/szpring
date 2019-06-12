@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Required;
  * Od wersji 5.1 adnotacja @Required jest adnotacją przestarzałą z racji na to,
  * że wymagane zależności powinny być wstrzykiwane przez konstruktor.
  * <p>
- * Do prezentacji działania adnotacji Required zmienić wersję Springa na 5.0.9.
+ * Do prezentacji działania adnotacji Required zmienić wersję Springa na 5.0.9 w pliku <code>pom.xml</code>.
  *
  * @author Wiktor Rup
  */
