@@ -3,12 +3,13 @@ package ja.workshops.spring.części.konfiguracja.programistyczna.a_witaj_swieci
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * Przedstawienie 3 z 4 sposobów inicjalizacji klasy {@link AnnotationConfigApplicationContext}
- * - Użycie metody register()
- * - Podanie klas w konstruktorze
- * - Podanie pakietu gdzie poszukiwana będzie konfiguracja
- *
- * W celu przełączania się pomiędzy poszczególnymi sposobami zmień wartość zmiennej ŹRÓDŁO_KONFIGURACJI
+ * Przedstawienie 3 z 4 sposobów inicjalizacji klasy {@code AnnotationConfigApplicationContext}
+ * <ul>
+ *      <li>Użycie metody register()</li>
+ *      <li>Podanie klas w konstruktorze</li>
+ *      <li>Podanie pakietu gdzie poszukiwana będzie konfiguracja</li>
+ * </ul>
+ * W celu przełączania się pomiędzy poszczególnymi sposobami zmień wartość zmiennej {@code ŹRÓDŁO_KONFIGURACJI}.
  *
  * @author Wojciech Makiela
  */
