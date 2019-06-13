@@ -6,31 +6,36 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
                              http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
 
-<display-name>Spring MVC XML konfiguracja</display-name>
+    <display-name>Spring MVC XML konfiguracja</display-name>
 
-<context-param>
-    <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:c/c_konfiguracja_aplikacji.xml</param-value>
-</context-param>
-
-<listener>
-    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-</listener>
-
-<servlet>
-    <servlet-name>KomisKontroler</servlet-name>
-    <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-    <init-param>
+    <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>classpath:c/c_konfiguracja_web.xml</param-value>
-    </init-param>
-    <load-on-startup>1</load-on-startup>
-</servlet>
+    </context-param>
 
-<servlet-mapping>
-    <servlet-name>KomisKontroler</servlet-name>
-    <url-pattern>/</url-pattern>
-</servlet-mapping>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>KomisKontroler</servlet-name>
+        <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+        <init-param>
+            <param-name>contextClass</param-name>
+            <param-value>
+                org.springframework.web.context.support.AnnotationConfigWebApplicationContext
+            </param-value>
+        </init-param>
+        <init-param>
+            <param-name>contextConfigLocation</param-name>
+            <param-value>classpath:c/c_konfiguracja_web.xml</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>KomisKontroler</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
 
 </web-app>
-

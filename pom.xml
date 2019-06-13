@@ -27,6 +27,7 @@
         <!-- Spring -->
         <spring-bom.version>5.1.7.RELEASE</spring-bom.version>
         <jackson.version>1.9.13</jackson.version>
+        <slf4j.version>1.6.4</slf4j.version>
     </properties>
 
 
@@ -68,12 +69,12 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.6.4</version>
+            <version>${slf4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>1.6.4</version>
+            <version>${slf4j.version}</version>
         </dependency>
     </dependencies>
 
