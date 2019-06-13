@@ -10,7 +10,7 @@
 
 <context-param>
     <param-name>contextConfigLocation</param-name>
-    <param-value>classpath:c/c_konfiguracja_aplikacji.xml</param-value>
+    <param-value>classpath:c/c_konfiguracja_web.xml</param-value>
 </context-param>
 
 <listener>
