@@ -10,9 +10,9 @@
 
 
     <!-- 3. Wstrzykiwanie ziarna fabryką ziaren -->
-    <!--<bean id="fabryczkaFasolekSilników" class="ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"/>-->
+    <!--<bean id="fabryczkaFasolekSilników" class="FabryczkaZiarenSilników"/>-->
 
-    <!--<bean id="silnik" class="ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników"-->
+    <!--<bean id="silnik" class="FabryczkaZiarenSilników"-->
         <!--factory-method="wybierzSilnik" factory-bean="fabryczkaFasolekSilników">-->
         <!-- ... -->
     <!--</bean>-->

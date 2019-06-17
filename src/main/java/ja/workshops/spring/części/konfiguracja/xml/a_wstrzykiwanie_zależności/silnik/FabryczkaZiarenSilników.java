@@ -1,7 +1,9 @@
-package ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik;
+package ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik;
+
+import ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Samochód;
 
 /**
- * Fabryka ziaren. Pozwala na wstrzyknięcie konkretnego ziarna do interesującej nas klasy {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Samochód Samochód}.
+ * Fabryka ziaren. Pozwala na wstrzyknięcie konkretnego ziarna do interesującej nas klasy {@link Samochód Samochód}.
  *
  * @author Wiktor Rup
  */

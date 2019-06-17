@@ -8,6 +8,6 @@
     <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import"/>
 
     <!-- Definicja ziaren: -->
-    <bean id="silnikDiesela" class="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.silnik.OlejNapędowy"/>
+    <bean id="silnikDiesela" class="ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import.silnik.OlejNapędowy"/>
 
 </beans>

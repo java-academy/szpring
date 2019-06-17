@@ -15,4 +15,4 @@
  *
  * @author Wiktor Rup
  */
-package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
+package ja.workshops.spring.części.konfiguracja.xml.c_mvc;

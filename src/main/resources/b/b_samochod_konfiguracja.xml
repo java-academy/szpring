@@ -10,13 +10,13 @@
 
     <!-- Wstrzykiwanie ziarna silnika benzynowego -->
 
-    <bean id="samochód" class="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.Samochód" scope="singleton">
+    <bean id="samochód" class="ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import.Samochód" scope="singleton">
         <constructor-arg ref="silnikBenzynowy"/>
     </bean>
 
     <!-- Wstrzykiwanie ziarna silnika diesel'owego -->
 
-    <!--<bean id="samochód" class="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.Samochód">-->
+    <!--<bean id="samochód" class="Samochód">-->
         <!--<constructor-arg ref="silnikDiesela"/>-->
     <!--</bean>-->
 

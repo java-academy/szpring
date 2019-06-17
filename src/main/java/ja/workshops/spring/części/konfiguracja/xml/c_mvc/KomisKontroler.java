@@ -1,4 +1,4 @@
-package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
+package ja.workshops.spring.części.konfiguracja.xml.c_mvc;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.AbstractController;

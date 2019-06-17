@@ -1,4 +1,4 @@
-package ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności;
+package ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności;
 
 
 import org.springframework.context.ApplicationContext;

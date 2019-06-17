@@ -1,6 +1,6 @@
-package ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import;
+package ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import;
 
-import ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import.silnik.Silnik;
+import ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import.silnik.Silnik;
 
 /**
  * Ziarno springowe, do którego wstrzykiwany zostaje {@link Silnik}.

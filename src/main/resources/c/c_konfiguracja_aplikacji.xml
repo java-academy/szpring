@@ -8,21 +8,21 @@
     <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.c_mvc"/>
 
     <!-- Definiowanie ziaren: -->
-    <bean id="silnik" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.OlejNapędowy"/>
-    <bean id="samochód" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.Samochód">
+    <bean id="silnik" class="ja.workshops.spring.części.konfiguracja.xml.c_mvc.silnik.OlejNapędowy"/>
+    <bean id="samochód" class="ja.workshops.spring.części.konfiguracja.xml.c_mvc.Samochód">
         <constructor-arg ref="silnik"/>
     </bean>
 
     <!-- Repozytorium -->
-    <bean id="repozytoriumSamochodów" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.RepozytoriumSamochodów"/>
+    <bean id="repozytoriumSamochodów" class="ja.workshops.spring.części.konfiguracja.xml.c_mvc.RepozytoriumSamochodów"/>
 
     <!-- Serwis -->
-    <bean id="serwisSamochodowy" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.SerwisSamochodowy">
+    <bean id="serwisSamochodowy" class="ja.workshops.spring.części.konfiguracja.xml.c_mvc.SerwisSamochodowy">
         <constructor-arg ref="repozytoriumSamochodów"/>
     </bean>
 
     <!-- Kontroler -->
-    <bean id="komisKontroler" class="ja.workshop.spring.części.konfiguracja.xml.c_mvc.KomisKontroler">
+    <bean id="komisKontroler" class="ja.workshops.spring.części.konfiguracja.xml.c_mvc.KomisKontroler">
         <constructor-arg ref="serwisSamochodowy"/>
     </bean>
 

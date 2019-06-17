@@ -1,4 +1,4 @@
-package ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik;
+package ja.workshops.spring.części.konfiguracja.xml.c_mvc.silnik;
 
 /**
  * @author Wiktor Rup

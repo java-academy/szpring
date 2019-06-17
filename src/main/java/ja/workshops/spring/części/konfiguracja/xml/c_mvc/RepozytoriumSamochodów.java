@@ -1,7 +1,7 @@
-package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
+package ja.workshops.spring.części.konfiguracja.xml.c_mvc;
 
-import ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.Benzyna;
-import ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.OlejNapędowy;
+import ja.workshops.spring.części.konfiguracja.xml.c_mvc.silnik.Benzyna;
+import ja.workshops.spring.części.konfiguracja.xml.c_mvc.silnik.OlejNapędowy;
 
 import java.util.Arrays;
 import java.util.List;

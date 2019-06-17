@@ -1,4 +1,4 @@
-package ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import;
+package ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import;
 
 
 import org.springframework.context.ApplicationContext;

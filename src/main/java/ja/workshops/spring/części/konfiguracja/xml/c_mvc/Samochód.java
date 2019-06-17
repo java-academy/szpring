@@ -1,6 +1,6 @@
-package ja.workshop.spring.części.konfiguracja.xml.c_mvc;
+package ja.workshops.spring.części.konfiguracja.xml.c_mvc;
 
-import ja.workshop.spring.części.konfiguracja.xml.c_mvc.silnik.Silnik;
+import ja.workshops.spring.części.konfiguracja.xml.c_mvc.silnik.Silnik;
 
 /**
  * Encja samochód, której reprezentacje trzymane są w lokalnej bazie danych {@link RepozytoriumSamochodów}.

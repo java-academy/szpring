@@ -10,20 +10,20 @@
  *  </ul>
  *
  *  <h2>1. Definiowanie ziaren</h2>
- *      <p>W pakiecie dostępna jest klasa {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Samochód Samochód}</p>
+ *      <p>W pakiecie dostępna jest klasa {@link ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Samochód Samochód}</p>
  *      <p>Tę klasę będziemy chcieli zadeklarować jako ziarno springowe naszej aplikacji.</p>
- *      <p>Spróbuj odpalić klasę {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Main Main} a następnie naprawić występujący problem.</p>
+ *      <p>Spróbuj odpalić klasę {@link ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Main Main} a następnie naprawić występujący problem.</p>
  *
  *      <p>Dodaj deklarację ziarna "samochód" w pliku konfiguracyjnym <font color="yellow">{@code a_konfiguracja.xml}</font> w pakiecie <font color="yellow">{@code resources/a/}</font></p>
  *      <p>W razie problemów wspomóż się prezentacją.</p>
  *  <br>
 
  *  <h2>2. Wstrzykiwanie zależności</h2>
- *      <p>W pakiecie znajdują się dwie klasy {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.Benzyna Benzyna} oraz {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.OlejNapędowy OlejNapędowy}</p>
- *      <p>Reprezentują one zależność, którą chcemy mieć w klasie {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Samochód Samochód}.</p>
+ *      <p>W pakiecie znajdują się dwie klasy {@link ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.Benzyna Benzyna} oraz {@link ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.OlejNapędowy OlejNapędowy}</p>
+ *      <p>Reprezentują one zależność, którą chcemy mieć w klasie {@link ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Samochód Samochód}.</p>
  *      <p>Każdy samochód ma silnik, a silnik ten może być silnikiem napędzanym benzyną lub olejem napędowym.</p>
  *
- *      <p>Odkomentuj linię oznaczoną FIXME z datą 12 czerwca w klasie {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Main Main} i spróbuj naprawić problem, który się pojawił.</p>
+ *      <p>Odkomentuj linię oznaczoną FIXME z datą 12 czerwca w klasie {@link ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Main Main} i spróbuj naprawić problem, który się pojawił.</p>
  *      <p>Zadeklaruj ziarna w pliku <font color="yellow">{@code a_konfiguracja.xml}</font> tak jak zrobiliśmy to w przypadku klasy Samochód.</p>
  *
  *      <p><b>Czy problem zniknął?</b></p>
@@ -44,7 +44,7 @@
  *      <br>
  *
  *      <h3>2.3 Fabryka ziaren</h3>
- *          <p>W pakiecie znajduje się klasa {@link ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników FabryczkaZiarenSilników}.</p>
+ *          <p>W pakiecie znajduje się klasa {@link ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.FabryczkaZiarenSilników FabryczkaZiarenSilników}.</p>
  *          <p>W pliku <font color="yellow">{@code a_konfiguracja.xml}</font> odkomentuj linie, które następują po <b><i>3. Wstrzykiwanie ziarna fabryką ziaren</i></b> i spróbuj dokończyć implementację wstrzykiwania zależności z wykorzystaniem fabryki ziaren.</p>
  *      <br>
  *  <p>Poniżej link do dokumentacji: </p>
@@ -52,4 +52,4 @@
  *  <p><i><note> Dokumentacja dla wersji springa 4.3.x, w projekcie natomiast jest używana wersja 5.1.7. Syntaks używanej konfiguracja XML nie różni się między tymi werjsami.</note></i></p>
  * @author Wiktor Rup
  */
-package ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności;
+package ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności;

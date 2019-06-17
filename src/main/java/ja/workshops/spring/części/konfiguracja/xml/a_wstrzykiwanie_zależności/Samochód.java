@@ -1,6 +1,6 @@
-package ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności;
+package ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności;
 
-import ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.Silnik;
+import ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik.Silnik;
 
 /**
  * Ziarno springowe, do którego wstrzykiwany zostaje {@link Silnik}.
