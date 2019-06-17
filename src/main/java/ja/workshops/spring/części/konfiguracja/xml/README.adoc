@@ -9,15 +9,17 @@ endif::[]
 
 = SpringXMLConfig
 
+image::spring.png[]
+
 == Co to jest?
 W tym repozytorium znajdziesz przykładowe zadania oraz prezentację przedstawiającą konfigurację aplikacji springowej przez pliki XML. +
 Zagadnienia:
 
- * Podstawy konfiguracji xmlowej - setter, konstruktor, fabryka ziaren
- * Łączenie kilku konfiguracji
- * Zasięg ziaren
- * Tworzenie prostej aplikacji z wykorzystaniem kontrolera, serwisu i repozytorium
- * Dobre praktyki
+ . Podstawy konfiguracji xmlowej - setter, konstruktor, fabryka ziaren
+ . Łączenie kilku konfiguracji
+ . Zasięg ziaren
+ . Tworzenie prostej aplikacji z wykorzystaniem kontrolera, serwisu i repozytorium
+ . Dobre praktyki
 
 
 === Instrukcja:

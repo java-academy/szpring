@@ -3,7 +3,7 @@ package ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależnoś
 import ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.Samochód;
 
 /**
- * Ziarno spingowe wstrzykiwane do klasy {@link Samochód Samochód}.
+ * Ziarno springowe wstrzykiwane do klasy {@link Samochód Samochód}.
  *
  * @author Wiktor Rup
  */

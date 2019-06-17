@@ -3,7 +3,7 @@ package ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import.silnik;
 import ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import.Samochód;
 
 /**
- * Ziarno spingowe wstrzykiwane do klasy {@link Samochód Samochód}.
+ * Ziarno springowe wstrzykiwane do klasy {@link Samochód Samochód}.
  *
  * @author Wiktor Rup
  */

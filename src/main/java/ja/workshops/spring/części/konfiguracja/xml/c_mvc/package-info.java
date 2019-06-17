@@ -12,6 +12,7 @@
  *  <p><b>{@code mvn tomcat7:run}</b>
  *  <p>lub</p>
  *  <p><b>{@code mvn tomcat7:run -Dmaven.tomcat.port=8888}</b></p> w przypadku gdy Twój port 8080 jest zajęty.
+ *  <p>Następnie wpisz w przeglądarkę adres: <b>localhost:<i>tutaj_odpowiedni_port/Spring/komis</i></b> i sprawdź działanie aplikacji.</p>
  *
  * @author Wiktor Rup
  */

@@ -11,7 +11,6 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author Wiktor Rup
  */
-
 public class KomisKontroler extends AbstractController {
 
     private final SerwisSamochodowy serwisSamochodowy;

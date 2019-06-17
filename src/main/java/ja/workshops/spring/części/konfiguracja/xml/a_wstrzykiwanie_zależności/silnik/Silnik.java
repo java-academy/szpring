@@ -1,7 +1,7 @@
 package ja.workshops.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności.silnik;
 
 /**
- * Interfejs na fasolki.
+ * Interfejs na ziarna.
  *
  * @author Wiktor Rup
  */
