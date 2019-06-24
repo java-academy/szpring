@@ -5,9 +5,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 
 /**
- * Klasa prezentująca działanie adnotacji Qualifier. {@link Qualifier}
+ * Reprezentacja działania adnotacji Qualifier.
  *
  * @author Wiktor Rup
+ * @see Qualifier
  */
 public class Elektrownia {
 

@@ -16,9 +16,9 @@ class Klawiatura implements KomponentKomputera {
     private KomponentKlawiatury przycisk;
     /**
      * Wsztrzykiwanie zależności przez dodanie adnotacji Autowired na polu.
-     * Ta metoda wsztrzykiwania zależności nie jest zalecana. Powody to:
+     * Ta metoda wsztrzykiwania zależności jest niezalecana. Powody to:
      * - Nie ma możliwości zadeklarowania pola finalnego, niezmiennego.
-     * - Łatwo złamać zasadę pojedynczej odpowiedzialności klasy, ponieważ wiele pól w klasie z adnotacją Autowired wcale nie wygląda tak źle, a pod spodem dzieją się rzeczy i powstaje słoneczko.
+     * - Łatwo złamać zasadę pojedynczej odpowiedzialności klasy, ponieważ wiele pól w klasie z adnotacją Autowired wcale nie wygląda tak źle, a pod spodem  i powstaje słoneczko.
      * - Nasza klasa staje się ściśle powiązana (jeżeli nie mamy setterów i getterów, a to główny cel stosowania wstrzykiwania przez pole) i jest wiązana przez springowy wstrzykiwacz klas,
      * co w rezultacie czyni klasę bezużyteczną poza springowym pojemnikiem.
      * - Korzystając ze wzorca wstrzykiwania zależności, powinny one być wyraźnie widoczne przez stosowanie interferjsu lub setterów. W przypadku wstrzykiwania przez pole zależności te są ukrywane.
@@ -28,7 +28,7 @@ class Klawiatura implements KomponentKomputera {
 
     /**
      * Wsztrzykiwanie zależności przez dodanie adnotacji Autowired na konstrukotrze.
-     * Najbardziej preferowany sposób wstrzykiwania zależności. Mamy wówczas pewność że dana klasa (fasolka) jest od początku inicjalizowana ze wszystkimi wymaganymi zależnościami.
+     * Najbardziej preferowany sposób wstrzykiwania zależności. Mamy wówczas pewność że dana klasa (ziarno) jest od początku inicjalizowana ze wszystkimi wymaganymi zależnościami.
      *
      * @param nóżka - pole nóżka przekazywane przez konstruktor - zależność klasy.
      */
@@ -42,9 +42,9 @@ class Klawiatura implements KomponentKomputera {
     }
 
     /**
-     * Wstrzykiwanie zależności przez dodanie adnotacji Autowired na setterze
+     * Wstrzykiwanie zależności przez dodanie adnotacji Autowired na setterze.
      *
-     * @param przycisk - przycisk przekazywany przez metodę set, czyli nasza zależność
+     * @param przycisk - przycisk przekazywany przez metodę set, czyli nasza zależność.
      * @see KomponentKlawiatury
      */
     @Autowired

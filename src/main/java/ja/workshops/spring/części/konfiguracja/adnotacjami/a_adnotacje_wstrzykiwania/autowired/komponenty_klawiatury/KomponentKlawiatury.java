@@ -1,7 +1,7 @@
 package ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury;
 
 /**
- * Interfejs, który reprezentuje komponent (składnik) klawiatury.
+ * Reprezentacja ziaren, które są komponentami klawiatury.
  *
  * @author Wiktor Rup
  */

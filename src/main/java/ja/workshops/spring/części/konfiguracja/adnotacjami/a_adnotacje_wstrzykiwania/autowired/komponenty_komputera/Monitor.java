@@ -2,7 +2,7 @@ package ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzy
 
 
 /**
- * Reprezetnacja Monitora, czyli zależność, która zostaje wstrzyknięta do klasy {@link a_adnotacje_wstrzykiwania.autowired.Komputer Komputer} za pomocą metody z parametrami.
+ * Reprezentacja monitora, czyli zależność, która zostaje wstrzyknięta do klasy {@link a_adnotacje_wstrzykiwania.autowired.Komputer Komputer} za pomocą metody z parametrami.
  *
  * @author Wiktor Rup
  * @see KomponentKomputera

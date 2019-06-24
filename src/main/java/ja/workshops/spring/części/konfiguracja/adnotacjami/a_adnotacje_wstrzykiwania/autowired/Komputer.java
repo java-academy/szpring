@@ -7,9 +7,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import java.util.Set;
 
 /**
- * Reprezetnacja wstrzykiwania zależności na różne sposoby. {@link Autowired}
+ * Reprezentacja wstrzykiwania zależności na różne sposoby.
  *
  * @author Wiktor Rup
+ * @see Autowired
  * @see IPort
  * @see KomponentKomputera
  */
