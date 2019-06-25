@@ -24,9 +24,6 @@ class Komputer {
 
     /**
      * Metoda przedstawia mechanizm wstrzykiwania zależności poprzez dowolną metodę z parametrami.
-     *
-     * @param klawiatura
-     * @param monitor
      */
     @Autowired
     void podłączKomponentyDoKomputera(KomponentKomputera klawiatura, KomponentKomputera monitor) {

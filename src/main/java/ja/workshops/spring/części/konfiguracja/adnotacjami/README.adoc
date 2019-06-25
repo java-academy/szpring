@@ -7,7 +7,7 @@ ifdef::env-github[]
 endif::[]
 = SpringJavaConfig
 
-Podczas pracy z tym repozytorium poruszysz tematy:
+Podczas pracy z tym pakietem poruszysz tematy:
 
 . Podstawy konfiguracji adnotacjami - `@Autowired`, `@Qualifier`, `@Required`.
 . Wstrzykiwanie przez pole, setter oraz konstruktor.

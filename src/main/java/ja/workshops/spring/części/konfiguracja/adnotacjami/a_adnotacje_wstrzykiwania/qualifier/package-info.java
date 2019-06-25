@@ -2,7 +2,7 @@
  * <h1>Adnotacja Qualifier!</h1>
  *
  *  <p>Podczas zapoznania się z kodem w tym pakiecie dowiesz się o sytuacji,
- *  gdzie kilka ziaren implementuje dany interfejs i musimy wskazać implementację, która ma zostać wstrzyknięta.</p>
+ *  gdzie kilka ziaren implementuje dany interfejs lub rozszerza tą samą klasę i musimy wskazać implementację, która ma zostać wstrzyknięta.</p>
  *  <p>Do tego wykorzystana jest adnotacja {@link org.springframework.beans.factory.annotation.Qualifier Qualifier}.</p>
  *
  *  <p>Zacznij od analizy klas {@link a_adnotacje_wstrzykiwania.qualifier.komponenty_elektrowni.ReaktorChemiczny ReaktorChemiczny}
