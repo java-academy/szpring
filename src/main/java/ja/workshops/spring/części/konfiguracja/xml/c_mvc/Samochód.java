@@ -3,7 +3,9 @@ package ja.workshops.spring.części.konfiguracja.xml.c_mvc;
 import ja.workshops.spring.części.konfiguracja.xml.c_mvc.silnik.Silnik;
 
 /**
- * Encja samochód, której reprezentacje trzymane są w lokalnej bazie danych {@link RepozytoriumSamochodów}.
+ * Encja samochód, której reprezentacje trzymane są w imitowanej bazie danych {@link RepozytoriumSamochodów}.
+ * Nazwanie klasy "encją" jest tutaj błędne, ponieważ nie jest to prawdziwa reprezentacja obiektu bazodanowego,
+ * aczkolwiek w ramach ćwiczenia i zobrazowania działania prostej aplikacji typu Model-Widok-Kontroler zastosowana została taka nazwa.
  *
  * @author Wiktor Rup
  */
@@ -31,7 +33,7 @@ public class Samochód {
     }
 
     /**
-     * Do poprawnego wyświetlenia interesujących nas danych w zwracanym modelu <pre>widok.jsp</pre> niezbędne są publiczne metody get.
+     * Do poprawnego wyświetlenia interesujących nas danych w zwracanym widoku <pre>widok.jsp</pre> niezbędne są publiczne metody get.
      */
     public long getId() {
         return id;

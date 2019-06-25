@@ -1,7 +1,7 @@
 package ja.workshops.spring.części.konfiguracja.xml.c_mvc;
 
 /**
- * Serwis, który jest warstwą łączącą dane wyciągane z repozytorium {@link RepozytoriumSamochodów} oraz warstwą prezentacji {@link KomisKontroler}.
+ * Łącznik, który wyciąga dane z repozytorium {@link RepozytoriumSamochodów} i udostępnia je warstwie prezentacji poprzez {@link KomisKontroler}.
  *
  * @author Wiktor Rup
  */

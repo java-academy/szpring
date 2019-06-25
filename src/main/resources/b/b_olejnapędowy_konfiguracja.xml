@@ -5,9 +5,12 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+        Poniższa konfiguracja skanuje zadeklarowaną paczkę w poszukiwaniu ziaren, które mają zostać zainicjalizowane w kontekście aplikacji.
+     -->
     <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.b_scope_i_import"/>
 
-    <!-- Definicja ziaren: -->
+    <!-- Zdefiniowanie ziarna bez parametrów -->
     <bean id="silnikDiesela" class="ja.workshops.spring.części.konfiguracja.xml.b_scope_i_import.silnik.OlejNapędowy"/>
 
 </beans>

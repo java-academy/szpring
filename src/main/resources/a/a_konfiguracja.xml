@@ -5,15 +5,18 @@
                            http://www.springframework.org/schema/beans/spring-beans.xsd
                            http://www.springframework.org/schema/context
                            http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+        Poniższa konfiguracja skanuje zadeklarowaną paczkę w poszukiwaniu ziaren, które mają zostać zainicjalizowane w kontekście aplikacji.
+     -->
     <context:component-scan base-package="ja.workshop.spring.części.konfiguracja.xml.a_wstrzykiwanie_zależności"/>
     <!-- Definicja ziaren: -->
 
 
     <!-- 3. Wstrzykiwanie ziarna fabryką ziaren -->
-    <!--<bean id="fabryczkaFasolekSilników" class="FabryczkaZiarenSilników"/>-->
+    <!--<bean id="fabryczkaZiarenSilników" class="FabryczkaZiarenSilników"/>-->
 
     <!--<bean id="silnik" class="FabryczkaZiarenSilników"-->
-        <!--factory-method="wybierzSilnik" factory-bean="fabryczkaFasolekSilników">-->
+        <!--factory-method="wybierzSilnik" factory-bean="fabryczkaZiarenSilników">-->
         <!-- ... -->
     <!--</bean>-->
 

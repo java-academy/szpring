@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Repozytorium samochodów. Ziarno obrazujące warstwę, w której mamy dostęp do lokalnej bazy danych.
+ * Implementacja, która imituje bazę danych samochodów, które są w komisie.
+ * Dostęp do bazy danych w założeniu wzorca Model-Widok-Kontroler ma warstwa modelu, w tym wypadku {@link SerwisSamochodowy}
  *
  * @author Wiktor Rup
  */
@@ -27,7 +28,6 @@ public class RepozytoriumSamochodów {
     }
 
 
-    //Zwracanie nullka w tym przypadku jest złe, tym bardziej gdy jest to repozytorium. Nie róbcie tak.
     Samochód wynajmijSamochódPoId(Long id) {
         id = id % samochody.size();
         for (Samochód samochód : samochody) {
@@ -35,6 +35,7 @@ public class RepozytoriumSamochodów {
                 return samochód;
             }
         }
+        //Zwracanie nullka w tym przypadku jest złe, tym bardziej gdy jest to repozytorium. Nie róbcie tak.
         return null;
     }
 }
