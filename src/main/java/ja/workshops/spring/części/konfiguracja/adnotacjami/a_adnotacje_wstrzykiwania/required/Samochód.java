@@ -29,7 +29,7 @@ class Samochód {
 
 
     /**
-     * Adnotacja <code>@Required</code> działa w drugim etapie cyklu życia, zaraz po inicjalizacji ziarna, czyli "populate propertries".
+     * Adnotacja <code>@Required</code> działa w drugim etapie cyklu życia, zaraz po inicjalizacji ziarna, czyli "populate properties".
      * Z perspektywy kodu, konstruktor naszego ziarna jest wywoływany, po czym następuje próba inicjalizacji wymaganych zmiennych.
      * Jeżeli przy definicji ziarna nie podaliśmy wymaganych wartości to otrzymamy wyjątek <code>BeanInitializationException</code>, a tworzenie ziarna zakończy się jeszcze przed etapem "BeanNameAware's".
      *
