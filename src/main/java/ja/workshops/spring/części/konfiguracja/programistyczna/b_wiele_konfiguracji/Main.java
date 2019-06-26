@@ -24,7 +24,7 @@ class Main {
     }
 
     private static AnnotationConfigApplicationContext stwórzContext() {
-        // Zmień aby użyć konfiguracji zbiorczej, lub konfiguracji poprzez podawanie pojedynczych klas
+        // FIXME: 24.06.19 - Zmień aby użyć konfiguracji zbiorczej, lub konfiguracji poprzez podawanie pojedynczych klas
         boolean użyjZbiorczej = false;
         if (użyjZbiorczej)
             return new AnnotationConfigApplicationContext(KonfiguracjaZbiorcza.class);

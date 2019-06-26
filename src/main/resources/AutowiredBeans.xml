@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Komentarz dotyczy powyższej linijki.
+    Wersja 1.0 - w tym wypadku wystarcza i pozwala na poprawne interpretowanie nawet przez starsze systemy nieobsługujące wyższych wersji XML.
+    Kodowanie UTF-8 - XML jest to sekwencja bajtów dla systemu(procesora XML), który go odbiera i interpretuje. Aby nie mieć wątpliwości, że plik zostanie zinterpretowany i odkodowany poprawnie, należy zdefiniować kodowanie użyte w pliku XML.
+-->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--
+        Poniższa konfiguracja jest potrzebna, aby aktywować działanie adnotacji (np. @Autowired, czy @Qualifier) w ziarnach, które są załadowane w kontekście aplikacji.
+        Nie ma znaczenia, czy ziarna zostały zdefiniowane w pliku XML, czy znalezione podczas skanowania pakietów
+    -->
+    <context:annotation-config/>
+    <!-- Zdefiniowanie ziaren bez parametrów -->
+    <bean id="klawiatura" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Klawiatura"/>
+    <bean id="przycisk" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.Przycisk"/>
+    <bean id="dioda" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.Dioda"/>
+    <bean id="nóżka" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_klawiatury.Nóżka"/>
+    <bean id="monitor" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Monitor"/>
+    <bean id="komputer" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.Komputer"/>
+
+    <!-- Zdefiniowanie ziaren z parametrami -->
+    <bean id="portHDMI" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Port">
+        <property name="nazwa" value="HDMI"/>
+    </bean>
+    <bean id="portUSB" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Port">
+        <property name="nazwa" value="USB"/>
+    </bean>
+    <bean id="portEthernet" class="ja.workshops.spring.części.konfiguracja.adnotacjami.a_adnotacje_wstrzykiwania.autowired.komponenty_komputera.Port">
+        <property name="nazwa" value="Ethernet"/>
+    </bean>
+
+</beans>

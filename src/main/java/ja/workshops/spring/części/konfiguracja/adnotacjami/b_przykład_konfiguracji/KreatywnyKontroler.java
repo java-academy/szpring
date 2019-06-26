@@ -1,4 +1,4 @@
-package ja.workshops.spring.części.konfiguracja.programistyczna.c_specjalistyczne_ziarna;
+package ja.workshops.spring.części.konfiguracja.adnotacjami.b_przykład_konfiguracji;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -8,16 +8,16 @@ import org.springframework.web.bind.annotation.GetMapping;
  * Kontroler - w aplikacjach webowych bramka wejściowa do aplikacji.
  * Pobiera dane od użytkownika, oraz zwraca odpowiedni widok - HTML.
  *
- * <p><i>W imię prezentacji HTML jest zaszyty w zmiennej. Na projekcie tak nie róbcie ;(</i></p>
- * <br/>
+ * W imię prezentacji HTML jest zaszyty w zmiennej. Na projekcie tak nie róbcie ;(
+ *
  *
  * Q: What did the server say to his client who was having a bad day?
- * <br/>...<br/>
+ *
  * A: Everything's going to be 200
  *
  * @author Wojciech Makiela
  */
-@Controller
+@Controller("kontrolerAdnotacje")
 class KreatywnyKontroler {
 
     private static final String HTML = "<!DOCTYPE html>\n" +
@@ -40,7 +40,7 @@ class KreatywnyKontroler {
         this.serwis = superSerwis;
     }
 
-    @GetMapping(path = "p")
+    @GetMapping(path = "a")
     private ResponseEntity<?> pobierzDane() {
         return ResponseEntity.ok(String.format(HTML, serwis.pobierzImieOsoby(idOsoby++)));
     }
