@@ -17,15 +17,14 @@
  * </li><br/>
  * <li>Konfiguracja programistyczna<br/>
  *      {@link ja.workshops.spring.części.konfiguracja.programistyczna.a_witaj_swiecie.KonfiguracjaWitajŚwiecie KonfiguracjaWitajŚwiecie} jest równie prostą, co ważną klasą.
- *      Jest ona źródłem naszej konfiguracji [przy odniesieniu do adnotacji lub innego kodu zastanów się nad {@code} jak w poprawionym kawałku] ({@code @Configuration}) udostępniającym dostęp do ziaren/instancji klasy
- *      WitajŚwiecieZLicznikiem (@Bean), zgodnie z ich zakresem (@Scope).
+ *      Jest ona źródłem naszej konfiguracji ({@link org.springframework.context.annotation.Configuration @Configuration}) udostępniającym dostęp do ziaren/instancji klasy
+ *      WitajŚwiecieZLicznikiem ({@link org.springframework.context.annotation.Bean @Bean}), zgodnie z ich zakresem ({@link org.springframework.context.annotation.Scope @Scope}).
  *
  *      <ol>
  *          <li>{@link org.springframework.context.annotation.Bean @Bean}<br/>
  *              Adnotacja umieszczana nad metodą zwracającą instancje pewnej klasy. Po wczytaniu podczas skanu komponentów
  *              ziarno jest udostępniane przez kontener Springa.
- *              <p>// Tutaj odbywa się wycieczka do dokumentacji @Bean</p>
- *              Do zapamiętania - jeśli nie nazwiemy naszego ziarna, to zostanie użyta domyślna nazwa - to jest nazwa
+ *              <p>Do zapamiętania - jeśli nie nazwiemy naszego ziarna, to zostanie użyta domyślna nazwa - to jest nazwa
  *              metody zaadnotowanej @Bean.
  *          </li><br/>
  *
@@ -45,9 +44,6 @@
  *              Adnotacja {@link org.springframework.context.annotation.Configuration @Configuration}
  *              oznacza klasę, dając znać że znajdziemy w niej metody o adnotacji {@link org.springframework.context.annotation.Bean @Bean}, a więc
  *              klasę, która powinna być uwzględniona podczas tworzenia ziaren.
- *
- *              <p>// Tutaj odbywa się wycieczka do dokumentacji</p>
- *
  *          </li>
  *      </ol>
  * </li><br/>
@@ -56,7 +52,6 @@
  *      {@link org.springframework.context.annotation.AnnotationConfigApplicationContext kontekst aplikacji}. Czegoś więcej
  *      dowiesz się o nim z przyszłych prezentacji. Teraz musisz jedynie wiedzieć że jest on głównym źródłem
  *      konfiguracji Springowych aplikacji (bonus dla chętnych - <a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/ApplicationContext.html">link do dokumentacji</a>).
- *      // wyszło przypadkiem, ale nadal - joł joł joł
  *      <br/>
  *      Przejrzyj dostępne sposoby inicjalizacji, poczytaj dokumentację. Pobaw się z kodem (polecam zmienić pakiet podany w metodzie wczytajKontekstZPakietu)
  * </li>
