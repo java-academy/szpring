@@ -40,7 +40,7 @@ class KreatywnyKontroler {
         this.serwis = superSerwis;
     }
 
-    @GetMapping(path = "p")
+    @GetMapping(path = "programistyczna")
     private ResponseEntity<?> pobierzDane() {
         return ResponseEntity.ok(String.format(HTML, serwis.pobierzImieOsoby(idOsoby++)));
     }
