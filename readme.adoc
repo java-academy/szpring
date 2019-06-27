@@ -1,0 +1,28 @@
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+= Szpring
+
+W tym repozytorium będziesz mieć okazję zobaczyć konfiguracje oraz przykładowe użycie Springa.
+
+== Jak pracować z tym repozytorium?
+Zacznij od pakietu z konfiguracją. Za pierwszym razem przejdź przez konkretne sposoby konfiguracji w tej kolejności:
+
+* `adnotacjami`
+* `xml`
+* `programistyczna`
+
+Materiały stworzone są tak, by z każdym kolejnym krokiem nie tylko poznawać nowe funkcjonalności,
+ale również utrwalać już zdobytą wiedzę. Każdy pakiet działa również na własną rękę, więc nie wahaj się
+zajrzeć do nich w przyszłości, aby przypomnieć sobie co nieco o konfiguracji Springa.
+
+=== Uwaga!
+Część zadań zakłada uzupełnienie konfiguracji o własne ziarna (więcej szczegółów w podpakietach),
+więc uruchamianie aplikacji *BĘDZIE* wyrzucać błędy. Nie zrażaj się
+i podążaj za instrukcjami, które znajdziesz w package-info oraz dokumentacji
+poszczególnych klas.
+
