@@ -2,6 +2,7 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_
 
 /**
  * @author Jakub Czajka
+ * Każdy szpieg ma swój ulubiony napój, klasa przechowuje jego nazwę i przepis na niego
  */
 public class Drink {
 
@@ -13,6 +14,10 @@ public class Drink {
     this.przepis = przepis;
   }
 
+  /**
+   *
+   * @return Przepis na drinka
+   */
   public String przepis() {
     return przepis;
   }

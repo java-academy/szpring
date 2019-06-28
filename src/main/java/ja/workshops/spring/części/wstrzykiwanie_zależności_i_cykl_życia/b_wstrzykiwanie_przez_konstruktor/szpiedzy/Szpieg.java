@@ -4,6 +4,8 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_w
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_wstrzykiwanie_przez_konstruktor.złoczyńcy.Złoczyńca;
 
 /**
+ * Szpieg, czyli ostatnia linia obrony przeciwko wszelkiemu złu teo świata.
+ * Klasa przechowuje informacje o szpiegu, jego przeciwniku i ulubionym napoju
  * @author Jakub Czajka
  */
 public class Szpieg {
@@ -20,14 +22,23 @@ public class Szpieg {
     this.nazwisko = nazwisko;
   }
 
+  /**
+   * Szpieg przedstawia się z imienia i nazwiska, nawiązując pry tym do jednego z ikonicznych tajnych agenów
+   */
   public void przedstawSię() {
     System.out.printf("Jestem %s, %s %s %n", nazwisko, imię, nazwisko);
   }
 
+  /**
+   * Szpieg zamawia swojego ulubionego drinka
+   */
   public void zamówDrinka() {
     System.out.printf("Poproszę %s, %s%n", drink.getNazwa(), drink.przepis());
   }
 
+  /**
+   * Zdradza kto jest nemezis danego szpiega
+   */
   public void mójWróg() {
     System.out.printf("Moim wrogiem jest %s%n", złoczyńca);
   }
