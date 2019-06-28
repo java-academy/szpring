@@ -8,7 +8,7 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena.Samochód;
 
 /**
- * Główna logika biznesowa aplikacji wywołujący pozostałe serwisy
+ * Główna logika biznesowa aplikacji wywołujący pozostałe serwisy obsługujące wypożyczenie samochodu
  *
  * @author Marcin Ogorzalek
  */

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
  * @author Marcin Ogorzalek
  */
 @Component
-public class ZiarnoŚwiadomeImienia implements BeanNameAware {
+class ZiarnoŚwiadomeImienia implements BeanNameAware {
   String nazwaZiarna;
 
   @Override

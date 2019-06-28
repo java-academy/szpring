@@ -7,6 +7,8 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena.Samochód;
 
 /**
+ * Odpowiada za utrwalenie informacji o samochodzie i salonie z którego go wypożyczono
+ *
  * @author Marcin Ogorzalek
  */
 public class SalonRepository {

@@ -7,7 +7,7 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 /**
  * @author Marcin Ogorzalek
  */
-public class KlientService {
+class KlientService {
 
   private KlientRepository klientRepository;
 

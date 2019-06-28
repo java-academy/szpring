@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @author Marcin Ogorzalek
  */
 @Component
-public class NieświadomeZiarno {
+class NieświadomeZiarno {
 
   ApplicationContext kontekstAplikacji;
 

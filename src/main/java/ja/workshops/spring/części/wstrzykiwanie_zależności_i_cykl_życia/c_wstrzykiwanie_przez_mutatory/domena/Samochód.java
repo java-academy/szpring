@@ -3,6 +3,8 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_
 import org.springframework.beans.factory.annotation.Value;
 
 /**
+ * Prosty model samochodu
+ *
  * @author Marcin Ogorzalek
  */
 public class Samochód {
