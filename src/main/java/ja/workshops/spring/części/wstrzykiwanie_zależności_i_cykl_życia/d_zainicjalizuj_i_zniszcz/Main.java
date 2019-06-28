@@ -5,8 +5,7 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_z
 import org.springframework.context.ApplicationContext;
 
 /**
- * WAŻNE: W celu uzyskania instrukcji umieść kursor na d_zainicjalizuj_i_zniszcz
- * (pierwsza linijka tego pliku) i wciśnij ctrl+q
+ * WAŻNE: W celu uzyskania instrukcji umieść kursor na d_zainicjalizuj_i_zniszcz (pierwsza linijka tego pliku) wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q).
  *
  * @author Kacper Staszek
  */

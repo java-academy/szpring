@@ -5,7 +5,9 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * WAŻNE: Aby uzyskać instrukcję umieść kursor na a_wprowadzenie (sama góra tego pliku) i wciśnij Ctrl+q
+ * WAŻNE: Aby uzyskać instrukcję umieść kursor na a_wprowadzenie (sama góra tego pliku) i wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q).
+ *
+ * Odpowiednikiem XMLowym adnotacji {@code @ComponentScan} jest <context:component-scan base-package="ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.a_wprowadzenie" />
  *
  * @author Kacper Staszek
  */

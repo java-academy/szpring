@@ -8,7 +8,7 @@
  * <p>Zapoznaj sie z adnotacjami:
  * {@link org.springframework.stereotype.Component @Component}, {@link org.springframework.context.annotation.ComponentScan @ComponentScan},
  * {@link org.springframework.beans.factory.annotation.Value @Value}, {@link org.springframework.beans.factory.annotation.Qualifier @Qualifier} oraz
- * {@link org.springframework.beans.factory.annotation.Autowired @Autowierd}, następnie wstaw
+ * {@link org.springframework.beans.factory.annotation.Autowired @Autowired}, następnie wstaw
  * adnotację w wybrane klasy tak aby kod zaczął działać. Możesz używać tylko i wyłącznie adnotacji,
  * nie możesz zmieniać kodu, w dokumentacji znajdują się brakujace wartości exerciseOneRozwiazanie</p>
  * <br>

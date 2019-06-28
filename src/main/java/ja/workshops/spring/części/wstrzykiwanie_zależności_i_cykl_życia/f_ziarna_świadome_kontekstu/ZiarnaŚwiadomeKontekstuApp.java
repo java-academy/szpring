@@ -5,7 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na f_ziarna_świadome_kontekstu (sama góra tego pliku) i wciśnij Ctrl+q</b></p>
+ * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na f_ziarna_świadome_kontekstu (sama góra tego pliku) i wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q)</b></p>
  *
  * @author Marcin Ogorzalek
  */
@@ -18,7 +18,7 @@ public class ZiarnaŚwiadomeKontekstuApp {
     kontekst.getBean(ŚwiadomeZiarnoIntaface.class).użycieZiarna();
 // FIXME: odkomentowanie poniższego wywołania spowoduje NullPointerException.
 //    kontekst.getBean(NieświadomeZiarno.class).kontekstAplikacjiAdnotacja.getBean(Ziarno.class).metodaZiarenka();
-// możliwe jest uzyskanie dowolnego ziarna obecnego w danym kontekście;
+//    możliwe jest uzyskanie dowolnego ziarna obecnego w danym kontekście;
     kontekst
         .getBean(ŚwiadomeZiarnoIntaface.class)
         .kontekstAplikacjiInterfejs

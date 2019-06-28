@@ -5,8 +5,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 
 /**
- * WAŻNE: umieść kursor na e_postprocesor_ziarna (pierwsza linijka tego pliku)
- * i wciścnij ctrl + q w celu uzyskania instrukcji.
+ * WAŻNE: umieść kursor na e_postprocesor_ziarna (pierwsza linijka tego pliku) i wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q).
  *
  * @author Kacper Staszek
  */

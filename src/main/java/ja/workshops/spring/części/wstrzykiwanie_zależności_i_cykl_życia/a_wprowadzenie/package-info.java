@@ -1,7 +1,6 @@
 /**
  *  Po przejściu tego pakietu dowiesz się na czym polega leniwa inicjalizacja, czym jest kwalifikator ziaren
- *  oraz w jakim momencie Spring wstrzykuje zależności przez konstruktory
- *  i settery.
+ *  oraz w jakim momencie Spring wstrzykuje zależności przez konstruktory i settery.
  *  <br>
  *  <br>
  *  Postępuj zgodnie z poniższymi instrukcjami:

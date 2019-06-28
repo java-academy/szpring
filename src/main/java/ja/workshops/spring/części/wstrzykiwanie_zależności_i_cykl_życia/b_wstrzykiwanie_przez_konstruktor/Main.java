@@ -7,7 +7,7 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
- * WAŻNE: Aby uzyskać instrukcję umieść kursor na b_wstrzykiwanie_przez_konstruktor (sama góra tego pliku) i wciśnij Ctrl+q
+ * WAŻNE: Aby uzyskać instrukcję umieść kursor na b_wstrzykiwanie_przez_konstruktor (sama góra tego pliku) i wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q)
  *
  * @author Jakub Czajka
  */
