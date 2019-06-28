@@ -8,7 +8,7 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 /**
  * @author Marcin Ogorzalek
  */
-public class SalonService {
+class SalonService {
 
   private SamochódService samochódService;
   private PracownikService pracownikService;

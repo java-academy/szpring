@@ -6,6 +6,8 @@ import static ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_ży
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena.Klient;
 
 /**
+ * Odpowiada za utrwalenie informacji o kliencie wypożyczającym samochód
+ *
  * @author Marcin Ogorzalek
  */
 public class KlientRepository {

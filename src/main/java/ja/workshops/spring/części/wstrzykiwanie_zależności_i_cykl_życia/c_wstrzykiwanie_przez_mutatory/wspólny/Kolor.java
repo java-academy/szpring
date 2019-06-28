@@ -1,6 +1,8 @@
 package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.wspólny;
 
 /**
+ * Zawiera kody kolorów dla wyświetlania informacji w konsoli
+ *
  * @author Marcin Ogorzalek
  */
 public enum Kolor {
