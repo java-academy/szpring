@@ -6,6 +6,9 @@ import static ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_ży
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena.Pracownik;
 
 /**
+ * Odpowiada za utrwalenie informacji o pracowniku
+ * dla którego przyzano premię za wypożyczenie samochodu
+ *
  * @author Marcin Ogorzalek
  */
 public class PracownikRepository {

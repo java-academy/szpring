@@ -1,6 +1,8 @@
 package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena;
 
 /**
+ * Prosty model pracownika salonu
+ *
  * @author Marcin Ogorzalek
  */
 public class Pracownik {

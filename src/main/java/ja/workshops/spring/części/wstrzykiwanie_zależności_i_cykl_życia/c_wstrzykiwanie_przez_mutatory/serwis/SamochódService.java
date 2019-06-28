@@ -7,7 +7,7 @@ import java.time.LocalDate;
 /**
  * @author Marcin Ogorzalek
  */
-public class SamochódService {
+class SamochódService {
 
   private SamochódRepository samochódRepository;
 

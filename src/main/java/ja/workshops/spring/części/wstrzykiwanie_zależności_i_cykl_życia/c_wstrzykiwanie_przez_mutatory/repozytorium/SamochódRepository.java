@@ -7,6 +7,8 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 import java.time.LocalDate;
 
 /**
+ * Odpowiada za utrwalenie informacji o samochodzie i dacie jego wypożyczenia
+ *
  * @author Marcin Ogorzalek
  */
 public class SamochódRepository {

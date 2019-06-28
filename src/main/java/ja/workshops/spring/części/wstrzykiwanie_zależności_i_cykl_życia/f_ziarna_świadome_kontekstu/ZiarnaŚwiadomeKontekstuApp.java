@@ -10,7 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
  * @author Marcin Ogorzalek
  */
 @ComponentScan(basePackages = {"ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.f_ziarna_świadome_kontekstu"})
-public class ZiarnaŚwiadomeKontekstuApp {
+class ZiarnaŚwiadomeKontekstuApp {
 
   public static void main(String[] args) {
     ApplicationContext kontekst = new AnnotationConfigApplicationContext(ZiarnaŚwiadomeKontekstuApp.class);

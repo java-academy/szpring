@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @author Marcin Ogorzalek
  */
 @Component
-public class ŚwiadomeZiarnoIntaface implements ApplicationContextAware {
+class ŚwiadomeZiarnoIntaface implements ApplicationContextAware {
 
   ApplicationContext kontekstAplikacjiInterfejs;
 
