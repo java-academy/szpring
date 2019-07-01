@@ -157,5 +157,5 @@ tags
 
 # End of https://www.gitignore.io/api/java,maven,intellij,vim,linux
 
-# Slideshow
+# Slideshow temporary files
 .~lock.*

@@ -17,7 +17,7 @@ class ZiarnaŚwiadomeKontekstuApp {
     kontekst.getBean(ŚwiadomeZiarnoAdnotacja.class).użycieZiarna();
     kontekst.getBean(ŚwiadomeZiarnoIntaface.class).użycieZiarna();
 // FIXME: odkomentowanie poniższego wywołania spowoduje NullPointerException.
-//    kontekst.getBean(NieświadomeZiarno.class).kontekstAplikacjiAdnotacja.getBean(Ziarno.class).metodaZiarenka();
+    kontekst.getBean(NieświadomeZiarno.class).kontekstAplikacji.getBean(Ziarno.class).metodaZiarenka();
 //    możliwe jest uzyskanie dowolnego ziarna obecnego w danym kontekście;
     kontekst
         .getBean(ŚwiadomeZiarnoIntaface.class)
