@@ -34,5 +34,4 @@ class Main {
         ziarnoD.funkcjaD();
         System.out.println("\n\nMain: Raz jeszcze: instrukcje są w pakietowym JavaDoc. Nanieś kursor na nazwę pakietu `a_wprowadzenie` lub skocz do `package-info.java`");
     }
-
 }

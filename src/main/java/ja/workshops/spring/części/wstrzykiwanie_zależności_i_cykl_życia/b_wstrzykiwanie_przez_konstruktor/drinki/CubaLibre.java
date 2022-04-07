@@ -2,7 +2,7 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_
 
 /**
  * nazwa = Cuba Libre
- * przepis = "rum z lodem i colą
+ * przepis = rum z lodem i colą
  *
  * @author Jakub Czajka
  */

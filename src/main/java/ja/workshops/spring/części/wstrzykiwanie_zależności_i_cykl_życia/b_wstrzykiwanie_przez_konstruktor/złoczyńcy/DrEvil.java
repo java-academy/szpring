@@ -6,7 +6,7 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_
  */
 class DrEvil extends Złoczyńca {
 
-  public DrEvil() {
-    super("Douglas", "Powers", "Dr Zło");
-  }
+    public DrEvil() {
+        super("Douglas", "Powers", "Dr Zło");
+    }
 }

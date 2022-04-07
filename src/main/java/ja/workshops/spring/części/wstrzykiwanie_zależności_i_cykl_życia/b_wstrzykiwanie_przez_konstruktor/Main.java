@@ -11,21 +11,19 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  *
  * @author Jakub Czajka
  */
-
 class Main {
 
-  public static void main(String[] args) {
-    ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Main.class);
-    Szpieg szpieg1 = applicationContext.getBean(JamesBond.class);
-    Szpieg szpieg2 = applicationContext.getBean(AustinPowers.class);
-    szpieg1.przedstawSię();
-    szpieg1.mójWróg();
-    szpieg1.zamówDrinka();
+    public static void main(String[] args) {
+        ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Main.class);
+        Szpieg szpieg1 = applicationContext.getBean(JamesBond.class);
+        Szpieg szpieg2 = applicationContext.getBean(AustinPowers.class);
 
-    szpieg2.przedstawSię();
-    szpieg2.mójWróg();
-    szpieg2.zamówDrinka();
+        szpieg1.przedstawSię();
+        szpieg1.mójWróg();
+        szpieg1.zamówDrinka();
 
-  }
-
+        szpieg2.przedstawSię();
+        szpieg2.mójWróg();
+        szpieg2.zamówDrinka();
+    }
 }

@@ -6,7 +6,7 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_
  */
 class DrNo extends Złoczyńca {
 
-  public DrNo() {
-    super("Julius", "No", "DrNo");
-  }
+    public DrNo() {
+        super("Julius", "No", "DrNo");
+    }
 }

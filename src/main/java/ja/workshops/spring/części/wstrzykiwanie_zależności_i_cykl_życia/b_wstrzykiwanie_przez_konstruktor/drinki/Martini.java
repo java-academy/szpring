@@ -10,7 +10,5 @@ class Martini extends Drink {
 
   public Martini(String nazwa, String przepis) {
     super(nazwa, przepis);
-
   }
-
 }

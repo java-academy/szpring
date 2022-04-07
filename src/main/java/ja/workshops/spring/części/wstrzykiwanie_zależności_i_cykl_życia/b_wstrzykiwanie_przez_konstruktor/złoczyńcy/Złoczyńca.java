@@ -2,22 +2,23 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_
 
 /**
  * Przebiegły i zły, arcyłotr, nemezis naszego bohatera
+ *
  * @author Jakub Czajka
  */
 public class Złoczyńca {
 
-  private String imię;
-  private String nazwisko;
-  private String pseudonium;
+    private String imię;
+    private String nazwisko;
+    private String pseudonim;
 
-  Złoczyńca(String imię, String nazwisko, String pseudonium) {
-    this.imię = imię;
-    this.nazwisko = nazwisko;
-    this.pseudonium = pseudonium;
-  }
+    Złoczyńca(String imię, String nazwisko, String pseudonim) {
+        this.imię = imię;
+        this.nazwisko = nazwisko;
+        this.pseudonim = pseudonim;
+    }
 
-  @Override
-  public String toString() {
-    return pseudonium + " czyli " + imię + " " + nazwisko;
-  }
+    @Override
+    public String toString() {
+        return pseudonim + " czyli " + imię + " " + nazwisko;
+    }
 }
