@@ -11,10 +11,10 @@ import org.springframework.stereotype.Component;
 class KonceptDImpl implements KonceptD {
 
   KonceptDImpl() {
-    System.out.println("Tworzę ziarno KonceptDImpl");
+    System.out.println(this.getClass().getSimpleName() + ": Tworzę ziarno KonceptDImpl");
   }
 
   public void funkcjaD() {
-    System.out.println("Siema z D!");
+    System.out.println(this.getClass().getSimpleName() + ": Siema z D!");
   }
 }

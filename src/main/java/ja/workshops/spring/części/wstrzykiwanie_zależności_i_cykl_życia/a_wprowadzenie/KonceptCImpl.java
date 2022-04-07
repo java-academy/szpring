@@ -14,11 +14,11 @@ class KonceptCImpl implements KonceptC {
   @Autowired
   KonceptCImpl(KonceptA conceptA) {
     this.conceptA = conceptA;
-    System.out.println("Tworzę ziarno KonceptCImpl");
+    System.out.println(this.getClass().getSimpleName() + ": Tworzę ziarno KonceptCImpl");
   }
 
   public void funkcjaC() {
-    System.out.println("Siema z pierwszej implementacji C!");
-    conceptA.funckcjaA();
+    System.out.println(this.getClass().getSimpleName() + ": Siema z pierwszej implementacji C!");
+    conceptA.funkcjaA();
   }
 }

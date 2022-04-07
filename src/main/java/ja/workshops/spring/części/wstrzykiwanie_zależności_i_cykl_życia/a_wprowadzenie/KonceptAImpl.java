@@ -20,10 +20,10 @@ class KonceptAImpl implements KonceptA {
   private KonceptC konceptC;
 
   public KonceptAImpl(){
-    System.out.println("Tworzę ziarno KonceptAImpl");
+    System.out.println(this.getClass().getSimpleName() + ": Tworzę ziarno KonceptAImpl");
   }
 
-  public void funckcjaA() {
-    System.out.println("Siema z A!");
+  public void funkcjaA() {
+    System.out.println(this.getClass().getSimpleName() + ": Siema z A!");
   }
 }

@@ -6,5 +6,5 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.a_
  * @author Kacper Staszek
  */
 public interface KonceptA {
-  void funckcjaA();
+  void funkcjaA();
 }

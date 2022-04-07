@@ -9,9 +9,9 @@ import org.springframework.stereotype.Component;
 class KonceptCImplDwa implements KonceptC {
 
   public KonceptCImplDwa(){
-    System.out.println("Tworzę ziarno KonceptCImplDwa.");
+    System.out.println(this.getClass().getSimpleName() + ": Tworzę ziarno KonceptCImplDwa.");
   }
   public void funkcjaC() {
-    System.out.println("Siema z drugiej implementacji C!");
+    System.out.println(this.getClass().getSimpleName() + ": Siema z drugiej implementacji C!");
   }
 }
