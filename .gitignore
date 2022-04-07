@@ -156,3 +156,6 @@ tags
 [._]*.un~
 
 # End of https://www.gitignore.io/api/java,maven,intellij,vim,linux
+
+# Slideshow temporary files
+.~lock.*
