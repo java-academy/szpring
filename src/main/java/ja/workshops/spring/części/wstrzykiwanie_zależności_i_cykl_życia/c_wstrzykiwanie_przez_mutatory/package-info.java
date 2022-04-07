@@ -3,9 +3,9 @@
  * Pamiętajcie, że tej techniki można użyć w połączeniu z dowolną metodą która modyfikuje wartość pola w danej klasie.
  * Nie wymagane jest by jej nazwa rozpoczynała się od {@code set}.</p>
  * <br>
- * <p>Rozpocznij w klasie: {@link ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.WynajmemSamochodówApp WynajmemSamochodówApp}</p>
- * <p>Mamy wypożyczalnię samochodów. Spraw by Marcin mógł wypożyczyć Czarną Wołgę. Uzupełnij
- * aplikacje wymaganymi adnotacjami. Aby klient mógł wypożyczyć samochód zaprzęgnięte do pracy muszą
+ * <p>Rozpocznij w klasie: {@link ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.WynajemSamochodówApp WynajemSamochodówApp}</p>
+ * <p>Mamy wypożyczalnię samochodów. <b>Spraw by Marcin mógł wypożyczyć Czarną Wołgę!</b></p>
+ * <p>Uzupełnij aplikacje wymaganymi adnotacjami. Aby klient mógł wypożyczyć samochód zaprzęgnięte do pracy muszą
  * zostać Repozytoria odpowiedzialne za utrwalenie wymaganych danych. Dzieje się to poprzez
  * wykorzystanie odpowiednich Serwisów. <b>Jedyne co powinieneś dopisać to adnotacje.</b></p>
  * <br>

@@ -1,6 +1,7 @@
 package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 /**
  * Prosty model salonu wypożyczającego samochody
@@ -9,7 +10,7 @@ import org.springframework.beans.factory.annotation.Value;
  */
 public class Salon {
 
-  @Value("Czerwone maki 1")
+  @Value("Czerwone Maki 1")
   private String adres;
 
   @Value("Kraków")
