@@ -4,7 +4,7 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_w
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_wstrzykiwanie_przez_konstruktor.złoczyńcy.Złoczyńca;
 
 /**
- * Szpieg, czyli ostatnia linia obrony przeciwko wszelkiemu złu teo świata.
+ * Szpieg, czyli ostatnia linia obrony przeciwko wszelkiemu złu tego świata.
  * Klasa przechowuje informacje o szpiegu, jego przeciwniku i ulubionym napoju
  * @author Jakub Czajka
  */
@@ -23,7 +23,7 @@ public class Szpieg {
   }
 
   /**
-   * Szpieg przedstawia się z imienia i nazwiska, nawiązując pry tym do jednego z ikonicznych tajnych agenów
+   * Szpieg przedstawia się z imienia i nazwiska, nawiązując pry tym do jednego z ikonicznych tajnych agentów
    */
   public void przedstawSię() {
     System.out.printf("Jestem %s, %s %s %n", nazwisko, imię, nazwisko);

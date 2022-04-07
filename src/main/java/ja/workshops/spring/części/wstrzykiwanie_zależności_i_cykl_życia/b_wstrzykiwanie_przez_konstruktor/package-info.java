@@ -2,8 +2,8 @@
  * <p>W poniższym pakiecie znajduje się zadanie odnośnie wstrzykiwania zależności poprzez konstruktory</p>
  * <br>
  * <p>Rozpocznij w klasie: {@link ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_wstrzykiwanie_przez_konstruktor.Main Main}</p>
- * <p>Każdy szpieg (tak jak i bohater) ma swojego wroga oraz nawyki. Spraw by tajni agneci mogli powiedzieć co nieco o sobie.
- * Chcemy się dzowiedzieć jak się nazywają, jakiego mają arcywroga oraz co lubią popijać w wolnym czasie.</p>
+ * <p>Każdy szpieg (tak jak i bohater) ma swojego wroga oraz nawyki. Spraw by tajni agenci mogli powiedzieć co nieco o sobie.
+ * Chcemy się dowiedzieć jak się nazywają, jakiego mają arcywroga oraz co lubią popijać w wolnym czasie.</p>
  *
  * <p>Zapoznaj sie z adnotacjami:
  * {@link org.springframework.stereotype.Component @Component}, {@link org.springframework.context.annotation.ComponentScan @ComponentScan},
@@ -13,9 +13,9 @@
  * nie możesz zmieniać kodu, w dokumentacji znajdują się brakujace wartości exerciseOneRozwiazanie</p>
  * <br>
  * <p>Dodatowe informacje znajdziesz na:
- * <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-constructor-injection">wstrzukiwanie zależności przez konstrukor</a>
+ * <a href="https://docs.spring.io/spring/docs/current/spring-framework-reference/core.html#beans-constructor-injection">wstrzykiwanie zależności przez konstrukor</a>
  * oraz
- * <a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/stereotype/package-summary.html#package.description">sterotypy Springa</a></p>
+ * <a href="https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/stereotype/package-summary.html#package.description">stereotypy Springa</a></p>
  *
  * @author Marcin Ogorzalek
  */

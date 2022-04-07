@@ -2,7 +2,7 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_
 
 /**
  * nazwa = Martini
- * przepis = wstrzasniete nie mieszane
+ * przepis = wstrząśnięte, nie zmieszane
  *
  * @author Jakub Czajka
  */
