@@ -43,6 +43,7 @@
  * jeśli chcesz uruchomić go na innym porcie niż domyślny (8080), użyj polecenia
  * <p>{@code mvn tomcat7:run -Dmaven.tomcat.port=8888}</p>
  * <br/>
+ * <p>Aplikacja obsługiwać będzie zapytania na url: http://localhost:TWÓJ_PORT/Spring/przyklad/adnotacjami</p>
  * @author Wojciech Makiela
  */
 package ja.workshops.spring.części.konfiguracja.adnotacjami.b_przykład_konfiguracji;
