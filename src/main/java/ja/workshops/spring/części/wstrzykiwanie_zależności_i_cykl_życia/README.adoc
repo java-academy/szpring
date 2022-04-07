@@ -10,7 +10,7 @@ Podjęta w warsztatach tematyka to:
 
 . Wstrzykiwanie zależności poprzez:
   .. kontruktory
-  .. settery
+  .. metody set
   .. pola
 . Określenie wstrzykiwanej zależności poprzez adnotację `@Qualifier`.
 . Użycie metody `afterPropertiesSet()` i `destroy()` oraz adnotacji `@PostConstruct` i `@PreDestroy`.
@@ -18,3 +18,105 @@ Podjęta w warsztatach tematyka to:
 . `BeanPostProcessor`.
 . Problem zależności cyklicznych w tworzeniu ziaren.
 . Tworzenie ziaren świadomych kontekstu poprzez wykorzystanie interfejsu `Aware`.
+
+
+== Wstrzykiwanie zależności
+
+Technika realizująca D z SOLIDu, czyli odwracanie zależności (ang. Dependency Inversion). W wykonaniu Springa oddajemy kontrolę nad tworzeniem naszych obiektów Springowi - on tworzy instancje i _wstrzykuje je_ tam, gdzie są potrzebne.
+
+Zależności dla danego ziarna są wyrażone jako właściwości, argumenty konstruktora bądź metody fabrycznej. Są dostarczane ziarnu w momencie jego tworzenia.
+Każda właściwość, każdy argument, są wartościami lub odniesieniami do innego ziarna.
+
+== Zakres życia ziarna
+
+. *Singleton* - domyślny zakres, jeden egzemplarz na kontekst.
+. *Prototyp* - wiele egzemplarzy
+. Sieciowe: sesyjny, żądania, globalnej sesji.
+. *Dopasowany* - gdy żaden z powyższych nie pasuje.
+
+=== Singleton
+
+.Jedna instancja jest wstrzykiwana wszystkim trzem potrzebującym ziarnom
+[source, xml]
+----
+<bean id="accountDao" class="..." />
+<!-- ciach -->
+<bean id="Something" class="...">
+    <property name="accountDao" ref="accountDao"/>
+</bean>
+<bean id="SomeOtherThing" class="...">
+    <property name="accountDao" ref="accountDao"/>
+</bean>
+<bean id="SomethingThird" class="...">
+    <property name="accountDao" ref="accountDao"/>
+</bean>
+----
+
+=== Prototyp
+
+.Każdy kolaborator potrzebujący instancją accountDao dostaje nową, świeżutką instancję, stworzoną przez kontener specjalnie na ten cel
+[source, xml]
+----
+<bean id="accountDao" class="..." scope="prototype"/>
+<!-- ciach -->
+<bean id="Something" class="...">
+    <property name="accountDao" ref="accountDao"/>
+</bean>
+<bean id="SomeOtherThing" class="...">
+    <property name="accountDao" ref="accountDao"/>
+</bean>
+<bean id="SomethingThird" class="...">
+    <property name="accountDao" ref="accountDao"/>
+</bean>
+----
+
+=== Tworzenie kontekstu
+
+TIP: Jeśli diagram się nie wyświetla, zainstaluj Asciidoctor-diagram lub (do przeglądu w IDE) pobierz asciidoctor-diagram-j.
+
+[ditaa, diagTworzeniaKontekstu, png]
+....
+                   +-----------------+
+                   | klasy aplikacji |
+                   +-----------------+
+                       |
+                       |
+                       |
+                       v
+ +--------+   +--------+----+    /----------------\
+ | Konfig |---+ kontekst    +--> | Gotowy do akcji|
+ |     {d}|   +-------------+    |       system   |
+ +---+----+                      |                |
+                                 \----------------/
+....
+
+=== Kontener
+
+=== Instancjonowanie ziaren
+
+. przez konstruktor, refleksją
+. statyczne metody fabryczne
+. instancyjne metody fabryczne
+
+== Cykl życia
+
+[syntrax, diagCykluŻyciaZiarna, png]
+....
+stack(
+line('Instancjonowanie', 'Populacja własności  '),
+line('BeanNameAware.setBeanName()', 'BeanFactoryAware.setBeanFactory()'),
+line('ApplicationContextAware.setApplicationContext()'),
+line('Preinicjalizacja BeanPostProcessor', 'Inicjalizacja afterPropertiesSet()'),
+line('Własna metoda init() ', 'Postinicjalizacja BeanPostProcessor'),
+line('Ziarno gotowe!', '...', 'Kontener się zamyka '),
+line('destroy()', 'Własna metoda destroy()'),
+)
+....
+
+=== Pytania
+
+. Na jakie sposoby można wstrzykiwać zależności w Springu?
+. Jakiej techniki używa Spring by tworzyć instancje ziaren?
+. Jaki jest domyślny zakres ziarna?
+. Czy Springowe ziarna singletonowe są bezpieczne wielowątkowo?
+. Czy używając zakresu SCOPE na ziarnie, możemy mieć więcej niż jedną instancję danej klasy?
