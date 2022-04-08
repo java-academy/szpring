@@ -3,7 +3,7 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.e_
 import org.springframework.beans.factory.InitializingBean;
 
 /**
- * Na potrzeby ćwiczeń - dummy interfejs
+ * Durny interfejs na potrzeby ćwiczeń.
  *
  * @author Kacper Staszek
  */

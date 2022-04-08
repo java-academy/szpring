@@ -1,7 +1,7 @@
 package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.e_postprocesor_ziarna;
 
 /**
- * Na potrzeby ćwiczeń - dummy interfejs
+ * Durny interfejs na potrzeby ćwiczeń.
  *
  * @author Kacper Staszek
  */
