@@ -4,19 +4,23 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
+ * Miłe i sympatyczne ziarno, potrafi się przywitać, nawet innych przedstawi.
+ *
  * @author Jakub Czajka
  */
 @Component
 class ZiarnoB {
-ZiarnoA ziarnoA;
+    ZiarnoA ziarnoA;
 
-@Autowired
-  public ZiarnoB(ZiarnoA ziarnoA) {
-    System.out.println("Tworzę ziarno B");
-    this.ziarnoA = ziarnoA;
-  }
+    @Autowired
+    public ZiarnoB(ZiarnoA ziarnoA) {
+        System.out.println("Tworzę ziarno B");
+        this.ziarnoA = ziarnoA;
+    }
 
-  public void hello(){
-    System.out.println("Witam jestem B");
-  }
+    public void siemano() {
+        System.out.println("Witam jestem B");
+        System.out.println("Współpracuję z ziarnem A. Przywitaj się! ");
+        ziarnoA.siemano();
+    }
 }
