@@ -3,6 +3,8 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.f_
 import org.springframework.stereotype.Component;
 
 /**
+ * Proste ziarno z jedną metodą.
+ *
  * @author Marcin Ogorzalek
  */
 @Component

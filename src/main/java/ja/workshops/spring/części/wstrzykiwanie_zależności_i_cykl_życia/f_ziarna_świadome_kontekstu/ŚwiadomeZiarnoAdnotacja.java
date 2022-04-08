@@ -5,9 +5,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 /**
- * Ziarno świadome kontekstu w którym się znajduje poprzez wstrzyknięcie go do pola klasy poprzez {@code @Autowired}.
- * Przypomnę tylko, że wstrzykiwanie zależności bezpośrednio do pola jest złą praktyką.
+ * Ziarno świadome kontekstu, w którym się znajduje, gdyż został on "auto-okablowany". ;-)<br>
+ * Czyli wskutek wstrzyknięcia go do pola klasy poprzez {@code @Autowired}.
  *
+ * @implNote Przypomnę tylko, że wstrzykiwanie zależności bezpośrednio do pola jest złą praktyką.
  * @author Marcin Ogorzalek
  */
 @Component

@@ -5,8 +5,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
 /**
- * Po mimo tego, że klasa ta ma zadeklarowaną metodę o sygnaturze identycznej jak w {@link ŚwiadomeZiarnoIntaface}
- * nie jest one świadome ApplicationContext. Dlatego też jego użycie powoduje NPM.
+ * Pomimo tego, że klasa ta ma zadeklarowaną metodę o sygnaturze identycznej jak w {@link ŚwiadomeZiarnoIntaface},
+ * jest ona nieświadoma Springowego kontekstu aplikacji. Dlatego też jego użycie powoduje NPE.
  *
  * @author Marcin Ogorzalek
  */
