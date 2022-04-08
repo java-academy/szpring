@@ -4,20 +4,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
+ *  Miłe i sympatyczne ziarno, potrafi się przywitać.
+ *
+ * @implNote Co uczyniłeś ziarnu A, powtórz tutaj.
  * @author Jakub Czajka
- * Usuń z konstuktora adnotacje @Autowired i usuń z niego przypisanie do zmiennej zachowując wiadoość, stwórz setter i zdodaj do niego addnotację @Autowired
  */
 @Component
 class ZiarnoB {
-  ZiarnoA ziarnoA;
+    ZiarnoA ziarnoA;
 
-  @Autowired
-  public ZiarnoB(ZiarnoA ziarnoA) {
-    System.out.println("Tworzę ziarno B");
-    this.ziarnoA = ziarnoA;
-  }
+    @Autowired
+    public ZiarnoB(ZiarnoA ziarnoA) {
+        System.out.println("Tworzę ziarno B");
+        this.ziarnoA = ziarnoA;
+    }
 
-  public void hello(){
-    System.out.println("Witam jestem B");
-  }
+    public void siemano() {
+        System.out.println("Witam jestem B");
+    }
 }
