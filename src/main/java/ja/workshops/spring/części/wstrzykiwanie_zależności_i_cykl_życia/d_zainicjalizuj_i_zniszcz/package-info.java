@@ -14,6 +14,7 @@
  *  <ul>
  *      <li><a href="https://www.mkyong.com/spring/spring-init-method-and-destroy-method-example/">1. Init, destroy method</a></li>
  *      <li><a href="https://www.mkyong.com/spring/spring-postconstruct-and-predestroy-example/">2. @PostConstruct, @PreDestroy</a></li>
+ *      <li><a href="https://stackoverflow.com/questions/3406555/why-use-postconstruct">2.a Pytanie z SO: po co nam PostConstruct?</a></li>
  *      <li><a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/InitializingBean.html">3.a. InitializingBean</a></li>
  *      <li><a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/beans/factory/DisposableBean.html">3.b. DisposableBean</a></li></li>
  *   </ul>
