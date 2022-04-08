@@ -3,8 +3,7 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz.Użytkownik;
 
 /**
- * Imitacja repozytorium, które potrafi zapisywać użytkowników
- * zmieniać logger.
+ * Imitacja repozytorium, które potrafi zapisywać użytkowników i zmieniać logger.
  *
  * @author Kacper Staszek
  */

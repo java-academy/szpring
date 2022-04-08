@@ -3,6 +3,8 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz.api.Logger;
 
 /**
+ * Do skonfigurowania poprzez XML.
+ *
  * @author Kacper Staszek
  */
 class LoggerXML implements Logger {

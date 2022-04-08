@@ -4,6 +4,8 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_z
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz.api.RepozytoriumUżytkowników;
 
 /**
+ * Do skonfigurowania adnotacjami.
+ *
  * @author Kacper Staszek
  */
 class RepozytoriumUżytkownikówImp implements RepozytoriumUżytkowników {
