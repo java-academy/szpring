@@ -9,10 +9,12 @@ import org.springframework.stereotype.Service;
 /**
  * @author Marcin Ogorzalek
  */
+@Service
 class KlientSerwis {
 
     private RepozytoriumKlienckie repo;
 
+    @Autowired
     public void setRepo(RepozytoriumKlienckie repo) {
         this.repo = repo;
     }

@@ -7,13 +7,14 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 /**
  * <p><b>WAŻNE: Aby uzyskać instrukcję umieść kursor na c_wstrzykiwanie_przez_mutatory (sama góra tego pliku) wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q).</b></p>
  *
  * @author Marcin Ogorzałek
  */
-// tu niezbędne może być wykorzystanie parametru basePackages
+@ComponentScan // z tym parametrem basePackages to zmyła była :P
 class WynajemSamochodówApp {
 
     public static void main(String[] args) {

@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
  *
  * @author Marcin Ogorzalek
  */
+@Repository
 public class RepozytoriumSalonowe {
 
     public void zapisz(Salon salon, Samochód samochód) {

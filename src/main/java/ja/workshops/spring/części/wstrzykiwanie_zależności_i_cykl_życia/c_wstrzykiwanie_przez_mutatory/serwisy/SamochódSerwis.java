@@ -10,10 +10,12 @@ import java.time.LocalDate;
 /**
  * @author Marcin Ogorzalek
  */
+@Service
 class SamochódSerwis {
 
     private RepozytoriumSamochodowe repo;
 
+    @Autowired
     public void setRepo(RepozytoriumSamochodowe repo) {
         this.repo = repo;
     }

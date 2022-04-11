@@ -14,15 +14,18 @@ import org.springframework.stereotype.Service;
  *
  * @author Marcin Ogorzalek
  */
+@Service
 public class WynajęcieSerwis {
 
     private KlientSerwis klientSerwis;
     private SalonSerwis salonSerwis;
 
+    @Autowired
     public void setKlientService(KlientSerwis klientSerwis) {
         this.klientSerwis = klientSerwis;
     }
 
+    @Autowired
     public void setSalonSerwis(SalonSerwis salonSerwis) {
         this.salonSerwis = salonSerwis;
     }

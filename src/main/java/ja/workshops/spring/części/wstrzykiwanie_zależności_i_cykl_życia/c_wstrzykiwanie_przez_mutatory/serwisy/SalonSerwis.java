@@ -4,11 +4,13 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena.Pracownik;
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena.Salon;
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena.Samochód;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
  * @author Marcin Ogorzalek
  */
+@Service
 class SalonSerwis {
 
   private SamochódSerwis samochódService;
@@ -17,19 +19,23 @@ class SalonSerwis {
 
   private Pracownik pracownik;
 
-  public void setSamochódService(SamochódSerwis samochódService) {
+    @Autowired
+    public void setSamochódService(SamochódSerwis samochódService) {
     this.samochódService = samochódService;
   }
 
-  public void setPracownikService(PracownikSerwis pracownikService) {
+    @Autowired
+    public void setPracownikService(PracownikSerwis pracownikService) {
     this.pracownikService = pracownikService;
   }
 
-  public void setSalonRepository(RepozytoriumSalonowe salonRepository) {
+    @Autowired
+    public void setSalonRepository(RepozytoriumSalonowe salonRepository) {
     this.salonRepository = salonRepository;
   }
 
-  public void setPracownik(Pracownik pracownik) {
+    @Autowired
+    public void setPracownik(Pracownik pracownik) {
     this.pracownik = pracownik;
   }
 

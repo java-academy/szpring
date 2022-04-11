@@ -1,10 +1,13 @@
 package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_wstrzykiwanie_przez_mutatory.domena;
 
+import org.springframework.stereotype.Component;
+
 /**
  * Prosty model pracownika salonu
  *
  * @author Marcin Ogorzalek
  */
+@Component
 public class Pracownik {
 
   private String imię;

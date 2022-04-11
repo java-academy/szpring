@@ -8,10 +8,12 @@ import org.springframework.stereotype.Service;
 /**
  * @author Marcin Ogorzalek
  */
+@Service
 class PracownikSerwis {
 
   private RepozytoriumPracownicze repo;
 
+  @Autowired
   public void setRepo(RepozytoriumPracownicze repo) {
     this.repo = repo;
   }

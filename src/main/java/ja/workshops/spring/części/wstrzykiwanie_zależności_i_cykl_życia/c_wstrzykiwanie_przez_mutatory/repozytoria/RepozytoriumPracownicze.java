@@ -12,6 +12,7 @@ import org.springframework.stereotype.Repository;
  *
  * @author Marcin Ogorzalek
  */
+@Repository
 public class RepozytoriumPracownicze {
 
     public void zapisz(Pracownik pracownik) {

@@ -9,6 +9,7 @@ import org.springframework.stereotype.Component;
  *
  * @author Marcin Ogorzalek
  */
+@Component
 public class Klient {
 
   @Value("Marcin")

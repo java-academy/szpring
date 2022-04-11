@@ -13,6 +13,7 @@ import java.time.LocalDate;
  *
  * @author Marcin Ogorzalek
  */
+@Repository
 public class RepozytoriumSamochodowe {
 
     public void zapis(Samochód samochód, LocalDate dataWypożyczenia) {

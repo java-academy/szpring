@@ -11,6 +11,7 @@ import org.springframework.stereotype.Repository;
  *
  * @author Marcin Ogorzalek
  */
+@Repository
 public class RepozytoriumKlienckie {
 
     public void zapis(Klient klient) {
