@@ -1,11 +1,11 @@
-package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz;
+package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjuj_i_zniszcz;
 
-import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz.api.Logger;
-import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz.api.RepozytoriumUżytkowników;
+import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjuj_i_zniszcz.api.Logger;
+import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjuj_i_zniszcz.api.RepozytoriumUżytkowników;
 import org.springframework.context.support.AbstractApplicationContext;
 
 /**
- * WAŻNE: W celu uzyskania instrukcji umieść kursor na d_zainicjalizuj_i_zniszcz (pierwsza linijka tego pliku) wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q).
+ * WAŻNE: W celu uzyskania instrukcji umieść kursor na d_zainicjuj_i_zniszcz (pierwsza linijka tego pliku) wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q).
  *
  * @implSpec Zmieniasz tylko kod metody main!
  * @author Kacper Staszek

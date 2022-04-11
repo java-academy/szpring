@@ -6,7 +6,7 @@
  *
  * Postępuj zgodnie z poniższymi instrukcjami:
  * <ol>
- *  <li>Odwiedź i odpal {@link ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz.Main Main}. Zmieniasz tylko kod metody main.
+ *  <li>Odwiedź i odpal {@link ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjuj_i_zniszcz.Main Main}. Zmieniasz tylko kod metody main.
  *  <li> Stwórz konfigurację do podanego szkieletu klas. Połącz wszystkie trzy typy konfiguracji.
  *    (repozytorium przez adnotacje, dwa loggery z konfiguracji java, jeden z XML)
  *  </li>
@@ -24,4 +24,4 @@
  *
  * @author Kacper Staszek
  */
-package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjalizuj_i_zniszcz;
+package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjuj_i_zniszcz;
