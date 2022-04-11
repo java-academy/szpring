@@ -1,6 +1,7 @@
 package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.g_problem_zależności_cyklicznych.leniwa_inicjacja;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 /**
@@ -16,7 +17,7 @@ class ZiarnoA {
     ZiarnoB ziarnoB;
 
     @Autowired
-    public ZiarnoA(ZiarnoB ziarnoB) {
+    public ZiarnoA(@Lazy ZiarnoB ziarnoB) { // najlepsze, bo najbardziej precyzyjne umieszczenie, choć na k-torze też zadziała (ale dla k-tora, nie dla parametru)
         this.ziarnoB = ziarnoB;
     }
 
