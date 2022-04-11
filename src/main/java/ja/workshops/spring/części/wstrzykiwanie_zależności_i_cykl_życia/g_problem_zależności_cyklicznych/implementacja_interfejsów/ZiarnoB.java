@@ -14,6 +14,11 @@ import org.springframework.stereotype.Component;
 @Component
 class ZiarnoB {
     ZiarnoA ziarnoA;
+    /**
+     *   Identyfikuje ziarno, jeśli potrzebujemy.
+     *   Można rozważyć dostęp pakietowy, by móc wywołać BEZ pośrednictwa toString.
+     */
+    private static final int ID=2;
 
     @Autowired
     public ZiarnoB(ZiarnoA ziarnoA) {
@@ -27,7 +32,7 @@ class ZiarnoB {
 
     @Override
     public String toString() {
-        return "ZiarnoB{ziarnoA=" + ziarnoA + '}'; // celowo nie String.format
+        return "ZiarnoB(id:" +ID + "){ziarnoA=" + ziarnoA + '}'; // tu już mógłby być String.format
     }
 
 }

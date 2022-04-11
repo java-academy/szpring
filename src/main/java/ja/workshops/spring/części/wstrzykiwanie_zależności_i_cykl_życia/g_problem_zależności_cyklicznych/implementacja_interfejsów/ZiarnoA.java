@@ -18,14 +18,19 @@ import org.springframework.stereotype.Component;
 class ZiarnoA implements ApplicationContextAware, InitializingBean {
     ZiarnoB ziarnoB;
     ApplicationContext kontekst;
+    /**
+     *   Identyfikuje ziarno, jeśli potrzebujemy.
+     *   Można rozważyć dostęp pakietowy, by móc wywołać BEZ pośrednictwa toString.
+     */
+    private static final int ID=1;
 
     public void siemano() {
         System.out.println(this);
     }
 
     @Override
-    public String toString() {
-        return "ZiarnoA{ziarnoB=" + ziarnoB + '}'; // celowo nie String.format
+    public String toString() {      // rozcinam cykliczne wołania kodem, asymetrią między ziarnami
+        return "ZiarnoA(id:" +ID + "){ziarnoB=" + ziarnoB.getClass().getSimpleName() + '}'; // tu już mógłby być String.format
     }
 
     @Override
