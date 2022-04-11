@@ -5,12 +5,15 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_w
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.b_wstrzykiwanie_przez_konstruktor.szpiedzy.Szpieg;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Component;
 
 /**
  * WAŻNE: Aby uzyskać instrukcję umieść kursor na b_wstrzykiwanie_przez_konstruktor (sama góra tego pliku) i wyświetl JavaDoc pakietu (w IntelliJu Ctrl+q)
  *
  * @author Jakub Czajka
  */
+@ComponentScan
 class Main {
 
     public static void main(String[] args) {
