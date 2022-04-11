@@ -14,7 +14,7 @@ class ZiarnoA {
     ZiarnoB ziarnoB;
 
     @Autowired
-    public ZiarnoA(ZiarnoB ziarnoB) {
+    void wstrzykujęZiarnoB(ZiarnoB ziarnoB) {
         this.ziarnoB = ziarnoB;
     }
 
