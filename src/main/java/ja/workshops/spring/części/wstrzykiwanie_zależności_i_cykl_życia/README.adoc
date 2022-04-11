@@ -39,17 +39,19 @@ Każda właściwość, każdy argument, są wartościami lub odniesieniami do in
 .Jedna instancja jest wstrzykiwana wszystkim trzem potrzebującym ziarnom
 [source, xml]
 ----
-<bean id="accountDao" class="..." />
-<!-- ciach -->
-<bean id="Something" class="...">
-    <property name="accountDao" ref="accountDao"/>
-</bean>
-<bean id="SomeOtherThing" class="...">
-    <property name="accountDao" ref="accountDao"/>
-</bean>
-<bean id="SomethingThird" class="...">
-    <property name="accountDao" ref="accountDao"/>
-</bean>
+<beans xmlns="...">
+    <bean id="accountDao" class="..." />
+    <!-- ciach -->
+    <bean id="Something" class="...">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+    <bean id="SomeOtherThing" class="...">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+    <bean id="SomethingThird" class="...">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+</beans>
 ----
 
 === Prototyp
@@ -57,17 +59,19 @@ Każda właściwość, każdy argument, są wartościami lub odniesieniami do in
 .Każdy kolaborator potrzebujący instancją accountDao dostaje nową, świeżutką instancję, stworzoną przez kontener specjalnie na ten cel
 [source, xml]
 ----
-<bean id="accountDao" class="..." scope="prototype"/>
-<!-- ciach -->
-<bean id="Something" class="...">
-    <property name="accountDao" ref="accountDao"/>
-</bean>
-<bean id="SomeOtherThing" class="...">
-    <property name="accountDao" ref="accountDao"/>
-</bean>
-<bean id="SomethingThird" class="...">
-    <property name="accountDao" ref="accountDao"/>
-</bean>
+<beans xmlns="...">
+    <bean id="accountDao" class="..." scope="prototype"/>
+    <!-- ciach -->
+    <bean id="Something" class="...">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+    <bean id="SomeOtherThing" class="...">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+    <bean id="SomethingThird" class="...">
+        <property name="accountDao" ref="accountDao"/>
+    </bean>
+</beans>
 ----
 
 === Tworzenie kontekstu
@@ -92,6 +96,8 @@ TIP: Jeśli diagram się nie wyświetla, zainstaluj Asciidoctor-diagram lub (do 
 
 === Kontener
 
+NOTE: tu będzie ilustracja. Kiedyś. ;-P open-source - możesz ją dodać Ty!
+
 === Instancjonowanie ziaren
 
 . przez konstruktor, refleksją
@@ -106,11 +112,12 @@ stack(
 line('Instancjonowanie', 'Populacja własności  '),
 line('BeanNameAware.setBeanName()', 'BeanFactoryAware.setBeanFactory()'),
 line('ApplicationContextAware.setApplicationContext()'),
-line('Preinicjalizacja BeanPostProcessor', 'Inicjalizacja afterPropertiesSet()'),
-line('Własna metoda init() ', 'Postinicjalizacja BeanPostProcessor'),
+line('Preinicjacja BeanPostProcessor', 'Inicjacja afterPropertiesSet()'),
+line('Własna metoda init() ', 'Postinicjacja BeanPostProcessor'),
 line('Ziarno gotowe!', '...', 'Kontener się zamyka '),
 line('destroy()', 'Własna metoda destroy()'),
 )
+# puste spacje na końcu konieczne z racji na znaki diakrytyczne
 ....
 
 === Pytania

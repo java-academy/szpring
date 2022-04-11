@@ -1,6 +1,6 @@
 /**
  * <h1>Prezentacja konfiguracji adnotacjami - Przykład użycia.</h1>
- * Podczas zapoznania się z kodem w tym pakiecie zobaczych przykładową implementację
+ * Podczas zapoznania się z kodem w tym pakiecie zobaczysz przykładową implementację
  * aplikacji webowej (instrukcja uruchomienia na samym dole).<br/>
  * Dowiesz się jak może wyglądać konfiguracja aplikacji webowej, oraz powtórzysz sobie czym są:
  * <ul>
@@ -39,11 +39,11 @@
  * </ol>
  * <br/>
  * Aby uruchomić Tomcata użyj komendy:
- * <p>{@code mvn tomcat7:run}</p>
+ * <p>{@code mvn tomcat:run}</p>
  * jeśli chcesz uruchomić go na innym porcie niż domyślny (8080), użyj polecenia
  * <p>{@code mvn tomcat7:run -Dmaven.tomcat.port=8888}</p>
  * <br/>
- * <p>Aplikacja obsługiwać będzie zapytania na url: http://localhost:TWÓJ_PORT/Spring/przyklad/adnotacjami</p>
+ * <p>Aplikacja obsługiwać będzie zapytania na url: http://localhost:TWÓJ_PORT/Spring/przyklad/adnotacjami</p>
  * @author Wojciech Makiela
  */
 package ja.workshops.spring.części.konfiguracja.adnotacjami.b_przykład_konfiguracji;

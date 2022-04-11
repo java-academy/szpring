@@ -8,7 +8,7 @@ import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.c_w
 import org.springframework.stereotype.Repository;
 
 /**
- * Odpowiada za utrwalenie informacji o samochodzie i salonie z którego go wypożyczono
+ * Odpowiada za utrwalenie informacji o samochodzie i salonie, z którego go wypożyczono
  *
  * @author Marcin Ogorzalek
  */

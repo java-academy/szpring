@@ -8,4 +8,5 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_
 class AppConfiguration {
 
 
+
 }
