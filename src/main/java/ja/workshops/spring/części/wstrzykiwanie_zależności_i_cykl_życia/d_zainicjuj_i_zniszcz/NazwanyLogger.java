@@ -1,13 +1,15 @@
 package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjuj_i_zniszcz;
 
 import ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.d_zainicjuj_i_zniszcz.api.Logger;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
 
 /**
  * Do skonfigurowania programistycznie: kodem jawowym.
  *
  * @author Kacper Staszek
  */
-class NazwanyLogger implements Logger {
+class NazwanyLogger implements Logger, InitializingBean, DisposableBean {
   private final String nazwa;
 
   NazwanyLogger(String nazwa) {
