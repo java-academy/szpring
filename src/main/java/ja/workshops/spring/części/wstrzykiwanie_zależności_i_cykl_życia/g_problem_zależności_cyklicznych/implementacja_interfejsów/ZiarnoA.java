@@ -15,13 +15,9 @@ import org.springframework.stereotype.Component;
  * @author Tomasz Borek
  */
 @Component
-class ZiarnoA {
+class ZiarnoA implements ApplicationContextAware, InitializingBean {
     ZiarnoB ziarnoB;
-
-    @Autowired
-    public ZiarnoA(ZiarnoB ziarnoB) {
-        this.ziarnoB = ziarnoB;
-    }
+    ApplicationContext kontekst;
 
     public void siemano() {
         System.out.println(this);
@@ -30,5 +26,15 @@ class ZiarnoA {
     @Override
     public String toString() {
         return "ZiarnoA{ziarnoB=" + ziarnoB + '}'; // celowo nie String.format
+    }
+
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        ziarnoB = kontekst.getBean(ZiarnoB.class);
+    }
+
+    @Override
+    public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
+        kontekst = applicationContext;
     }
 }
