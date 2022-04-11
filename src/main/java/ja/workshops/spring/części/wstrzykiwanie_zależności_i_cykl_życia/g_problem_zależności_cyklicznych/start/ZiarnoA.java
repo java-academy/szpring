@@ -6,18 +6,11 @@ import org.springframework.stereotype.Component;
 /**
  * Proste i miłe ziarno, potrafi się przywitać.
  *
- * @implSpec W przyszłości pewnie będziemy potrzebować ziarna B. Instynkt tak mi mówi. Dlatego przewidując to, już teraz je tu dałem. Sprytny ja!
+ * @implSpec Ewidentnie niepotrzebne nam było drugie ziarno. Nic w kodzie z niego nie korzystało. Wycięte zatem!
  * @author Sprytny i Przewidujący Programista
  */
 @Component
 class ZiarnoA {
-    ZiarnoB ziarnoB;
-
-    @Autowired
-    public ZiarnoA(ZiarnoB ziarnoB) {
-        this.ziarnoB = ziarnoB;
-    }
-
     public void siemano() {
         System.out.println("Witam jestem A");
     }
