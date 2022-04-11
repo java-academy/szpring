@@ -18,7 +18,7 @@ import javax.annotation.PostConstruct;
  */
 @Component("ziarnkoB")
 //FIXME: odkomentuj
-//@DependsOn("a")
+@DependsOn("a")
 class ZiarnoB {
 
     @Autowired

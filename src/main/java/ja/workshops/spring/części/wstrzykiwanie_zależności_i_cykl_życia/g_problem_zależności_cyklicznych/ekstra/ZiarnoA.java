@@ -12,11 +12,11 @@ import javax.annotation.PostConstruct;
  *
  * @author sytolk z SO
  */
-@Component("ziarenkoA")
+@Component("a")
 class ZiarnoA {
 
     // FIXME: odkomentuj
-//     @Autowired
+     @Autowired
     private ZiarnoB b;
 
     void f() {
