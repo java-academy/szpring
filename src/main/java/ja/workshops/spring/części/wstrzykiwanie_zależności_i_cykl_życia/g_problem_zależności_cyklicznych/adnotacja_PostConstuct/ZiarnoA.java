@@ -3,6 +3,8 @@ package ja.workshops.spring.części.wstrzykiwanie_zależności_i_cykl_życia.g_
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
+
 /**
  * Proste i miłe ziarno, potrafi się przywitać.
  *
@@ -11,11 +13,13 @@ import org.springframework.stereotype.Component;
  */
 @Component
 class ZiarnoA {
+    @Autowired
     ZiarnoB ziarnoB;
 
-    @Autowired
-    public ZiarnoA(ZiarnoB ziarnoB) {
-        this.ziarnoB = ziarnoB;
+    @PostConstruct
+    void krokPo() {
+        System.out.println("Działam po konstrukcji, jestem krokiem PO!");
+        ziarnoB.mutujemy(this);
     }
 
     public void siemano() {

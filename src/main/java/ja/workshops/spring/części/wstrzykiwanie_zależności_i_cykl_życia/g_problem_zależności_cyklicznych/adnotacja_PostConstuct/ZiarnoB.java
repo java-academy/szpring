@@ -13,13 +13,16 @@ import org.springframework.stereotype.Component;
 class ZiarnoB {
     ZiarnoA ziarnoA;
 
-    @Autowired
-    public ZiarnoB(ZiarnoA ziarnoA) {
+    public ZiarnoB() {
         System.out.println("Tworzę ziarno B");
-        this.ziarnoA = ziarnoA;
     }
 
     public void siemano() {
         System.out.println("Witam jestem B");
+    }
+
+    @Autowired
+    public void mutujemy(ZiarnoA a) {
+        this.ziarnoA = a;
     }
 }
