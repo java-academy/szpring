@@ -29,7 +29,7 @@
     <jsr250-api.version>1.0</jsr250-api.version>
 
     <!-- Spring -->
-    <spring-bom.version>5.3.18</spring-bom.version>
+    <spring-bom.version>5.3.19</spring-bom.version>
     <jackson.version>1.9.13</jackson.version>
     <javax.annotation.version>1.3.2</javax.annotation.version>
     <slf4j.version>1.6.4</slf4j.version>
